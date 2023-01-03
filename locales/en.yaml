@@ -1,0 +1,994 @@
+common:
+  app_name: Genshin Impact Material Helper
+  sort: Sort
+  filter: Filter
+  search: Search
+  rarity: Rarity
+  element: Element
+  weapon_type: Weapon Type
+  character_level: Chara Level
+  weapon_level: Weapon Level
+  talent_level: Talent Level
+  character_ascension_materials: Character Level Up / Ascension
+  weapon_ascension_materials: Weapon Level Up / Ascension
+  materials: Materials
+  available_today: Available today
+  unavailable_today: Domain not open
+  add_bookmark: Bookmark
+  remove_bookmark: Remove Bookmark
+  normal_attack: Normal Attack
+  elemental_skill: Elemental Skill
+  elemental_burst: Elemental Burst
+  close: Close
+  search_field_message: You can also search by element or weapon type
+  where: Where to Get
+  newtab: Open in New Tab
+  confirm: Confirm
+  cancel: Cancel
+  ok: OK
+  weapon_desc: Effect Description
+  weapon_desc_expl: These figures are for Refinement Level 1. This description is abridged and may not be accurate. The numbers in blue are for clarity and do not necessarily mean that the refining will enhance the weapon.
+  talent_materials: Character Talent Materials
+  weapon_materials: Weapon Ascension Materials
+  mon_thu: Mon / Thu
+  tue_fri: Tue / Fri
+  wed_sat: Wed / Sat
+  to_material_detail: Material Detail Page
+  expand_all: Expand All
+  collapse_all: Collapse All
+
+message:
+  teyvatmap: "*When operating the Teyvat Map, the page may scroll unintentionally. This bug is impossible to fix in the current browser. If this is depressing, please open a new tab from \"Open in New Tab\"."
+
+character_sort_order:
+  default: Default
+  name: By Name
+  element: By Element
+
+material_list_card:
+  slider: Slider
+  table_view: Table
+  range_desc: (EXP materials from level __{expFrom}__ to __{expTo}__ + Ascension materials for level __{ascensionLevels}__)
+  range_desc_exp_only: (EXP materials from level __{expFrom}__ to __{expTo}__)
+
+material_detail:
+  characters_use_this: Characters Use This Material
+
+weapon_type:
+  u: Sword
+  v: Claymore
+  w: Polearm
+  x: Bow
+  y: Catalyst
+
+material_type:
+  a: EXP Materials
+  b: Common Materials
+  c: Field Boss Materials
+  d: Character Ascension Materials
+  e: Talent Level-Up Materials
+  f: Weekly Boss Materials
+  g: Weapon Ascension Materials
+  h: Local Materials
+  i: Woods
+  z: Others
+
+pages:
+  home: Home
+  collecting: Bookmarked Materials
+  game_data_sync: Sync with Game Data
+  daily: Daily Materials
+  character: Characters
+  character__characterId: Character / {name}
+  weapon: Weapons
+  weapon__weaponId: Weapon / {name}
+  artifact: Artifacts
+  furnishing_set: Furnishing Sets
+  furnishing_set__furnishingSetId: Furnishing Set / {name}
+  furniture: Furniture
+  furniture__furnitureId: Furniture / {name}
+  material: Materials
+  material_all: List of Destinations for Material Use
+  material__materialId: Material / {name}
+  resin: Resin Time Calc.
+  wishes: Wish Pity Counter
+  readings: Readings of Kanji
+  account: Account Settings
+  about: About This App
+  download_app: DownloadApp
+  buy_me_coffee: Buy me coffee
+  release_notes: Release Notes
+  privacy: Privacy Policy
+  terms: Terms
+  terms_summarized: Terms (summarized)
+
+about:
+  settings:
+    h: Settings
+    auto_import: Auto Import
+    auto_import_desc: When synchronizing with game data, operations such as "Get Data" are no longer necessary.
+    clear_imported: Clear Imported Data
+    clear_imported_confirm: Clear imported character training status? The default position of all sliders will be reset to "Lv. 1".
+
+  supported_browser: |
+    
+    ## Supported Browser of Basic Functions
+    
+    ### PC
+    - Firefox(recommended): Latest
+    - Google Chrome / Microsoft Edge: Latest
+    - Safari(macOS): v14.0 or above
+    
+    ### Smartphone
+    - Android 4.3 or above
+    - iOS/iPadOS 14.0 or above
+    
+    ## Supported Browser of Notifications
+    __Both iOS and iPadOS are not supported, regardless of browser.__
+    - Firefox: Latest
+    - Google Chrome / Microsoft Edge: Latest
+
+  farming_count: |
+    
+    ## Conditions for Calculating the Number of Faming, etc.
+    
+    - Calculated using the average number of acquisitions statistically processed by volunteers.
+    - These numbers are when farmed highest-ranked domains (with condensed resins). Also, field bosses and Lay Lines are when world rank is 7 or higher.
+    - All materials that can be crafted are converted.
+    - Decimal places are rounded up.
+
+  buy_me_coffee: |
+    
+    ## About Supporting Me
+    
+    If you like this application, we would be glad to buy you a cup of coffee from below.
+
+  feedback: |
+    
+    ## About Feedback
+    
+    If you have any of the following, please comment in [the HoYoLAB article](https://hoyolab.com/article/5147725) or [DM me on Twitter](https://twitter.com/messages/compose?recipient_id=973732394288033793).
+    
+    - Comments
+    - Requests
+    - Reports of problems, typographical errors, or mistranslations
+
+  trademarks:
+    h: About Trademarks, etc.
+    lines: |
+      "Genshin Impact", "miHoYo" is a registered trademark of miHoYo Limited. "COGNOSPHERE", "HoYoverse" is a registered trademark of COGNOSPHERE PTE. LTD.
+      miHoYo and COGNOSPHERE are not involved in developing this application.
+      Images/Data: ©miHoYo / ©COGNOSPHERE
+
+character:
+  Traveler_anemo: Traveler (Anemo)
+  Traveler_geo: Traveler (Geo)
+  Traveler_electro: Traveler (Electro)
+  Traveler_dendro: Traveler (Dendro)
+  Jean: Jean
+  Kaeya: Kaeya
+  Amber: Amber
+  Lisa: Lisa
+  Barbara: Barbara
+  Diluc: Diluc
+  Razor: Razor
+  Venti: Venti
+  Klee: Klee
+  Bennett: Bennett
+  Noelle: Noelle
+  Fischl: Fischl
+  Sucrose: Sucrose
+  Mona: Mona
+  Diona: Diona
+  Albedo: Albedo
+  Rosaria: Rosaria
+  Eula: Eula
+  Xiao: Xiao
+  Beidou: Beidou
+  Ningguang: Ningguang
+  Xiangling: Xiangling
+  Xingqiu: Xingqiu
+  Chongyun: Chongyun
+  Qiqi: Qiqi
+  Keqing: Keqing
+  Tartaglia: Tartaglia
+  Zhongli: Zhongli
+  Xinyan: Xinyan
+  Ganyu: Ganyu
+  HuTao: Hu Tao
+  Yanfei: Yanfei
+  KamisatoAyaka: Kamisato Ayaka
+  KaedeharaKazuha: Kaedehara Kazuha
+  Yoimiya: Yoimiya
+  Sayu: Sayu
+  RaidenShogun: Raiden Shogun
+  SangonomiyaKokomi: Sangonomiya Kokomi
+  KujouSara: Kujou Sara
+  Aloy: Aloy
+  Thoma: Thoma
+  Gorou: Gorou
+  AratakiItto: Arataki Itto
+  Shenhe: Shenhe
+  YunJin: Yun Jin
+  YaeMiko: Yae Miko
+  KamisatoAyato: Kamisato Ayato
+  Yelan: Yelan
+  KukiShinobu: Kuki Shinobu
+  ShikanoinHeizou: Shikanoin Heizou
+  Collei: Collei
+  Tighnari: Tighnari
+  Dori: Dori
+  Cyno: Cyno
+  Candace: Candace
+  Nilou: Nilou
+  Nahida: Nahida
+  Layla: Layla
+
+talent_title:
+  Traveler_anemo:
+    normal: 'Normal Attack: Foreign Ironwind'
+    skill: Palm Vortex
+    burst: Gust Surge
+  Traveler_geo:
+    normal: 'Normal Attack: Foreign Rockblade'
+    skill: Starfell Sword
+    burst: Wake of Earth
+  Traveler_electro:
+    normal: 'Normal Attack: Foreign Thundershock'
+    skill: Lightning Blade
+    burst: Bellowing Thunder
+  Traveler_dendro:
+    normal: 'Normal Attack: Foreign Fieldcleaver'
+    skill: Razorgrass Blade
+    burst: Surgent Manifestation
+  Jean:
+    normal: 'Normal Attack: Favonius Bladework'
+    skill: Gale Blade
+    burst: Dandelion Breeze
+  Kaeya:
+    normal: 'Normal Attack: Ceremonial Bladework'
+    skill: Frostgnaw
+    burst: Glacial Waltz
+  Amber:
+    normal: 'Normal Attack: Sharpshooter'
+    skill: Explosive Puppet
+    burst: Fiery Rain
+  Lisa:
+    normal: 'Normal Attack: Lightning Touch'
+    skill: Violet Arc
+    burst: Lightning Rose
+  Barbara:
+    normal: 'Normal Attack: Whisper of Water'
+    skill: Let the Show Begin♪
+    burst: Shining Miracle♪
+  Diluc:
+    normal: 'Normal Attack: Tempered Sword'
+    skill: Searing Onslaught
+    burst: Dawn
+  Razor:
+    normal: 'Normal Attack: Steel Fang'
+    skill: Claw and Thunder
+    burst: Lightning Fang
+  Venti:
+    normal: 'Normal Attack: Divine Marksmanship'
+    skill: Skyward Sonnet
+    burst: Wind's Grand Ode
+  Klee:
+    normal: 'Normal Attack: Kaboom!'
+    skill: Jumpy Dumpty
+    burst: Sparks 'n' Splash
+  Bennett:
+    normal: 'Normal Attack: Strike of Fortune'
+    skill: Passion Overload
+    burst: Fantastic Voyage
+  Noelle:
+    normal: 'Normal Attack: Favonius Bladework - Maid'
+    skill: Breastplate
+    burst: Sweeping Time
+  Fischl:
+    normal: 'Normal Attack: Bolts of Downfall'
+    skill: Nightrider
+    burst: Midnight Phantasmagoria
+  Sucrose:
+    normal: 'Normal Attack: Wind Spirit Creation'
+    skill: Astable Anemohypostasis Creation - 6308
+    burst: Forbidden Creation - Isomer 75 / Type II
+  Mona:
+    normal: 'Normal Attack: Ripple of Fate'
+    skill: Mirror Reflection of Doom
+    burst: Illusory Torrent
+  Diona:
+    normal: 'Normal Attack: Kätzlein Style'
+    skill: Icy Paws
+    burst: Signature Mix
+  Albedo:
+    normal: 'Normal Attack: Favonius Bladework - Weiss'
+    skill: 'Abiogenesis: Solar Isotoma'
+    burst: 'Rite of Progeniture: Tectonic Tide'
+  Rosaria:
+    normal: 'Normal Attack: Spear of the Church'
+    skill: Ravaging Confession
+    burst: Rites of Termination
+  Eula:
+    normal: 'Normal Attack: Favonius Bladework - Edel'
+    skill: Icetide Vortex
+    burst: Glacial Illumination
+  Xiao:
+    normal: 'Normal Attack: Whirlwind Thrust'
+    skill: Lemniscatic Wind Cycling
+    burst: Bane of All Evil
+  Beidou:
+    normal: 'Normal Attack: Oceanborne'
+    skill: Tidecaller
+    burst: Stormbreaker
+  Ningguang:
+    normal: 'Normal Attack: Sparkling Scatter'
+    skill: Jade Screen
+    burst: Starshatter
+  Xiangling:
+    normal: 'Normal Attack: Dough-Fu'
+    skill: Guoba Attack
+    burst: Pyronado
+  Xingqiu:
+    normal: 'Normal Attack: Guhua Style'
+    skill: 'Guhua Sword: Fatal Rainscreen'
+    burst: 'Guhua Sword: Raincutter'
+  Chongyun:
+    normal: 'Normal Attack: Demonbane'
+    skill: 'Spirit Blade: Chonghua''s Layered Frost'
+    burst: 'Spirit Blade: Cloud-Parting Star'
+  Qiqi:
+    normal: 'Normal Attack: Ancient Sword Art'
+    skill: 'Adeptus Art: Herald of Frost'
+    burst: 'Adeptus Art: Preserver of Fortune'
+  Keqing:
+    normal: 'Normal Attack: Yunlai Swordsmanship'
+    skill: Stellar Restoration
+    burst: Starward Sword
+  Tartaglia:
+    normal: 'Normal Attack: Cutting Torrent'
+    skill: 'Foul Legacy: Raging Tide'
+    burst: 'Havoc: Obliteration'
+  Zhongli:
+    normal: 'Normal Attack: Rain of Stone'
+    skill: Dominus Lapidis
+    burst: Planet Befall
+  Xinyan:
+    normal: 'Normal Attack: Dance on Fire'
+    skill: Sweeping Fervor
+    burst: Riff Revolution
+  Ganyu:
+    normal: 'Normal Attack: Liutian Archery'
+    skill: Trail of the Qilin
+    burst: Celestial Shower
+  HuTao:
+    normal: 'Normal Attack: Secret Spear of Wangsheng'
+    skill: Guide to Afterlife
+    burst: Spirit Soother
+  Yanfei:
+    normal: 'Normal Attack: Seal of Approval'
+    skill: Signed Edict
+    burst: Done Deal
+  KamisatoAyaka:
+    normal: 'Normal Attack: Kamisato Art - Kabuki'
+    skill: 'Kamisato Art: Hyouka'
+    burst: 'Kamisato Art: Senho'
+  KaedeharaKazuha:
+    normal: 'Normal Attack: Garyuu Bladework'
+    skill: Chihayaburu
+    burst: Kazuha Slash
+  Yoimiya:
+    normal: 'Normal Attack: Firework Flare-Up'
+    skill: Niwabi Fire-Dance
+    burst: Ryuukin Saxifrage
+  Sayu:
+    normal: 'Normal Attack: Shuumatsuban Ninja Blade'
+    skill: 'Yoohoo Art: Fuuin Dash'
+    burst: 'Yoohoo Art: Mujina Flurry'
+  RaidenShogun:
+    normal: 'Normal Attack: Origin'
+    skill: 'Transcendence: Baleful Omen'
+    burst: 'Secret Art: Musou Shinsetsu'
+  SangonomiyaKokomi:
+    normal: 'Normal Attack: The Shape of Water'
+    skill: Kurage's Oath
+    burst: Nereid's Ascension
+  KujouSara:
+    normal: 'Normal Attack: Tengu Bowmanship'
+    skill: Tengu Stormcall
+    burst: 'Subjugation: Koukou Sendou'
+  Aloy:
+    normal: 'Normal Attack: Rapid Fire'
+    skill: Frozen Wilds
+    burst: Prophecies of Dawn
+  Thoma:
+    normal: 'Normal Attack: Swiftshatter Spear'
+    skill: Blazing Blessing
+    burst: Crimson Ooyoroi
+  Gorou:
+    normal: 'Normal Attack: Ripping Fang Fletching'
+    skill: Inuzaka All-Round Defense
+    burst: 'Juuga: Forward Unto Victory'
+  AratakiItto:
+    normal: 'Normal Attack: Fight Club Legend'
+    skill: 'Masatsu Zetsugi: Akaushi Burst!'
+    burst: 'Royal Descent: Behold, Itto the Evil!'
+  Shenhe:
+    normal: 'Normal Attack: Dawnstar Piercer'
+    skill: Spring Spirit Summoning
+    burst: Divine Maiden's Deliverance
+  YunJin:
+    normal: 'Normal Attack: Cloud-Grazing Strike'
+    skill: Opening Flourish
+    burst: Cliffbreaker's Banner
+  YaeMiko:
+    normal: 'Normal Attack: Spiritfox Sin-Eater'
+    skill: 'Yakan Evocation: Sesshou Sakura'
+    burst: 'Great Secret Art: Tenko Kenshin'
+  KamisatoAyato:
+    normal: 'Normal Attack: Kamisato Art - Marobashi'
+    skill: 'Kamisato Art: Kyouka'
+    burst: 'Kamisato Art: Suiyuu'
+  Yelan:
+    normal: 'Normal Attack: Stealthy Bowshot'
+    skill: Lingering Lifeline
+    burst: Depth-Clarion Dice
+  KukiShinobu:
+    normal: 'Normal Attack: Shinobu''s Shadowsword'
+    skill: Sanctifying Ring
+    burst: Gyoei Narukami Kariyama Rite
+  ShikanoinHeizou:
+    normal: 'Normal Attack: Fudou Style Martial Arts'
+    skill: Heartstopper Strike
+    burst: Windmuster Kick
+  Collei:
+    normal: 'Normal Attack: Supplicant’s Bowmanship'
+    skill: Floral Brush
+    burst: Trump-Card Kitty
+  Tighnari:
+    normal: 'Normal Attack: Khanda Barrier-Buster'
+    skill: Vijnana-Phala Mine
+    burst: Fashioner’s Tanglevine Shaft
+  Dori:
+    normal: 'Normal Attack: Marvelous Sword-Dance (Modified)'
+    skill: 'Spirit-Warding Lamp: Troubleshooter Cannon'
+    burst: Alcazarzaray’s Exactitude
+  Cyno:
+    normal: 'Normal Attack: Invoker’s Spear'
+    skill: 'Secret Rite: Chasmic Soulfarer'
+    burst: 'Sacred Rite: Wolf’s Swiftness'
+  Candace:
+    normal: 'Normal Attack: Gleaming Spear – Guardian Stance'
+    skill: 'Sacred Rite: Heron’s Sanctum'
+    burst: 'Sacred Rite: Wagtail’s Tide'
+  Nilou:
+    normal: 'Normal Attack: Dance of Samser'
+    skill: Dance of Haftkarsvar
+    burst: 'Dance of Abzendegi: Distant Dreams, Listening Spring'
+  Nahida:
+    normal: 'Normal Attack: Akara'
+    skill: All Schemes to Know
+    burst: Illusory Heart
+  Layla:
+    normal: 'Normal Attack: '
+    skill: Nights of Formal Focus
+    burst: Dream of the Star-Stream Shaker
+
+material:
+  a001-1: Enhancement Ore
+  a001-2: Fine Enhancement Ore
+  a001-3: Mystic Enhancement Ore
+  a002-1: Wanderer's Advice
+  a002-2: Adventurer's Experience
+  a002-3: Hero's Wit
+  b001-1: Slime Condensate
+  b001-2: Slime Secretions
+  b001-3: Slime Concentrate
+  b002-1: Damaged Mask
+  b002-2: Stained Mask
+  b002-3: Ominous Mask
+  b003-1: Divining Scroll
+  b003-2: Sealed Scroll
+  b003-3: Forbidden Curse Scroll
+  b004-1: Firm Arrowhead
+  b004-2: Sharp Arrowhead
+  b004-3: Weathered Arrowhead
+  b005-1: Heavy Horn
+  b005-2: Black Bronze Horn
+  b005-3: Black Crystal Horn
+  b006-1: Dead Ley Line Branch
+  b006-2: Dead Ley Line Leaves
+  b006-3: Ley Line Sprout
+  b007-1: Chaos Device
+  b007-2: Chaos Circuit
+  b007-3: Chaos Core
+  b008-1: Mist Grass Pollen
+  b008-2: Mist Grass
+  b008-3: Mist Grass Wick
+  b009-1: Hunter's Sacrificial Knife
+  b009-2: Agent's Sacrificial Knife
+  b009-3: Inspector's Sacrificial Knife
+  b010-1: Recruit's Insignia
+  b010-2: Sergeant's Insignia
+  b010-3: Lieutenant's Insignia
+  b011-1: Treasure Hoarder Insignia
+  b011-2: Silver Raven Insignia
+  b011-3: Golden Raven Insignia
+  b012-1: Whopperflower Nectar
+  b012-2: Shimmering Nectar
+  b012-3: Energy Nectar
+  b013-1: Fragile Bone Shard
+  b013-2: Sturdy Bone Shard
+  b013-3: Fossilized Bone Shard
+  b014-1: Gloomy Statuette
+  b014-2: Dark Statuette
+  b014-3: Deathly Statuette
+  b015-1: Old Handguard
+  b015-2: Kageuchi Handguard
+  b015-3: Famed Handguard
+  b016-1: Chaos Gear
+  b016-2: Chaos Axis
+  b016-3: Chaos Oculus
+  b017-1: Concealed Claw
+  b017-2: Concealed Unguis
+  b017-3: Concealed Talon
+  b018-1: Dismal Prism
+  b018-2: Crystal Prism
+  b018-3: Polarizing Prism
+  b019-1: Spectral Husk
+  b019-2: Spectral Heart
+  b019-3: Spectral Nucleus
+  b020-1: Faded Red Satin
+  b020-2: Trimmed Red Silk
+  b020-3: Rich Red Brocade
+  b021-1: Fungal Spores
+  b021-2: Luminescent Pollen
+  b021-3: Crystalline Cyst Dust
+  b022-1: Inactivated Fungal Nucleus
+  b022-2: Dormant Fungal Nucleus
+  b022-3: Robust Fungal Nucleus
+  b023-1: Chaos Storage
+  b023-2: Chaos Module
+  b023-3: Chaos Bolt
+  b024-1: Damaged Prism
+  b024-2: Turbid Prism
+  b024-3: Radiant Prism
+  c001: Everflame Seed
+  c002: Cleansing Heart
+  c003: Lightning Prism
+  c004: Hoarfrost Core
+  c005: Hurricane Seed
+  c006: Basalt Pillar
+  c007: Juvenile Jade
+  c008: Crystalline Bloom
+  c009: Maguu Kishin
+  c010: Perpetual Heart
+  c011: Smoldering Pearl
+  c012: Dew of Repudiation
+  c013: Storm Beads
+  c014: Riftborn Regalia
+  c015: Dragonheir's False Fin
+  c017: Majestic Hooked Beak
+  c018: Thunderclap Fruitcore
+  c019: Light Guiding Tetrahedron
+  c020: Perpetual Caliber
+  c021: Quelled Creeper
+  d001-1: Brilliant Diamond Sliver
+  d001-2: Brilliant Diamond Fragment
+  d001-3: Brilliant Diamond Chunk
+  d001-4: Brilliant Diamond Gemstone
+  d002-1: Agnidus Agate Sliver
+  d002-2: Agnidus Agate Fragment
+  d002-3: Agnidus Agate Chunk
+  d002-4: Agnidus Agate Gemstone
+  d003-1: Varunada Lazurite Sliver
+  d003-2: Varunada Lazurite Fragment
+  d003-3: Varunada Lazurite Chunk
+  d003-4: Varunada Lazurite Gemstone
+  d004-1: Vajrada Amethyst Sliver
+  d004-2: Vajrada Amethyst Fragment
+  d004-3: Vajrada Amethyst Chunk
+  d004-4: Vajrada Amethyst Gemstone
+  d005-1: Shivada Jade Sliver
+  d005-2: Shivada Jade Fragment
+  d005-3: Shivada Jade Chunk
+  d005-4: Shivada Jade Gemstone
+  d006-1: Vayuda Turquoise Sliver
+  d006-2: Vayuda Turquoise Fragment
+  d006-3: Vayuda Turquoise Chunk
+  d006-4: Vayuda Turquoise Gemstone
+  d007-1: Prithiva Topaz Sliver
+  d007-2: Prithiva Topaz Fragment
+  d007-3: Prithiva Topaz Chunk
+  d007-4: Prithiva Topaz Gemstone
+  d008-1: Nagadus Emerald Sliver
+  d008-2: Nagadus Emerald Fragment
+  d008-3: Nagadus Emerald Chunk
+  d008-4: Nagadus Emerald Gemstone
+  e003-1: Teachings of Ballad
+  e003-2: Guide to Ballad
+  e003-3: Philosophies of Ballad
+  e007-1: Teachings of Transience
+  e007-2: Guide to Transience
+  e007-3: Philosophies of Transience
+  e005-1: Teachings of Diligence
+  e005-2: Guide to Diligence
+  e005-3: Philosophies of Diligence
+  e008-1: Teachings of Elegance
+  e008-2: Guide to Elegance
+  e008-3: Philosophies of Elegance
+  e001-1: Teachings of Freedom
+  e001-2: Guide to Freedom
+  e001-3: Philosophies of Freedom
+  e009-1: Teachings of Light
+  e009-2: Guide to Light
+  e009-3: Philosophies of Light
+  e006-1: Teachings of Gold
+  e006-2: Guide to Gold
+  e006-3: Philosophies of Gold
+  e004-1: Teachings of Prosperity
+  e004-2: Guide to Prosperity
+  e004-3: Philosophies of Prosperity
+  e002-1: Teachings of Resistance
+  e002-2: Guide to Resistance
+  e002-3: Philosophies of Resistance
+  e010-1: Teachings of Admonition
+  e010-2: Guide of Admonition
+  e010-3: Philosophies of Admonition
+  e011-1: Teachings of Ingenuity
+  e011-2: Guide of Ingenuity
+  e011-3: Philosophies of Ingenuity
+  e012-1: Teachings to Praxis
+  e012-2: Guide to Praxis
+  e012-3: Philosophies to Praxis
+  f001: Dvalin's Plume
+  f002: Dvalin's Claw
+  f003: Dvalin's Sigh
+  f004: Tail of Boreas
+  f005: Ring of Boreas
+  f006: Spirit Locket of Boreas
+  f007: Tusk of Monoceros Caeli
+  f008: Shard of a Foul Legacy
+  f009: Shadow of the Warrior
+  f010: Dragon Lord's Crown
+  f011: Bloodjade Branch
+  f012: Gilded Scale
+  f013: Molten Moment
+  f014: Hellfire Butterfly
+  f015: Ashen Heart
+  f016: Mudra of the Malefic General
+  f017: Tears of the Calamitous God
+  f018: The Meaning of Aeons
+  f019: Puppet Strings
+  f020: Mirror of Mushin
+  f021: Daka’s Bell
+  c016: Runic Fang
+  z001: Crown of Insight
+  g001-1: Tile of Decarabian's Tower
+  g001-2: Debris of Decarabian's City
+  g001-3: Fragment of Decarabian's Epic
+  g001-4: Scattered Piece of Decarabian's Dream
+  g004-1: Luminous Sands from Guyun
+  g004-2: Lustrous Stone from Guyun
+  g004-3: Relic from Guyun
+  g004-4: Divine Body from Guyun
+  g002-1: Boreal Wolf's Milk Tooth
+  g002-2: Boreal Wolf's Cracked Tooth
+  g002-3: Boreal Wolf's Broken Fang
+  g002-4: Boreal Wolf's Nostalgia
+  g005-1: Mist Veiled Lead Elixir
+  g005-2: Mist Veiled Mercury Elixir
+  g005-3: Mist Veiled Gold Elixir
+  g005-4: Mist Veiled Primo Elixir
+  g003-1: Fetters of the Dandelion Gladiator
+  g003-2: Chains of the Dandelion Gladiator
+  g003-3: Shackles of the Dandelion Gladiator
+  g003-4: Dream of the Dandelion Gladiator
+  g006-1: Grain of Aerosiderite
+  g006-2: Piece of Aerosiderite
+  g006-3: Bit of Aerosiderite
+  g006-4: Chunk of Aerosiderite
+  g007-1: Coral Branch of a Distant Sea
+  g007-2: Jeweled Branch of a Distant Sea
+  g007-3: Jade Branch of a Distant Sea
+  g007-4: Golden Branch of a Distant Sea
+  g008-1: Narukami's Wisdom
+  g008-2: Narukami's Joy
+  g008-3: Narukami's Affection
+  g008-4: Narukami's Valor
+  g009-1: Mask of the Wicked Lieutenant
+  g009-2: Mask of the Tiger's Bite
+  g009-3: Mask of the One-Horned
+  g009-4: Mask of the Kijin
+  g010-1: Copper Talisman of the Forest Dew
+  g010-2: Iron Talisman of the Forest Dew
+  g010-3: Silver Talisman of the Forest Dew
+  g010-4: Golden Talisman of the Forest Dew
+  g011-1: Oasis Garden's Reminiscence
+  g011-2: Oasis Garden's Kindness
+  g011-3: Oasis Garden's Mourning
+  g011-4: Oasis Garden's Truth
+  g012-1: Echo of Scorching Might
+  g012-2: Remnant Glow of Scorching Might
+  g012-3: Dream of Scorching Might
+  g012-4: Olden Days of Scorching Might
+  h001: Calla Lily
+  h002: Cecilia
+  h003: Cor Lapis
+  h004: Dandelion Seed
+  h005: Glaze Lily
+  h006: Jueyun Chili
+  h007: Noctilucous Jade
+  h008: Philanemo Mushroom
+  h009: Silk Flower
+  h010: Small Lamp Grass
+  h011: Valberry
+  h012: Violetgrass
+  h013: Windwheel Aster
+  h014: Wolfhook
+  h015: Qingxin
+  h016: Starconch
+  h017: Sea Ganoderma
+  h018: Onikabuto
+  h019: Sakura Bloom
+  h020: Crystal Marrow
+  h021: Dendrobium
+  h022: Naku Weed
+  h023: Sango Pearl
+  h024: Amakumo Fruit
+  h025: Fluorescent Fungus
+  h026: Rukkhashava Mushrooms
+  h027: Kalpalata Lotus
+  h028: Nilotpala Lotus
+  h029: Scarab
+  h030: Redcrest
+  h031: Padisarah
+  z002: Mora
+  i001: Birch Wood
+  i002: Cuihua Wood
+  i003: Pine Wood
+  i004: Sandbearer Wood
+  i005: Bamboo Segment
+  i006: Fragrant Cedar Wood
+  i007: Fir Wood
+  i008: Yumemiru Wood
+  i009: Maple Wood
+  i010: Aralia Wood
+  i011: Otogi Wood
+
+material_where:
+  see_teyvatmap: See Teyvat Interactive Map.
+  weapon_ore: Forging, treasure chest rewards, quest rewards, etc.
+  character_book: "\"Ley Line Outcrop: Blossom of Revelation\", quest rewards, etc."
+  slime: Dropped by slimes
+  hilichurl: Dropped by hilichurls
+  samachurl: Dropped by samachurls
+  hilichurl_shooter: Dropped by hilichurl shooters
+  mitachurl_lawachurl: Dropped by mitachurls / lawachurls
+  abyss_mage: Dropped by Abyss Mages
+  ruin_guards: Dropped by Ruin Guards / Ruin Graders / Ruin Hunters
+  fatui_cicin_mage: Dropped by Fatui Cicin Mages
+  fatui_agent: Dropped by Fatui Agents
+  fatui_skirmisher: Dropped by Fatui Skirmishers
+  treasure_hoarder: Dropped by Treasure Hoarders
+  whopperflower: Dropped by whopperflowers
+  vishap: Dropped by geovishap hatchlings / geovishaps / Bathysmal Vishaps
+  black_serpent: "Dropped by Black Serpents (The Chasm: Underground Mines)"
+  nobushi: Dropped by nobushi
+  ruin_sentinel: Dropped by Ruin Sentinels
+  riftwolves: Dropped by Rift Wolves
+  mirror_maiden: Dropped by Fatui Mirror Maidens
+  specter: Dropped by Specters
+  eremites: Dropped by Eremites
+  fungus_normal: Dropped by Fungi (defeat without using pyro or electro)
+  fungus_activated: Dropped by Fungi (defeat with using pyro or electro)
+  ruin_drake: Dropped by Ruin Drakes
+  primal_construct: Dropped by Primal Constructs
+
+  pyro_regisvine: "Field boss \"Pyro Regisvine\" (in Liyue)"
+  oceanid: "Field boss \"Oceanid\" (in Liyue)"
+  electro_hypostasis: "Field boss \"Electro Hypostasis\" (in Mondstadt)"
+  cryo_regisvine: "Field boss \"Cryo Regisvine\" (in Mondstadt)"
+  anemo_hypostasis: "Field boss \"Anemo Hypistasis\" (in Mondstadt)"
+  geo_hypostasis: "Field boss \"Geo Hypostasis\" (in Liyue)"
+  primo_geovishap: "Field boss \"Primo Geovishap\" (in Liyue)"
+  cryo_hypostasis: "Field boss \"Cryo Hypostasis\" (in Dragonspine)"
+  maguu_kenki: "Field boss \"Maguu Kenki\" (in Inazuma)"
+  perpetual_mechanical_array: "Field boss \"Perpetual Mechanical Array\" (in Inazuma)"
+  pyro_hypostasis: "Field boss \"Pyro Hypostasis\" (in Inazuma)"
+  hydro_hypostasis: "Field boss \"Hydro Hypostasis\" (in Inazuma)"
+  thunder_manifestation: "Field boss \"Thunder Manifestation\" (in Inazuma)"
+  golden_wolflord: "Field boss \"Golden Wolflord\" (in Inazuma)"
+  bathysmal_vishap_herd: "Field boss \"Bathymal Vishap Herd\" (in Inazuma)"
+  ruin_serpent: "Field boss \"Ruin Serpent\" (in The Chasm: Underground Mines)"
+  jadeplume_terrorshroom: "Field boss \"Jadeplume Terrorshroom\" (in Sumeru)"
+  electro_regisvine: "Field boss \"Electro Regisvine\" (in Sumeru)"
+  semi_intransient_matrix: "Field boss \"Algorithm of Semi-Intransient Matrix of Overseer Network\" (in Sumeru)"
+  aeonblight_drake: "Field boss \"Aeonblight Drake\" (in Sumeru)"
+  dendro_hypostasis: "Field boss \"Dendro Hypostasis\" (in Sumeru)"
+
+  forsaken_rift: "Domain \"Forsaken Rift\" (in Mondstadt)"
+  cecillia_garden: "Domain \"Cecillia Garden\" (in Mondstadt)"
+  taishan: "Domain \"Taishan Mansion\" (in Liyue)"
+  lianshan: "Domain \"Hidden Palace of Lianshan Formula\" (in Liyue)"
+  violet_court: "Domain \"Violet Court\" (in Inazuma)"
+  court_of_flowing_sand: "Domain \"Court of Flowing Sand\" (in Inazuma)"
+  steeple_of_ignorance: "Domain \"Steeple of Ignorance\" (in Sumeru)"
+  tower_of_abject_pride: "Domain \"Tower of Abject Pride\" (in Sumeru)"
+
+  stormterror_lair: "Trounce Domain (weekly boss) \"Stormterror Lair\" (in Mondstadt)"
+  wolf_of_the_north: "Weekly boss \"Wolf of the North\" (in Mondstadt)"
+  golden_house: "Trounce Domain (weekly boss) \"Golden House\" (in Liyue)"
+  beneath_the_dragon-queller: "Trounce Domain (weekly boss) \"Beneath the Dragon-Queller\" (in Liyue)"
+  tenshukaku: "Trounce Domain (weekly boss) \"Narukami Island: Tenshukaku\" (in Inazuma)"
+  oneiric_euthymia: "Trounce Domain (weekly boss) \"End of the Oneiric Euthymia\" (in Inazuma)"
+  joururi_workshop: "Trounce Domain (weekly boss) \"Joururi Workshop\" (in Sumeru)"
+
+  event_rewards_etc: Event rewards etc.
+
+weapon:
+  u1-01: Dull Blade
+  u2-01: Silver Sword
+  u3-01: Cool Steel
+  u3-02: Dark Iron Sword
+  u3-03: Fillet Blade
+  u3-04: Harbinger of Dawn
+  u3-05: Skyrider Sword
+  u3-06: Traveler's Handy Sword
+  u4-01: Blackcliff Longsword
+  u4-02: Favonius Sword
+  u4-03: Iron Sting
+  u4-04: Lion's Roar
+  u4-05: Prototype Rancour
+  u4-06: Royal Longsword
+  u4-07: Sacrificial Sword
+  u4-08: The Alley Flash
+  u4-09: The Black Sword
+  u4-10: The Flute
+  u4-11: Sword of Descension
+  u4-12: Festering Desire
+  u4-13: Amenoma Kageuchi
+  u4-14: Cinnabar Spindle
+  u4-15: Cursed Blade (Kagotsurube Isshin)
+  u4-16: Sapwood Blade
+  u4-17: Xiphos’ Moonlight
+  u5-01: Aquila Favonia
+  u5-02: Skyward Blade
+  u5-03: Summit Shaper
+  u5-04: Primordial Jade Cutter
+  u5-05: Freedom-Sworn
+  u5-06: Mistsplitter Reforged
+  u5-07: Haran Geppaku Futsu
+  u5-08: Key of Khaj-Nisut
+  v1-01: Waster Greatsword
+  v2-01: Old Merc's Pal
+  v3-01: Bloodtainted Greatsword
+  v3-02: Debate Club
+  v3-03: Ferrous Shadow
+  v3-04: Skyrider Greatsword
+  v3-05: White Iron Greatsword
+  v4-01: Blackcliff Slasher
+  v4-02: Favonius Greatsword
+  v4-03: Lithic Blade
+  v4-04: Prototype Archaic
+  v4-05: Rainslasher
+  v4-06: Royal Greatsword
+  v4-07: Serpent Spine
+  v4-08: The Bell
+  v4-09: Whiteblind
+  v4-10: Sacrificial Greatsword
+  v4-11: Snow-Tombed Starsilver
+  v4-12: Katsuragikiri Nagamasa
+  v4-13: Luxurious Sea-Lord
+  v4-14: Akuoumaru
+  v4-15: Makhaira Aquamarine
+  v4-16: Forest Regalia
+  v5-01: Skyward Pride
+  v5-02: Wolf's Gravestone
+  v5-03: The Unforged
+  v5-04: Song of Broken Pines
+  v5-05: Redhorn Stonethresher
+  w1-01: Beginner's Protector
+  w2-01: Iron Point
+  w3-01: Black Tassel
+  w3-02: Halberd
+  w3-03: White Tassel
+  w4-01: Blackcliff Pole
+  w4-02: Crescent Pike
+  w4-03: Deathmatch
+  w4-04: Dragon's Bane
+  w4-05: Lithic Spear
+  w4-06: Prototype Starglitter
+  w4-07: Favonius Lance
+  w4-08: Royal Spear
+  w4-09: Dragonspine Spear
+  w4-10: Kitain Cross Spear
+  w4-11: '"The Catch"'
+  w4-12: Wavebreaker's Fin
+  w4-13: Moonpiercer
+  w4-14: Missive Windspear
+  w5-01: Vortex Vanquisher
+  w5-02: Primordial Jade Winged-Spear
+  w5-03: Skyward Spine
+  w5-04: Staff of Homa
+  w5-05: Engulfing Lightning
+  w5-06: Calamity Queller
+  w5-07: Staff of the Scarlet Sands
+  x1-01: Hunter's Bow
+  x2-01: Seasoned Hunter's Bow
+  x3-01: Messenger
+  x3-02: Raven Bow
+  x3-03: Recurve Bow
+  x3-04: Sharpshooter's Oath
+  x3-05: Slingshot
+  x4-01: The Stringless
+  x4-02: Alley Hunter
+  x4-03: Blackcliff Warbow
+  x4-04: Compound Bow
+  x4-05: Favonius Warbow
+  x4-06: Prototype Crescent
+  x4-07: Royal Bow
+  x4-08: Rust
+  x4-09: Sacrificial Bow
+  x4-10: The Viridescent Hunt
+  x4-11: Windblume Ode
+  x4-12: Mitternachts Waltz
+  x4-13: Hamayumi
+  x4-14: Predator
+  x4-15: Mouun's Moon
+  x4-16: Fading twilight
+  x4-17: King’s Squire
+  x4-18: End of the Line
+  x5-01: Skyward Harp
+  x5-02: Amos' Bow
+  x5-03: Elegy for the End
+  x5-04: Thundering Pulse
+  x5-05: Brumal Star
+  x5-06: Aqua simulacra
+  x5-07: Hunter’s Path
+  y1-01: Apprentice's Notes
+  y2-01: Pocket Grimoire
+  y3-01: Emerald Orb
+  y3-02: Magic Guide
+  y3-03: Otherworldly Story
+  y3-04: Thrilling Tales of Dragon Slayers
+  y3-05: Twin Nephrite
+  y4-01: Blackcliff Agate
+  y4-02: Favonius Codex
+  y4-03: Mappa Mare
+  y4-04: Prototype Amber
+  y4-05: Royal Grimoire
+  y4-06: Sacrificial Fragments
+  y4-07: Solar Pearl
+  y4-08: The Widsith
+  y4-09: Wine and Song
+  y4-10: Eye of Perception
+  y4-11: Frostbearer
+  y4-12: Dodoco Tales
+  y4-13: Hakushin Ring
+  y4-14: Oathsworn Eye
+  y4-15: Fruit of Fulfillment
+  y4-16: Wandering Evenstar
+  y5-01: Lost Prayer to the Sacred Winds
+  y5-02: Skyward Atlas
+  y5-03: Memory of Dust
+  y5-04: Everlasting Moonglow
+  y5-05: Kagura's Verity
+  y5-06: A Thousand Floating Dreams
+
+weapon_where:
+  treasure_chest: Treasure chests, etc.
+  kaitouchin: Conversation with Chen the Sharp in Liyue Harbor
+  wish: Wish
+  limited_wish: Limited wish
+  starlight_exchange: Starlight exchange
+  forging: Forging
+  playstation: PlayStation 4/5 reward
+  event: Distributed at event
+  event_unavailable: Currently unavailable (Distributed at event)
+  playstation_unavailable: Currently unavailable (Obtain by playing on PlayStation during the period.)
+  kazuha_quest: Complete Kazuha's story quest
+  battle_pass: Gnostic Hymn reward
+  inazuma_fishing_association: Obtain from fishing association of Inazuma
+  sumeru_fishing_association: Obtain from fishing association of Sumeru
+  dragonspine_tree: Forging (Frostbearing Tree Lv.10 reward blueprint)
