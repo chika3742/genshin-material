@@ -25,4 +25,7 @@ export default defineNuxtConfig({
   modules: [
     "@nuxtjs/i18n",
   ],
+  css: [
+    "assets/styles/global.sass",
+  ],
 })
