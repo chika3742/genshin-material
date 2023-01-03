@@ -1,0 +1,38 @@
+root: true
+
+env:
+  browser: true
+  es2021: true
+
+overrides: []
+
+extends:
+  - eslint:recommended
+  - plugin:@typescript-eslint/recommended
+  - plugin:vue/vue3-recommended
+  - plugin:import/recommended
+  - plugin:n/recommended
+  - plugin:promise/recommended
+
+parser: "@typescript-eslint/parser"
+
+parserOptions:
+  sourceType: module
+  ecmaVersion: latest
+
+plugins:
+  - "@typescript-eslint"
+
+ignorePatterns:
+  - .output/**
+
+rules:
+  quotes:
+    - error
+    - double
+  object-curly-spacing:
+    - error
+    - never
+  comma-dangle:
+    - error
+    - always-multiline
