@@ -1,4 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import yaml from "@rollup/plugin-yaml"
+import {generateSchemas} from "./utils/generate-schemas"
+
 // noinspection JSUnusedGlobalSymbols
 export default defineNuxtConfig({
   app: {
@@ -24,6 +27,7 @@ export default defineNuxtConfig({
   },
   modules: [
     "@nuxtjs/i18n",
+    "@nuxtjs/google-fonts",
   ],
   css: [
     "assets/styles/global.sass",
@@ -55,5 +59,35 @@ export default defineNuxtConfig({
         },
       },
     },
+  },
+
+  googleFonts: {
+    families: {
+      "Kaisei Opti": [700],
+      "Noto Sans JP": [400, 700],
+      Cairo: [700],
+      "Kiwi Maru": [500],
+    },
+  },
+
+  ssr: false,
+
+  hooks: {
+    async "build:before"() {
+      await generateSchemas()
+    },
+    async "builder:watch"(_, path) {
+      if (path.startsWith("schemas/")) {
+        await generateSchemas()
+      }
+    },
+  },
+
+  vite: {
+    plugins: [
+      yaml({
+        exclude: "locales/**",
+      }),
+    ],
   },
 })
