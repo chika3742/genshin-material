@@ -1,0 +1,36 @@
+$schema: "http://json-schema.org/draft-07/schema#"
+title: Materials
+type: array
+items:
+  $ref: "#/definitions/materialData"
+
+definitions:
+  materialData:
+    type: object
+    properties:
+      id:
+        type: string
+      nameJP:
+        type: string
+      yomi:
+        type: string
+      where:
+        type: object
+        properties:
+          teyvatmapId:
+            type: string
+          teyvatmapDimensionId:
+            type: string
+          text:
+            type: string
+        additionalProperties: false
+        required:
+          - text
+      availableDays:
+        type: array
+        items:
+          type: integer
+    additionalProperties: false
+    required:
+      - id
+      - nameJP

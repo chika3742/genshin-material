@@ -1,0 +1,46 @@
+$schema: http://json-schema.org/draft-07/schema
+type: array
+items:
+  $ref: "#/definitions/artifactSet"
+
+definitions:
+  artifactSet:
+    type: object
+    additionalProperties: false
+    required:
+      - id
+      - nameJP
+      - highestQuality
+      - pieces
+    properties:
+      id:
+        type: string
+      nameJP:
+        type: string
+      highestQuality:
+        type: number
+      pieces:
+        type: array
+        items:
+          $ref: "#/definitions/artifact"
+
+  artifact:
+    type: object
+    additionalProperties: false
+    required:
+      - id
+      - nameJP
+      - type
+    properties:
+      id:
+        type: string
+      nameJP:
+        type: string
+      type:
+        type: string
+        enum:
+          - flower
+          - plume
+          - sands
+          - goblet
+          - circlet

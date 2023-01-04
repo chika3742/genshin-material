@@ -1,0 +1,145 @@
+$schema: "http://json-schema.org/draft-07/schema#"
+title: Characters
+type: object
+additionalProperties: false
+required:
+  - ingredients
+  - entries
+properties:
+  ingredients:
+    $ref: "#/definitions/characterIngredients"
+
+  entries:
+    type: array
+    items:
+      $ref: "#/definitions/character"
+
+definitions:
+  characterIngredient:
+    type: object
+    additionalProperties: false
+    properties:
+      id:
+        type: string
+        description: 素材の`id`。この値は`ref`と`type`より優先される。
+      type:
+        type: string
+        description: 素材の種類。`id`も`ref`も`undefined`だった場合に、この値が`materials`のフィールド名に使用される。
+        enum:
+          - primary
+          - elementalStone
+          - secondary
+          - local
+          - talentPrimary
+          - talentSecondary
+          - talentBoss
+      quantity:
+        type: integer
+        description: 素材の数量。
+      craftLevel:
+        type: integer
+        description: 合成可能な素材のランク。素材`id`のハイフン以降にあたる。
+      ref:
+        type: string
+        description: 素材`id`を参照する`materials`フィールド名。
+        enum:
+          - primary
+          - elementalStone
+          - secondary
+          - local
+          - talentPrimary
+          - talentSecondary
+          - talentBoss
+      special:
+        type: object
+        description: 素材`id`のキャラクター例外。この値が最優先される。
+        additionalProperties:
+          type: string
+
+    required:
+      - quantity
+
+  characterIngredients:
+    type: object
+    additionalProperties: false
+    required:
+      - purposes
+    properties:
+      purposes:
+        additionalProperties:
+          type: object
+          additionalProperties: false
+          required:
+            - levels
+          properties:
+            levels:
+              additionalProperties:
+                type: array
+                items:
+                  $ref: "#/definitions/characterIngredient"
+
+  character:
+    type: object
+    additionalProperties: false
+    properties:
+      id:
+        type: string
+      nameJP:
+        type: string
+      yomi:
+        type: string
+      element:
+        type: string
+        enum:
+          - pyro
+          - cryo
+          - hydro
+          - electro
+          - anemo
+          - geo
+          - dendro
+      rarity:
+        type: integer
+        enum:
+          - 4
+          - 5
+      weaponType:
+        type: string
+        enum:
+          - u
+          - v
+          - w
+          - x
+          - y
+      materials:
+        $ref: "#/definitions/characterMaterialDefinition"
+    required:
+      - id
+      - nameJP
+      - element
+      - rarity
+      - weaponType
+      - materials
+
+  characterMaterialDefinition:
+    type: object
+    additionalProperties: false
+    properties:
+      primary:
+        type: string
+      elementalStone:
+        type: string
+      secondary:
+        type: string
+      local:
+        type: string
+      talentPrimary:
+        type: string
+      talentSecondary:
+        type: string
+      talentBoss:
+        type: string
+    required:
+      - primary
+      - secondary
+      - local

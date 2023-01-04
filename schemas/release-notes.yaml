@@ -1,0 +1,24 @@
+$schema: http://json-schema.org/draft-07/schema
+type: array
+items:
+  $ref: "#/definitions/releaseNotesEntry"
+
+definitions:
+  releaseNotesEntry:
+    type: object
+    additionalProperties: false
+    properties:
+      date:
+        type: string
+      funcVersion:
+        type: string
+      dataVersion:
+        type: string
+      contents:
+        type: string
+    required:
+      - date
+      - funcVersion
+      - dataVersion
+      - contents
+

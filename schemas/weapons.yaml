@@ -1,0 +1,125 @@
+$schema: http://json-schema.org/draft-07/schema
+type: object
+additionalProperties: false
+properties:
+  ingredients:
+    $ref: "#/definitions/weaponIngredients"
+  entries:
+    type: array
+    items:
+      $ref: "#/definitions/weapon"
+
+required:
+  - ingredients
+  - entries
+
+definitions:
+  weaponIngredients:
+    type: object
+    required:
+      - rarities
+    additionalProperties: false
+    properties:
+      rarities:
+        type: object
+        additionalProperties:
+          type: object
+          required:
+            - purposes
+          additionalProperties: false
+          properties:
+            purposes:
+              additionalProperties:
+                type: object
+                additionalProperties: false
+                required:
+                  - levels
+                properties:
+                  levels:
+                    additionalProperties:
+                      type: array
+                      items:
+                        $ref: "#/definitions/weaponIngredient"
+
+  weaponIngredient:
+    type: object
+    additionalProperties: false
+    properties:
+      id:
+        type: string
+        description: 素材の`id`。この値は`ref`と`type`より優先される。
+      type:
+        type: string
+        description: 素材の種類。`id`も`ref`も`undefined`だった場合に、この値が`materials`のフィールド名に使用される。
+        enum:
+          - primary
+          - secondary
+          - common
+      quantity:
+        type: integer
+        description: 素材の数量。
+        required:
+          - rarity
+        additionalProperties: false
+      craftLevel:
+        type: integer
+        description: 合成可能な素材のランク。素材`id`のハイフン以降にあたる。
+
+    required:
+      - quantity
+
+  weapon:
+    type: object
+    additionalProperties: false
+    properties:
+      id:
+        type: string
+      nameJP:
+        type: string
+      yomi:
+        type: string
+      rarity:
+        type: integer
+      where:
+        type: object
+        additionalProperties: false
+        properties:
+          text:
+            type: string
+      subStat:
+        type: string
+        enum:
+          - em
+          - recharge
+          - critRate
+          - critDmg
+          - hpPercent
+          - atkPercent
+          - defPercent
+          - physicalDmgBonus
+      descExists:
+        type: boolean
+      materials:
+        $ref: "#/definitions/weaponMaterialDefinition"
+
+    required:
+      - id
+      - nameJP
+      - rarity
+      - materials
+
+  weaponMaterialDefinition:
+    type: object
+    additionalProperties: false
+    properties:
+      primary:
+        type: string
+      secondary:
+        type: string
+      common:
+        type: string
+
+    required:
+      - primary
+      - secondary
+      - common
