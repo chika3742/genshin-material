@@ -33,3 +33,7 @@ rules:
   comma-dangle:
     - error
     - always-multiline
+  func-call-spacing: off
+  space-before-function-paren:
+    - error
+    - never
