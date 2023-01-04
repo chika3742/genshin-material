@@ -19,8 +19,12 @@
   },
   "dependencies": {
     "@mdi/font": "^7.1.96",
+    "@nuxtjs/google-fonts": "^3.0.0-1",
     "@nuxtjs/i18n": "^8.0.0-beta.7",
-    "vuetify": "^3.0.6"
+    "@rollup/plugin-yaml": "^4.0.1",
+    "json-schema-to-typescript": "^11.0.2",
+    "vuetify": "^3.0.6",
+    "yaml": "^2.2.1"
   },
   "engines": {
     "node": "16"
