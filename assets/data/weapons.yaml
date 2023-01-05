@@ -1,0 +1,2278 @@
+ingredients:
+  rarities:
+    1:
+      purposes:
+        levelUp:
+          levels:
+            20:
+              - id: a001-3
+                quantity: 3
+              - id: z002
+                quantity: 3000
+            40:
+              - id: a001-3
+                quantity: 13
+              - id: z002
+                quantity: 13000
+            50:
+              - id: a001-3
+                quantity: 13
+              - id: z002
+                quantity: 13000
+            60:
+              - id: a001-3
+                quantity: 19
+              - id: z002
+                quantity: 19000
+            70:
+              - id: a001-3
+                quantity: 26
+              - id: z002
+                quantity: 26000
+
+        ascension:
+          levels:
+            40:
+              - type: primary
+                craftLevel: 1
+                quantity: 1
+              - type: secondary
+                craftLevel: 1
+                quantity: 1
+              - type: common
+                craftLevel: 1
+                quantity: 1
+            50:
+              - type: primary
+                craftLevel: 2
+                quantity: 1
+              - type: secondary
+                craftLevel: 1
+                quantity: 4
+              - type: common
+                craftLevel: 1
+                quantity: 2
+              - id: z002
+                quantity: 5000
+            60:
+              - type: primary
+                craftLevel: 2
+                quantity: 2
+              - type: secondary
+                craftLevel: 2
+                quantity: 2
+              - type: common
+                craftLevel: 2
+                quantity: 2
+              - id: z002
+                quantity: 5000
+            70:
+              - type: primary
+                craftLevel: 3
+                quantity: 1
+              - type: secondary
+                craftLevel: 2
+                quantity: 4
+              - type: common
+                craftLevel: 2
+                quantity: 3
+              - id: z002
+                quantity: 10000
+    2:
+      purposes:
+        levelUp:
+          levels:
+            20:
+              - id: a001-3
+                quantity: 4
+              - id: z002
+                quantity: 4000
+            40:
+              - id: a001-3
+                quantity: 19
+              - id: z002
+                quantity: 19000
+            50:
+              - id: a001-3
+                quantity: 19
+              - id: z002
+                quantity: 19000
+            60:
+              - id: a001-3
+                quantity: 28
+              - id: z002
+                quantity: 28000
+            70:
+              - id: a001-3
+                quantity: 39
+              - id: z002
+                quantity: 39000
+
+        ascension:
+          levels:
+            40:
+              - type: primary
+                craftLevel: 1
+                quantity: 1
+              - type: secondary
+                craftLevel: 1
+                quantity: 1
+              - type: common
+                craftLevel: 1
+                quantity: 1
+              - id: z002
+                quantity: 5000
+            50:
+              - type: primary
+                craftLevel: 2
+                quantity: 1
+              - type: secondary
+                craftLevel: 1
+                quantity: 5
+              - type: common
+                craftLevel: 1
+                quantity: 4
+              - id: z002
+                quantity: 5000
+            60:
+              - type: primary
+                craftLevel: 2
+                quantity: 3
+              - type: secondary
+                craftLevel: 2
+                quantity: 3
+              - type: common
+                craftLevel: 2
+                quantity: 3
+              - id: z002
+                quantity: 10000
+            70:
+              - type: primary
+                craftLevel: 3
+                quantity: 1
+              - type: secondary
+                craftLevel: 2
+                quantity: 5
+              - type: common
+                craftLevel: 2
+                quantity: 4
+              - id: z002
+                quantity: 15000
+    3:
+      purposes:
+        levelUp:
+          levels:
+            20:
+              - id: a001-3
+                quantity: 6
+              - id: z002
+                quantity: 6000
+            40:
+              - id: a001-3
+                quantity: 28
+              - id: z002
+                quantity: 28000
+            50:
+              - id: a001-3
+                quantity: 28
+              - id: z002
+                quantity: 28000
+            60:
+              - id: a001-3
+                quantity: 41
+              - id: z002
+                quantity: 41000
+            70:
+              - id: a001-3
+                quantity: 58
+              - id: z002
+                quantity: 58000
+            80:
+              - id: a001-3
+                quantity: 78
+              - id: z002
+                quantity: 78000
+            90:
+              - id: a001-3
+                quantity: 164
+              - id: z002
+                quantity: 164000
+        ascension:
+          levels:
+            40:
+              - type: primary
+                craftLevel: 1
+                quantity: 2
+              - type: secondary
+                craftLevel: 1
+                quantity: 2
+              - type: common
+                craftLevel: 1
+                quantity: 1
+              - id: z002
+                quantity: 5000
+            50:
+              - type: primary
+                craftLevel: 2
+                quantity: 2
+              - type: secondary
+                craftLevel: 1
+                quantity: 8
+              - type: common
+                craftLevel: 1
+                quantity: 5
+              - id: z002
+                quantity: 10000
+            60:
+              - type: primary
+                craftLevel: 2
+                quantity: 4
+              - type: secondary
+                craftLevel: 2
+                quantity: 4
+              - type: common
+                craftLevel: 2
+                quantity: 4
+              - id: z002
+                quantity: 15000
+            70:
+              - type: primary
+                craftLevel: 3
+                quantity: 2
+              - type: secondary
+                craftLevel: 2
+                quantity: 8
+              - type: common
+                craftLevel: 2
+                quantity: 6
+              - id: z002
+                quantity: 20000
+            80:
+              - type: primary
+                craftLevel: 3
+                quantity: 4
+              - type: secondary
+                craftLevel: 3
+                quantity: 6
+              - type: common
+                craftLevel: 3
+                quantity: 4
+              - id: z002
+                quantity: 25000
+            90:
+              - type: primary
+                craftLevel: 4
+                quantity: 3
+              - type: secondary
+                craftLevel: 3
+                quantity: 12
+              - type: common
+                craftLevel: 3
+                quantity: 8
+              - id: z002
+                quantity: 30000
+    4:
+      purposes:
+        levelUp:
+          levels:
+            20:
+              - id: a001-3
+                quantity: 9
+              - id: z002
+                quantity: 9000
+            40:
+              - id: a001-3
+                quantity: 42
+              - id: z002
+                quantity: 42000
+            50:
+              - id: a001-3
+                quantity: 42
+              - id: z002
+                quantity: 42000
+            60:
+              - id: a001-3
+                quantity: 62
+              - id: z002
+                quantity: 62000
+            70:
+              - id: a001-3
+                quantity: 87
+              - id: z002
+                quantity: 87000
+            80:
+              - id: a001-3
+                quantity: 117
+              - id: z002
+                quantity: 117000
+            90:
+              - id: a001-3
+                quantity: 248
+              - id: z002
+                quantity: 248000
+        ascension:
+          levels:
+            40:
+              - type: primary
+                craftLevel: 1
+                quantity: 3
+              - type: secondary
+                craftLevel: 1
+                quantity: 3
+              - type: common
+                craftLevel: 1
+                quantity: 2
+              - id: z002
+                quantity: 5000
+            50:
+              - type: primary
+                craftLevel: 2
+                quantity: 3
+              - type: secondary
+                craftLevel: 1
+                quantity: 12
+              - type: common
+                craftLevel: 1
+                quantity: 8
+              - id: z002
+                quantity: 15000
+            60:
+              - type: primary
+                craftLevel: 2
+                quantity: 6
+              - type: secondary
+                craftLevel: 2
+                quantity: 6
+              - type: common
+                craftLevel: 2
+                quantity: 6
+              - id: z002
+                quantity: 20000
+            70:
+              - type: primary
+                craftLevel: 3
+                quantity: 3
+              - type: secondary
+                craftLevel: 2
+                quantity: 12
+              - type: common
+                craftLevel: 2
+                quantity: 9
+              - id: z002
+                quantity: 30000
+            80:
+              - type: primary
+                craftLevel: 3
+                quantity: 6
+              - type: secondary
+                craftLevel: 3
+                quantity: 9
+              - type: common
+                craftLevel: 3
+                quantity: 6
+              - id: z002
+                quantity: 35000
+            90:
+              - type: primary
+                craftLevel: 4
+                quantity: 4
+              - type: secondary
+                craftLevel: 3
+                quantity: 18
+              - type: common
+                craftLevel: 3
+                quantity: 12
+              - id: z002
+                quantity: 45000
+    5:
+      purposes:
+        levelUp:
+          levels:
+            20:
+              - id: a001-3
+                quantity: 13
+              - id: z002
+                quantity: 13000
+            40:
+              - id: a001-3
+                quantity: 63
+              - id: z002
+                quantity: 63000
+            50:
+              - id: a001-3
+                quantity: 63
+              - id: z002
+                quantity: 63000
+            60:
+              - id: a001-3
+                quantity: 93
+              - id: z002
+                quantity: 93000
+            70:
+              - id: a001-3
+                quantity: 130
+              - id: z002
+                quantity: 130000
+            80:
+              - id: a001-3
+                quantity: 175
+              - id: z002
+                quantity: 175000
+            90:
+              - id: a001-3
+                quantity: 372
+              - id: z002
+                quantity: 372000
+        ascension:
+          levels:
+            40:
+              - type: primary
+                craftLevel: 1
+                quantity: 5
+              - type: secondary
+                craftLevel: 1
+                quantity: 5
+              - type: common
+                craftLevel: 1
+                quantity: 3
+              - id: z002
+                quantity: 10000
+            50:
+              - type: primary
+                craftLevel: 2
+                quantity: 5
+              - type: secondary
+                craftLevel: 1
+                quantity: 18
+              - type: common
+                craftLevel: 1
+                quantity: 12
+              - id: z002
+                quantity: 20000
+            60:
+              - type: primary
+                craftLevel: 2
+                quantity: 9
+              - type: secondary
+                craftLevel: 2
+                quantity: 9
+              - type: common
+                craftLevel: 2
+                quantity: 9
+              - id: z002
+                quantity: 30000
+            70:
+              - type: primary
+                craftLevel: 3
+                quantity: 5
+              - type: secondary
+                craftLevel: 2
+                quantity: 18
+              - type: common
+                craftLevel: 2
+                quantity: 14
+              - id: z002
+                quantity: 45000
+            80:
+              - type: primary
+                craftLevel: 3
+                quantity: 9
+              - type: secondary
+                craftLevel: 3
+                quantity: 14
+              - type: common
+                craftLevel: 3
+                quantity: 9
+              - id: z002
+                quantity: 55000
+            90:
+              - type: primary
+                craftLevel: 4
+                quantity: 6
+              - type: secondary
+                craftLevel: 3
+                quantity: 27
+              - type: common
+                craftLevel: 3
+                quantity: 18
+              - id: z002
+                quantity: 65000
+
+entries:
+  - id: u1-01
+    nameJP: 無鋒の剣
+    rarity: 1
+    yomi: ムホウノケン
+    where:
+      text: treasure_chest
+    materials:
+      primary: g001
+      secondary: b005
+      common: b004
+
+  - id: u2-01
+    nameJP: 銀の剣
+    rarity: 2
+    yomi: ギンノケン
+    where:
+      text: treasure_chest
+    materials:
+      primary: g001
+      secondary: b005
+      common: b004
+
+  - id: u3-01
+    nameJP: 冷刃
+    rarity: 3
+    yomi: レイジン
+    where:
+      text: wish
+    materials:
+      primary: g001
+      secondary: b005
+      common: b004
+    subStat: atkPercent
+
+  - id: u3-02
+    nameJP: 暗鉄剣
+    rarity: 3
+    yomi: アンテツケン
+    where:
+      text: kaitouchin
+    materials:
+      primary: g004
+      secondary: b009
+      common: b002
+    subStat: em
+
+  - id: u3-03
+    nameJP: チ虎魚の刀
+    rarity: 3
+    yomi: チコザカナノカタナ
+    where:
+      text: treasure_chest
+    materials:
+      primary: g005
+      secondary: b008
+      common: b011
+    subStat: atkPercent
+
+  - id: u3-04
+    nameJP: 黎明の神剣
+    rarity: 3
+    yomi: レイメイノシンケン
+    where:
+      text: wish
+    materials:
+      primary: g002
+      secondary: b006
+      common: b001
+    subStat: critDmg
+
+  - id: u3-05
+    nameJP: 飛天御剣
+    rarity: 3
+    yomi: ヒテンミツルギ
+    where:
+      text: wish
+    materials:
+      primary: g006
+      secondary: b013
+      common: b010
+    subStat: recharge
+
+  - id: u3-06
+    nameJP: 旅道の剣
+    rarity: 3
+    yomi: リョドウノケン
+    where:
+      text: treasure_chest
+    materials:
+      primary: g003
+      secondary: b007
+      common: b003
+    subStat: defPercent
+
+  - id: u4-01
+    nameJP: 黒岩の長剣
+    rarity: 4
+    yomi: コクガンノチョウケン
+    where:
+      text: starlight_exchange
+    materials:
+      primary: g004
+      secondary: b009
+      common: b004
+    subStat: critDmg
+
+  - id: u4-02
+    nameJP: 西風剣
+    rarity: 4
+    yomi: セピュロスソード
+    where:
+      text: wish
+    materials:
+      primary: g001
+      secondary: b005
+      common: b004
+    subStat: recharge
+
+  - id: u4-03
+    nameJP: 鉄蜂の刺し
+    rarity: 4
+    yomi: テツホウノサシ
+    where:
+      text: forging
+    materials:
+      primary: g006
+      secondary: b013
+      common: b012
+    subStat: em
+
+  - id: u4-04
+    nameJP: 匣中龍吟
+    rarity: 4
+    yomi: コウチュウリュウギン
+    where:
+      text: wish
+    descExists: true
+    materials:
+      primary: g004
+      secondary: b009
+      common: b011
+    subStat: atkPercent
+
+  - id: u4-05
+    nameJP: 斬岩・試作
+    rarity: 4
+    yomi: ザンガンシサク
+    where:
+      text: forging
+    materials:
+      primary: g005
+      secondary: b008
+      common: b010
+    subStat: physicalDmgBonus
+
+  - id: u4-06
+    nameJP: 旧貴族長剣
+    rarity: 4
+    yomi: キュウキゾクチョウケン
+    where:
+      text: starlight_exchange
+    materials:
+      primary: g001
+      secondary: b005
+      common: b002
+    subStat: atkPercent
+
+  - id: u4-07
+    nameJP: 祭礼の剣
+    rarity: 4
+    yomi: サイレイノケン
+    where:
+      text: wish
+    materials:
+      primary: g003
+      secondary: b007
+      common: b003
+    subStat: recharge
+
+  - id: u4-08
+    nameJP: ダークアレイの閃光
+    rarity: 4
+    yomi: ダークアレイノセンコウ
+    where:
+      text: limited_wish
+    materials:
+      primary: g001
+      secondary: b005
+      common: b003
+    subStat: em
+
+  - id: u4-09
+    nameJP: 黒剣
+    rarity: 4
+    yomi: コッケン
+    where:
+      text: battle_pass
+    materials:
+      primary: g002
+      secondary: b006
+      common: b001
+    subStat: critRate
+
+  - id: u4-10
+    nameJP: 笛の剣
+    rarity: 4
+    yomi: フエノケン
+    where:
+      text: wish
+    materials:
+      primary: g002
+      secondary: b006
+      common: b001
+    subStat: atkPercent
+
+  - id: u4-11
+    nameJP: 降臨の剣
+    rarity: 4
+    yomi: コウリンノケン
+    where:
+      text: playstation
+    materials:
+      primary: g002
+      secondary: b006
+      common: b011
+    subStat: atkPercent
+
+  - id: u4-12
+    nameJP: 腐植の剣
+    rarity: 4
+    yomi: フショクノケン
+    where:
+      text: event_unavailable
+    materials:
+      primary: g003
+      secondary: b005
+      common: b010
+    subStat: recharge
+
+  - id: u4-13
+    nameJP: 天目影打
+    rarity: 4
+    yomi: アメノマカゲウチ
+    where:
+      text: forging
+    materials:
+      primary: g007
+      secondary: b016
+      common: b015
+    subStat: atkPercent
+
+  - id: u4-14
+    nameJP: シナバースピンドル
+    rarity: 4
+    where:
+      text: event_unavailable
+    materials:
+      primary: g001
+      secondary: b007
+      common: b002
+    subStat: defPercent
+
+  - id: u4-15
+    nameJP: 「妖刀」(籠釣瓶一心)
+    rarity: 4
+    yomi: ヨウトウ|カゴツルベイッシン
+    where:
+      text: kazuha_quest
+    descExists: true
+    materials:
+      primary: g009
+      secondary: b014
+      common: b019
+
+  - id: u4-16
+    nameJP: 原木刀
+    rarity: 4
+    yomi: ゲンボクトウ
+    where:
+      text: forging
+    descExists: true
+    materials:
+      primary: g010
+      secondary: b023
+      common: b020
+
+  - id: u4-17
+    nameJP: サイフォスの月明かり
+    rarity: 4
+    yomi: サイフォスノツキアカリ
+    where:
+      text: limited_wish
+    descExists: true
+    materials:
+      primary: g010
+      secondary: b024
+      common: b020
+
+  - id: u5-01
+    nameJP: 風鷹剣
+    rarity: 5
+    yomi: フウヨウケン
+    where:
+      text: wish
+    descExists: true
+    materials:
+      primary: g001
+      secondary: b005
+      common: b004
+    subStat: physicalDmgBonus
+
+  - id: u5-02
+    nameJP: 天空の刃
+    rarity: 5
+    yomi: テンクウノヤイバ
+    where:
+      text: wish
+    descExists: true
+    materials:
+      primary: g002
+      secondary: b006
+      common: b001
+    subStat: recharge
+
+  - id: u5-03
+    nameJP: 斬山の刃
+    rarity: 5
+    yomi: ザンサンノヤイバ
+    where:
+      text: limited_wish
+    descExists: true
+    materials:
+      primary: g004
+      secondary: b009
+      common: b002
+    subStat: atkPercent
+
+  - id: u5-04
+    nameJP: 磐岩結緑
+    rarity: 5
+    yomi: バンガンケツロク
+    where:
+      text: limited_wish
+    descExists: true
+    materials:
+      primary: g005
+      secondary: b008
+      common: b011
+    subStat: critRate
+
+  - id: u5-05
+    nameJP: 蒼古なる自由への誓い
+    rarity: 5
+    yomi: ソウコナルジユウヘノチカイ
+    where:
+      text: limited_wish
+    descExists: true
+    materials:
+      primary: g003
+      secondary: b007
+      common: b003
+    subStat: em
+
+  - id: u5-06
+    nameJP: 霧切の廻光
+    rarity: 5
+    yomi: キリギリノカイコウ
+    where:
+      text: limited_wish
+    descExists: true
+    materials:
+      primary: g007
+      secondary: b016
+      common: b015
+    subStat: critDmg
+
+  - id: u5-07
+    nameJP: 波乱月白経津
+    rarity: 5
+    yomi: ハランゲッパクフツ
+    where:
+      text: limited_wish
+    descExists: true
+    materials:
+      primary: g008
+      secondary: b014
+      common: b015
+    subStat: critRate
+
+  - id: u5-08
+    nameJP: 聖顕の鍵
+    rarity: 5
+    yomi: セイケンノカギ
+    where:
+      text: limited_wish
+    descExists: true
+    materials:
+      primary: g010
+      secondary: b024
+      common: b020
+    subStat: hpPercent
+
+  - id: v1-01
+    nameJP: 訓練用大剣
+    rarity: 1
+    yomi: クンレンヨウタイケン
+    where:
+      text: treasure_chest
+    materials:
+      primary: g002
+      secondary: b006
+      common: b001
+
+  - id: v2-01
+    nameJP: 傭兵の重剣
+    rarity: 2
+    yomi: ヨウヘイノジュウケン
+    where:
+      text: treasure_chest
+    materials:
+      primary: g002
+      secondary: b006
+      common: b001
+
+  - id: v3-01
+    nameJP: 龍血を浴びた剣
+    rarity: 3
+    yomi: リュウケツヲアビタケン
+    where:
+      text: wish
+    materials:
+      primary: g002
+      secondary: b006
+      common: b004
+    subStat: em
+
+  - id: v3-02
+    nameJP: 理屈責め
+    rarity: 3
+    yomi: リクツゼメ
+    where:
+      text: wish
+    materials:
+      primary: g005
+      secondary: b008
+      common: b002
+    subStat: atkPercent
+
+  - id: v3-03
+    nameJP: 鉄影段平
+    rarity: 3
+    yomi: テツエイダンビラ
+    where:
+      text: wish
+    materials:
+      primary: g001
+      secondary: b005
+      common: b012
+    subStat: hpPercent
+
+  - id: v3-04
+    nameJP: 飛天大御剣
+    rarity: 3
+    yomi: ヒテンオオミツルギ
+    where:
+      text: treasure_chest
+    materials:
+      primary: g006
+      secondary: b013
+      common: b011
+    subStat: physicalDmgBonus
+
+  - id: v3-05
+    nameJP: 白鉄の大剣
+    rarity: 3
+    yomi: ハクテツノタイケン
+    where:
+      text: treasure_chest
+    materials:
+      primary: g003
+      secondary: b007
+      common: b001
+    subStat: defPercent
+
+  - id: v4-01
+    nameJP: 黒岩の斬刀
+    rarity: 4
+    yomi: コクガンノザントウ
+    where:
+      text: starlight_exchange
+    materials:
+      primary: g005
+      secondary: b008
+      common: b010
+    subStat: critDmg
+
+  - id: v4-02
+    nameJP: 西風大剣
+    rarity: 4
+    yomi: セピュロスクレイモア
+    where:
+      text: wish
+    materials:
+      primary: g003
+      secondary: b007
+      common: b010
+    subStat: recharge
+
+  - id: v4-03
+    nameJP: 千岩古剣
+    rarity: 4
+    yomi: センガンコケン
+    where:
+      text: limited_wish
+    materials:
+      primary: g004
+      secondary: b009
+      common: b004
+    subStat: atkPercent
+
+  - id: v4-04
+    nameJP: 古華・試作
+    rarity: 4
+    yomi: コカシサク
+    where:
+      text: forging
+    materials:
+      primary: g006
+      secondary: b013
+      common: b002
+    subStat: atkPercent
+
+  - id: v4-05
+    nameJP: 雨裁
+    rarity: 4
+    yomi: ウサイ
+    where:
+      text: wish
+    materials:
+      primary: g005
+      secondary: b008
+      common: b003
+    subStat: em
+
+  - id: v4-06
+    nameJP: 旧貴族大剣
+    rarity: 4
+    yomi: キュウキゾクタイケン
+    where:
+      text: starlight_exchange
+    materials:
+      primary: g003
+      secondary: b007
+      common: b001
+    subStat: atkPercent
+
+  - id: v4-07
+    nameJP: 螭龍の剣
+    rarity: 4
+    yomi: チリュウノケン
+    where:
+      text: battle_pass
+    materials:
+      primary: g006
+      secondary: b013
+      common: b012
+    subStat: critRate
+
+  - id: v4-08
+    nameJP: 鐘の剣
+    rarity: 4
+    yomi: カネノケン
+    where:
+      text: wish
+    materials:
+      primary: g001
+      secondary: b005
+      common: b012
+    subStat: hpPercent
+
+  - id: v4-09
+    nameJP: 白影の剣
+    rarity: 4
+    yomi: ハクエイノケン
+    where:
+      text: forging
+    materials:
+      primary: g004
+      secondary: b009
+      common: b011
+    subStat: defPercent
+
+  - id: v4-10
+    nameJP: 祭礼の大剣
+    rarity: 4
+    yomi: サイレイノタイケン
+    where:
+      text: wish
+    materials:
+      primary: g002
+      secondary: b006
+      common: b004
+    subStat: recharge
+
+  - id: v4-11
+    nameJP: 雪葬の星銀
+    rarity: 4
+    yomi: セッソウノセイギン
+    where:
+      text: forging
+    materials:
+      primary: g001
+      secondary: b005
+      common: b001
+    subStat: physicalDmgBonus
+
+  - id: v4-12
+    nameJP: 桂木斬長正
+    rarity: 4
+    yomi: カツラギキリナガマサ
+    where:
+      text: forging
+    materials:
+      primary: g008
+      secondary: b016
+      common: b015
+    subStat: recharge
+
+  - id: v4-13
+    nameJP: 銜玉の海皇
+    rarity: 4
+    yomi: カンギョクノカイオウ
+    where:
+      text: event_unavailable
+    materials:
+      primary: g006
+      secondary: b013
+      common: b001
+    subStat: atkPercent
+
+  - id: v4-14
+    nameJP: 惡王丸
+    rarity: 4
+    yomi: アクオウマル
+    where:
+      text: limited_wish
+    materials:
+      primary: g007
+      secondary: b017
+      common: b013
+    subStat: atkPercent
+
+  - id: v4-15
+    nameJP: マカイラの水色
+    rarity: 4
+    yomi: マカイラノミズイロ
+    where:
+      text: limited_wish
+    descExists: true
+    materials:
+      primary: g012
+      secondary: b023
+      common: b011
+
+  - id: v4-16
+    nameJP: 森林のレガリア
+    rarity: 4
+    yomi: シンリンノレガリア
+    where:
+      text: forging
+    descExists: true
+    materials:
+      primary: g010
+      secondary: b023
+      common: b020
+
+  - id: v5-01
+    nameJP: 天空の傲
+    rarity: 5
+    yomi: テンクウノオゴリ
+    where:
+      text: wish
+    materials:
+      primary: g002
+      secondary: b006
+      common: b001
+    subStat: recharge
+
+  - id: v5-02
+    nameJP: 狼の末路
+    rarity: 5
+    yomi: オオカミノマツロ
+    where:
+      text: wish
+    materials:
+      primary: g003
+      secondary: b007
+      common: b003
+    subStat: atkPercent
+
+  - id: v5-03
+    nameJP: 無工の剣
+    rarity: 5
+    yomi: ムコウノケン
+    where:
+      text: limited_wish
+    materials:
+      primary: g005
+      secondary: b008
+      common: b011
+    subStat: atkPercent
+
+  - id: v5-04
+    nameJP: 松韻の響く頃
+    rarity: 5
+    yomi: ショウインノヒビクコロ
+    where:
+      text: limited_wish
+    descExists: true
+    materials:
+      primary: g001
+      secondary: b005
+      common: b002
+    subStat: physicalDmgBonus
+
+  - id: v5-05
+    nameJP: 赤角石塵滅砕
+    rarity: 5
+    yomi: セキカクセキジンメッサイ
+    where:
+      text: limited_wish
+    descExists: true
+    materials:
+      primary: g008
+      secondary: b017
+      common: b015
+    subStat: critDmg
+
+  - id: w1-01
+    nameJP: 新米の長槍
+    rarity: 1
+    yomi: シンマイノナガヤリ
+    where:
+      text: treasure_chest
+    materials:
+      primary: g003
+      secondary: b007
+      common: b003
+
+  - id: w2-01
+    nameJP: 鉄尖槍
+    rarity: 2
+    yomi: テツセンソウ
+    where:
+      text: treasure_chest
+    materials:
+      primary: g003
+      secondary: b007
+      common: b003
+
+  - id: w3-01
+    nameJP: 黒纓槍
+    rarity: 3
+    yomi: コクエイソウ
+    where:
+      text: wish
+    materials:
+      primary: g006
+      secondary: b013
+      common: b004
+    subStat: hpPercent
+
+  - id: w3-02
+    nameJP: 鉾槍
+    rarity: 3
+    yomi: ホコヤリ
+    where:
+      text: treasure_chest
+    materials:
+      primary: g005
+      secondary: b008
+      common: b012
+    subStat: atkPercent
+
+  - id: w3-03
+    nameJP: 白纓槍
+    rarity: 3
+    yomi: ハクエイソウ
+    where:
+      text: treasure_chest
+    materials:
+      primary: g004
+      secondary: b009
+      common: b010
+    subStat: critRate
+
+  - id: w4-01
+    nameJP: 黒岩の突槍
+    rarity: 4
+    yomi: コクガンノトッソウ
+    where:
+      text: starlight_exchange
+    materials:
+      primary: g005
+      secondary: b008
+      common: b010
+    subStat: critDmg
+
+  - id: w4-02
+    nameJP: 流月の針
+    rarity: 4
+    yomi: リュウゲツノハリ
+    where:
+      text: forging
+    materials:
+      primary: g004
+      secondary: b009
+      common: b011
+    subStat: physicalDmgBonus
+
+  - id: w4-03
+    nameJP: 死闘の槍
+    rarity: 4
+    yomi: シトウノヤリ
+    where:
+      text: battle_pass
+    materials:
+      primary: g002
+      secondary: b006
+      common: b012
+    subStat: critRate
+
+  - id: w4-04
+    nameJP: 匣中滅龍
+    rarity: 4
+    yomi: コウチュウメツリュウ
+    where:
+      text: wish
+    materials:
+      primary: g005
+      secondary: b008
+      common: b003
+    subStat: em
+
+  - id: w4-05
+    nameJP: 千岩長槍
+    rarity: 4
+    yomi: センガンチョウソウ
+    where:
+      text: limited_wish
+    materials:
+      primary: g006
+      secondary: b013
+      common: b004
+    subStat: atkPercent
+
+  - id: w4-06
+    nameJP: 星鎌・試作
+    rarity: 4
+    yomi: セイレンシサク
+    where:
+      text: forging
+    materials:
+      primary: g006
+      secondary: b013
+      common: b002
+    subStat: recharge
+
+  - id: w4-07
+    nameJP: 西風長槍
+    rarity: 4
+    yomi: セピュロススピア
+    where:
+      text: wish
+    materials:
+      primary: g003
+      secondary: b007
+      common: b001
+    subStat: recharge
+
+  - id: w4-08
+    nameJP: 旧貴族の猟槍
+    rarity: 4
+    yomi: キュウキゾクノリョウソウ
+    where:
+      text: starlight_exchange
+    materials:
+      primary: g005
+      secondary: b008
+      common: b010
+    subStat: atkPercent
+
+  - id: w4-09
+    nameJP: ドラゴンスピア
+    rarity: 4
+    where:
+      text: forging
+    materials:
+      primary: g002
+      secondary: b008
+      common: b010
+    subStat: physicalDmgBonus
+
+  - id: w4-10
+    nameJP: 喜多院十文字槍
+    rarity: 4
+    yomi: キタインジュウモンジヤリ
+    where:
+      text: forging
+    materials:
+      primary: g009
+      secondary: b016
+      common: b011
+    subStat: em
+
+  - id: w4-11
+    nameJP: 「漁獲」
+    rarity: 4
+    yomi: リョウカク
+    where:
+      text: inazuma_fishing_association
+    materials:
+      primary: g009
+      secondary: b016
+      common: b019
+    subStat: recharge
+
+  - id: w4-12
+    nameJP: 斬波のひれ長
+    rarity: 4
+    yomi: ザンパノヒレナガ
+    where:
+      text: limited_wish
+    materials:
+      primary: g009
+      secondary: b017
+      common: b015
+    subStat: atkPercent
+
+  - id: w4-13
+    nameJP: ムーンピアサー
+    rarity: 4
+    where:
+      text: forging
+    descExists: true
+    materials:
+      primary: g011
+      secondary: b023
+      common: b010
+
+  - id: w4-14
+    nameJP: 風信の矛
+    rarity: 4
+    yomi: フウシンノホコ
+    where:
+      text: event_unavailable
+    descExists: true
+    materials:
+      primary: g002
+      secondary: b014
+      common: b001
+
+  - id: w5-01
+    nameJP: 破天の槍
+    rarity: 5
+    yomi: ハテンノヤリ
+    where:
+      text: limited_wish
+    materials:
+      primary: g006
+      secondary: b013
+      common: b011
+    subStat: atkPercent
+
+  - id: w5-02
+    nameJP: 和璞鳶
+    rarity: 5
+    yomi: ワハクエン
+    where:
+      text: wish
+    materials:
+      primary: g004
+      secondary: b009
+      common: b010
+    subStat: critRate
+
+  - id: w5-03
+    nameJP: 天空の脊
+    rarity: 5
+    yomi: テンクウノセキ
+    where:
+      text: wish
+    materials:
+      primary: g003
+      secondary: b007
+      common: b003
+    subStat: recharge
+
+  - id: w5-04
+    nameJP: 護摩の杖
+    rarity: 5
+    yomi: ゴマノツエ
+    where:
+      text: limited_wish
+    materials:
+      primary: g006
+      secondary: b006
+      common: b001
+    subStat: critDmg
+
+  - id: w5-05
+    nameJP: 草薙の稲光
+    rarity: 5
+    yomi: クサナギノイナビカリ
+    where:
+      text: limited_wish
+    materials:
+      primary: g009
+      secondary: b016
+      common: b015
+    subStat: recharge
+
+  - id: w5-06
+    nameJP: 息災
+    rarity: 5
+    yomi: ソクサイ
+    where:
+      text: limited_wish
+    descExists: true
+    materials:
+      primary: g005
+      secondary: b008
+      common: b012
+    subStat: critDmg
+
+  - id: w5-07
+    nameJP: 赤砂の杖
+    rarity: 5
+    yomi: アカシャノツエ
+    where:
+      text: limited_wish
+    descExists: true
+    materials:
+      primary: g011
+      secondary: b023
+      common: b021
+
+  - id: x1-01
+    nameJP: 狩猟弓
+    rarity: 1
+    yomi: シュリョウユミ
+    where:
+      text: treasure_chest
+    materials:
+      primary: g002
+      secondary: b006
+      common: b011
+
+  - id: x2-01
+    nameJP: 歴戦の狩猟弓
+    rarity: 2
+    yomi: レキセンノシュリョウユミ
+    where:
+      text: treasure_chest
+    materials:
+      primary: g002
+      secondary: b006
+      common: b011
+
+  - id: x3-01
+    nameJP: 文使い
+    rarity: 3
+    yomi: フミツカイ
+    where:
+      text: treasure_chest
+    materials:
+      primary: g005
+      secondary: b008
+      common: b011
+    subStat: critDmg
+
+  - id: x3-02
+    nameJP: 鴉羽の弓
+    rarity: 3
+    yomi: カラスバノユミ
+    where:
+      text: wish
+    materials:
+      primary: g001
+      secondary: b005
+      common: b004
+    subStat: em
+
+  - id: x3-03
+    nameJP: リカーブボウ
+    rarity: 3
+    where:
+      text: treasure_chest
+    materials:
+      primary: g003
+      secondary: b007
+      common: b003
+    subStat: hpPercent
+
+  - id: x3-04
+    nameJP: シャープシューターの誓い
+    rarity: 3
+    yomi: シャープシューターノチカイ
+    where:
+      text: wish
+    materials:
+      primary: g002
+      secondary: b006
+      common: b001
+    subStat: critDmg
+
+  - id: x3-05
+    nameJP: 弾弓
+    rarity: 3
+    yomi: ダンキュウ
+    where:
+      text: wish
+    materials:
+      primary: g004
+      secondary: b009
+      common: b002
+    subStat: critRate
+
+  - id: x4-01
+    nameJP: 絶弦
+    rarity: 4
+    yomi: ゼツゲン
+    where:
+      text: wish
+    materials:
+      primary: g001
+      secondary: b005
+      common: b004
+    subStat: em
+
+  - id: x4-02
+    nameJP: ダークアレイの狩人
+    rarity: 4
+    yomi: ダークアレイノカリュウド
+    where:
+      text: limited_wish
+    materials:
+      primary: g003
+      secondary: b007
+      common: b001
+    subStat: atkPercent
+
+  - id: x4-03
+    nameJP: 黒岩の戦弓
+    rarity: 4
+    yomi: コクガンノセンキュウ
+    where:
+      text: starlight_exchange
+    materials:
+      primary: g004
+      secondary: b009
+      common: b002
+    subStat: critDmg
+
+  - id: x4-04
+    nameJP: リングボウ
+    rarity: 4
+    where:
+      text: forging
+    materials:
+      primary: g006
+      secondary: b013
+      common: b010
+    subStat: physicalDmgBonus
+
+  - id: x4-05
+    nameJP: 西風猟弓
+    rarity: 4
+    yomi: セピュロスアロー
+    where:
+      text: wish
+    materials:
+      primary: g003
+      secondary: b007
+      common: b012
+    subStat: recharge
+
+  - id: x4-06
+    nameJP: 澹月・試作
+    rarity: 4
+    yomi: タンゲツシサク
+    where:
+      text: forging
+    materials:
+      primary: g005
+      secondary: b008
+      common: b011
+    subStat: atkPercent
+
+  - id: x4-07
+    nameJP: 旧貴族長弓
+    rarity: 4
+    yomi: キュウキゾクチョウキュウ
+    where:
+      text: starlight_exchange
+    materials:
+      primary: g003
+      secondary: b007
+      common: b003
+    subStat: atkPercent
+
+  - id: x4-08
+    nameJP: 弓蔵
+    rarity: 4
+    yomi: キュウゾウ
+    where:
+      text: wish
+    materials:
+      primary: g004
+      secondary: b009
+      common: b002
+    subStat: atkPercent
+
+  - id: x4-09
+    nameJP: 祭礼の弓
+    rarity: 4
+    yomi: サイレイノユミ
+    where:
+      text: wish
+    materials:
+      primary: g002
+      secondary: b006
+      common: b001
+    subStat: recharge
+
+  - id: x4-10
+    nameJP: 蒼翠の狩猟弓
+    rarity: 4
+    yomi: ソウスイノシュリョウユミ
+    where:
+      text: battle_pass
+    materials:
+      primary: g001
+      secondary: b005
+      common: b004
+    subStat: critRate
+
+  - id: x4-11
+    nameJP: 風花の頌歌
+    rarity: 4
+    yomi: ウィンドブルームノショウカ
+    where:
+      text: limited_wish
+    materials:
+      primary: g003
+      secondary: b006
+      common: b012
+    subStat: em
+
+  - id: x4-12
+    nameJP: 幽夜のワルツ
+    rarity: 4
+    yomi: ユウヤノワルツ
+    where:
+      text: limited_wish
+    materials:
+      primary: g001
+      secondary: b005
+      common: b011
+    subStat: physicalDmgBonus
+
+  - id: x4-13
+    nameJP: 破魔の弓
+    rarity: 4
+    yomi: ハマノユミ
+    where:
+      text: forging
+    materials:
+      primary: g008
+      secondary: b018
+      common: b004
+    subStat: atkPercent
+
+  - id: x4-14
+    nameJP: プレデター
+    rarity: 4
+    where:
+      text: playstation_unavailable
+    materials:
+      primary: g008
+      secondary: b018
+      common: b004
+    subStat: atkPercent
+
+  - id: x4-15
+    nameJP: 曚雲の月
+    rarity: 4
+    yomi: モウウンノツキ
+    where:
+      text: limited_wish
+    materials:
+      primary: g008
+      secondary: b018
+      common: b019
+    subStat: atkPercent
+
+  - id: x4-16
+    nameJP: 落霞
+    rarity: 4
+    yomi: ラクカ
+    where:
+      text: event_unavailable
+    descExists: true
+    materials:
+      primary: g006
+      secondary: b009
+      common: b003
+    subStat: recharge
+
+  - id: x4-17
+    nameJP: 王の近侍
+    rarity: 4
+    yomi: オウノキンジ
+    where:
+      text: forging
+    descExists: true
+    materials:
+      primary: g012
+      secondary: b022
+      common: b004
+
+  - id: x4-18
+    nameJP: 竭沢
+    rarity: 4
+    yomi: ケツタク
+    where:
+      text: sumeru_fishing_association
+    descExists: true
+    materials:
+      primary: g012
+      secondary: b022
+      common: b021
+
+  - id: x5-01
+    nameJP: 天空の翼
+    rarity: 5
+    yomi: テンクウノツバサ
+    where:
+      text: wish
+    descExists: true
+    materials:
+      primary: g002
+      secondary: b006
+      common: b004
+    subStat: critRate
+
+  - id: x5-02
+    nameJP: アモスの弓
+    rarity: 5
+    yomi: アモスノユミ
+    where:
+      text: wish
+    materials:
+      primary: g003
+      secondary: b007
+      common: b001
+    subStat: atkPercent
+
+  - id: x5-03
+    nameJP: 終焉を嘆く詩
+    rarity: 5
+    yomi: シュウエンヲナゲクウタ
+    where:
+      text: limited_wish
+    materials:
+      primary: g002
+      secondary: b005
+      common: b010
+    subStat: recharge
+
+  - id: x5-04
+    nameJP: 飛雷の鳴弦
+    rarity: 5
+    yomi: ヒライノメイゲン
+    where:
+      text: limited_wish
+    materials:
+      primary: g008
+      secondary: b018
+      common: b004
+    subStat: critDmg
+
+  - id: x5-05
+    nameJP: 冬極の白星
+    rarity: 5
+    yomi: トウキョクノハクセイ
+    where:
+      text: limited_wish
+    materials:
+      primary: g009
+      secondary: b017
+      common: b019
+    subStat: critRate
+
+  - id: x5-06
+    nameJP: 若水
+    rarity: 5
+    yomi: ジャクスイ
+    where:
+      text: limited_wish
+    descExists: true
+    materials:
+      primary: g004
+      secondary: b014
+      common: b019
+    subStat: critDmg
+
+  - id: x5-07
+    nameJP: 狩人の道
+    rarity: 5
+    yomi: カリュウドノミチ
+    where:
+      text: limited_wish
+    descExists: true
+    materials:
+      primary: g012
+      secondary: b022
+      common: b020
+
+  - id: y1-01
+    nameJP: 生徒ノート
+    rarity: 1
+    yomi: セイトノート
+    where:
+      text: treasure_chest
+    materials:
+      primary: g001
+      secondary: b005
+      common: b002
+
+  - id: y2-01
+    nameJP: ポケット魔導書
+    rarity: 2
+    yomi: ポケットマドウショ
+    where:
+      text: treasure_chest
+    materials:
+      primary: g001
+      secondary: b005
+      common: b002
+
+  - id: y3-01
+    nameJP: 翡玉法珠
+    rarity: 3
+    yomi: ヒギョクホウジュ
+    where:
+      text: wish
+    materials:
+      primary: g004
+      secondary: b009
+      common: b011
+    subStat: em
+
+  - id: y3-02
+    nameJP: 魔導緒論
+    rarity: 3
+    yomi: マドウショロン
+    where:
+      text: wish
+    materials:
+      primary: g001
+      secondary: b005
+      common: b001
+    subStat: em
+
+  - id: y3-03
+    nameJP: 異世界旅行記
+    rarity: 3
+    yomi: イセカイリョコウキ
+    where:
+      text: treasure_chest
+    materials:
+      primary: g003
+      secondary: b007
+      common: b002
+    subStat: recharge
+
+  - id: y3-04
+    nameJP: 龍殺しの英傑譚
+    rarity: 3
+    yomi: リュウゴロシノエイケツタン
+    where:
+      text: wish
+    materials:
+      primary: g002
+      secondary: b006
+      common: b003
+    subStat: hpPercent
+
+  - id: y3-05
+    nameJP: 特級の宝玉
+    rarity: 3
+    yomi: トッキュウノホウギョク
+    where:
+      text: treasure_chest
+    materials:
+      primary: g005
+      secondary: b008
+      common: b010
+    subStat: critRate
+
+  - id: y4-01
+    nameJP: 黒岩の緋玉
+    rarity: 4
+    yomi: コクガンノヒギョク
+    where:
+      text: starlight_exchange
+    materials:
+      primary: g004
+      secondary: b009
+      common: b003
+    subStat: critDmg
+
+  - id: y4-02
+    nameJP: 西風秘典
+    rarity: 4
+    yomi: セピュロスコデックス
+    where:
+      text: wish
+    materials:
+      primary: g001
+      secondary: b005
+      common: b003
+    subStat: recharge
+
+  - id: y4-03
+    nameJP: 万国諸海の図譜
+    rarity: 4
+    yomi: バンコクショカイノズフ
+    where:
+      text: forging
+    materials:
+      primary: g006
+      secondary: b013
+      common: b001
+    subStat: em
+
+  - id: y4-04
+    nameJP: 金珀・試作
+    rarity: 4
+    yomi: キンパクシサク
+    where:
+      text: forging
+    materials:
+      primary: g005
+      secondary: b008
+      common: b004
+    subStat: hpPercent
+
+  - id: y4-05
+    nameJP: 旧貴族秘法録
+    rarity: 4
+    yomi: キュウキゾクヒホウロク
+    where:
+      text: starlight_exchange
+    materials:
+      primary: g001
+      secondary: b005
+      common: b010
+    subStat: atkPercent
+
+  - id: y4-06
+    nameJP: 祭礼の断片
+    rarity: 4
+    yomi: サイレイノダンペン
+    where:
+      text: wish
+    materials:
+      primary: g003
+      secondary: b007
+      common: b011
+    subStat: em
+
+  - id: y4-07
+    nameJP: 匣中日月
+    rarity: 4
+    yomi: コウチュウニチゲツ
+    where:
+      text: battle_pass
+    materials:
+      primary: g004
+      secondary: b009
+      common: b012
+    subStat: critRate
+
+  - id: y4-08
+    nameJP: 流浪楽章
+    rarity: 4
+    yomi: ルロウガクショウ
+    where:
+      text: wish
+    materials:
+      primary: g002
+      secondary: b006
+      common: b002
+    subStat: critDmg
+
+  - id: y4-09
+    nameJP: ダークアレイの酒と詩
+    rarity: 4
+    yomi: ダークアレイノサケトウタ
+    where:
+      text: limited_wish
+    materials:
+      primary: g002
+      secondary: b006
+      common: b011
+    subStat: recharge
+
+  - id: y4-10
+    nameJP: 昭心
+    rarity: 4
+    yomi: ショウシン
+    where:
+      text: wish
+    materials:
+      primary: g005
+      secondary: b008
+      common: b002
+    subStat: atkPercent
+
+  - id: y4-11
+    nameJP: 冬忍びの実
+    rarity: 4
+    yomi: フユシノビノミ
+    where:
+      text: dragonspine_tree
+    materials:
+      primary: g003
+      secondary: b007
+      common: b012
+    subStat: atkPercent
+
+  - id: y4-12
+    nameJP: ドドコの物語
+    rarity: 4
+    yomi: ドドコノモノガタリ
+    where:
+      text: event_unavailable
+    materials:
+      primary: g002
+      secondary: b006
+      common: b002
+    subStat: atkPercent
+
+  - id: y4-13
+    nameJP: 白辰の輪
+    rarity: 4
+    yomi: ハクシンノワ
+    where:
+      text: forging
+    materials:
+      primary: g007
+      secondary: b018
+      common: b003
+    subStat: recharge
+
+  - id: y4-14
+    nameJP: 誓いの明瞳
+    rarity: 4
+    yomi: チカイノメイドウ
+    where:
+      text: event_unavailable
+    descExists: true
+    materials:
+      primary: g007
+      secondary: b017
+      common: b019
+    subStat: atkPercent
+
+  - id: y4-15
+    nameJP: 満悦の実
+    rarity: 4
+    yomi: マンエツノミ
+    where:
+      text: forging
+    descExists: true
+    materials:
+      primary: g011
+      secondary: b014
+      common: b021
+
+  - id: y4-16
+    nameJP: 彷徨える星
+    rarity: 4
+    yomi: サマヨエルホシ
+    where:
+      text: limited_wish
+    descExists: true
+    materials:
+      primary: g011
+      secondary: b022
+      common: b021
+
+  - id: y5-01
+    nameJP: 四風原典
+    rarity: 5
+    yomi: シフウゲンテン
+    where:
+      text: wish
+    subStat: critRate
+    descExists: true
+    materials:
+      primary: g003
+      secondary: b007
+      common: b001
+
+  - id: y5-02
+    nameJP: 天空の巻
+    rarity: 5
+    yomi: テンクウノマキ
+    where:
+      text: wish
+    materials:
+      primary: g002
+      secondary: b006
+      common: b004
+    subStat: atkPercent
+
+  - id: y5-03
+    nameJP: 浮世の錠
+    rarity: 5
+    yomi: ウキヨノジョウ
+    where:
+      text: limited_wish
+    materials:
+      primary: g006
+      secondary: b013
+      common: b002
+    subStat: atkPercent
+
+  - id: y5-04
+    nameJP: 不滅の月華
+    rarity: 5
+    yomi: フメツノゲッカ
+    where:
+      text: limited_wish
+    materials:
+      primary: g007
+      secondary: b018
+      common: b019
+    subStat: hpPercent
+
+  - id: y5-05
+    nameJP: 神楽の真意
+    rarity: 5
+    yomi: カグラノシンイ
+    where:
+      text: limited_wish
+    descExists: true
+    materials:
+      primary: g009
+      secondary: b017
+      common: b019
+    subStat: critDmg
+
+  - id: y5-06
+    nameJP: 千夜に浮かぶ夢
+    rarity: 5
+    yomi: センヤニウカブユメ
+    where:
+      text: limited_wish
+    descExists: true
+    materials:
+      primary: g011
+      secondary: b024
+      common: b021

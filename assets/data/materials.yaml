@@ -1,0 +1,2074 @@
+- id: a001-1
+  nameJP: 仕上げ用雑鉱
+  yomi: シアゲヨウザッコウ
+  where:
+    text: weapon_ore
+
+- id: a001-2
+  nameJP: 仕上げ用良鉱
+  yomi: シアゲヨウリョウコウ
+  where:
+    text: weapon_ore
+
+- id: a001-3
+  nameJP: 仕上げ用魔鉱
+  yomi: シアゲヨウマコウ
+  where:
+    text: weapon_ore
+
+- id: a002-1
+  nameJP: 流浪者の経験
+  yomi: ルロウシャノケイケン
+  where:
+    text: character_book
+
+- id: a002-2
+  nameJP: 冒険家の経験
+  yomi: ボウケンカノケイケン
+  where:
+    text: character_book
+
+- id: a002-3
+  nameJP: 大英雄の経験
+  yomi: ダイエイユウノケイケン
+  where:
+    text: character_book
+
+- id: b001-1
+  nameJP: スライムの液体
+  yomi: スライムノエキタイ
+  where:
+    text: slime
+    teyvatmapId: "59"
+
+- id: b001-2
+  nameJP: スライムの分泌物
+  yomi: スライムノブンピツブツ
+  where:
+    text: slime
+    teyvatmapId: "59"
+
+- id: b001-3
+  nameJP: スライムのピュレ
+  where:
+    text: slime
+    teyvatmapId: "59"
+
+- id: b002-1
+  nameJP: 破損した仮面
+  yomi: ハソンシタカメン
+  where:
+    text: hilichurl
+    teyvatmapId: "55"
+
+- id: b002-2
+  nameJP: 汚れた仮面
+  yomi: ヨゴレタカメン
+  where:
+    text: hilichurl
+    teyvatmapId: "55"
+
+- id: b002-3
+  nameJP: 不吉な仮面
+  yomi: フキツナカメン
+  where:
+    text: hilichurl
+    teyvatmapId: "55"
+
+- id: b003-1
+  nameJP: 占いの絵巻
+  yomi: ウラナイノエマキ
+  where:
+    text: samachurl
+    teyvatmapId: "57"
+
+- id: b003-2
+  nameJP: 封魔の絵巻
+  yomi: フウマノエマキ
+  where:
+    text: samachurl
+    teyvatmapId: "57"
+
+- id: b003-3
+  nameJP: 禁呪の絵巻
+  yomi: キンジュノエマキ
+  where:
+    text: samachurl
+    teyvatmapId: "57"
+
+- id: b004-1
+  nameJP: 牢固な矢先
+  yomi: ロウコナヤサキ
+  where:
+    text: hilichurl_shooter
+    teyvatmapId: "56"
+
+- id: b004-2
+  nameJP: 鋭利な矢先
+  yomi: エイリナヤサキ
+  where:
+    text: hilichurl_shooter
+    teyvatmapId: "56"
+
+- id: b004-3
+  nameJP: 歴戦の矢先
+  yomi: レキセンノヤサキ
+  where:
+    text: hilichurl_shooter
+    teyvatmapId: "56"
+
+- id: b005-1
+  nameJP: 重い角笛
+  yomi: オモイツノブエ
+  where:
+    text: mitachurl_lawachurl
+    teyvatmapId: "149,53"
+
+- id: b005-2
+  nameJP: 黒銅の角笛
+  yomi: コクドウノツノブエ
+  where:
+    text: mitachurl_lawachurl
+    teyvatmapId: "149,53"
+
+- id: b005-3
+  nameJP: 黒晶の角笛
+  yomi: コクショウノツノブエ
+  where:
+    text: mitachurl_lawachurl
+    teyvatmapId: "149,53"
+
+- id: b006-1
+  nameJP: 地脈の旧枝
+  yomi: チミャクノキュウシ
+  where:
+    text: abyss_mage
+    teyvatmapId: "24"
+
+- id: b006-2
+  nameJP: 地脈の枯れ葉
+  yomi: チミャクノカレハ
+  where:
+    text: abyss_mage
+    teyvatmapId: "24"
+
+- id: b006-3
+  nameJP: 地脈の新芽
+  yomi: チミャクノシンメ
+  where:
+    text: abyss_mage
+    teyvatmapId: "24"
+
+- id: b007-1
+  nameJP: 混沌の装置
+  yomi: コントンノソウチ
+  where:
+    text: ruin_guards
+    teyvatmapId: "27,28,150"
+
+- id: b007-2
+  nameJP: 混沌の回路
+  yomi: コントンノカイロ
+  where:
+    text: ruin_guards
+    teyvatmapId: "27,28,150"
+
+- id: b007-3
+  nameJP: 混沌の炉心
+  yomi: コントンノロシン
+  where:
+    text: ruin_guards
+    teyvatmapId: "27,28,150"
+
+- id: b008-1
+  nameJP: 霧虚ろの花粉
+  yomi: キリウツロノカフン
+  where:
+    text: fatui_cicin_mage
+    teyvatmapId: "26"
+
+- id: b008-2
+  nameJP: 霧虚ろの草嚢
+  yomi: キリウツロノソウノウ
+  where:
+    text: fatui_cicin_mage
+    teyvatmapId: "26"
+
+- id: b008-3
+  nameJP: 霧虚ろの灯芯
+  yomi: キリウツロノトウシン
+  where:
+    text: fatui_cicin_mage
+    teyvatmapId: "26"
+
+- id: b009-1
+  nameJP: 猟兵の刀
+  yomi: リョウヘイノカタナ
+  where:
+    text: fatui_agent
+    teyvatmapId: "25"
+
+- id: b009-2
+  nameJP: エージェントの刀
+  yomi: エージェントノカタナ
+  where:
+    text: fatui_agent
+    teyvatmapId: "25"
+
+- id: b009-3
+  nameJP: 検査官の刀
+  yomi: ケンサカンノカタナ
+  where:
+    text: fatui_agent
+    teyvatmapId: "25"
+
+- id: b010-1
+  nameJP: 新兵の記章
+  yomi: シンペイノキショウ
+  where:
+    text: fatui_skirmisher
+    teyvatmapId: "54"
+
+- id: b010-2
+  nameJP: 士官の記章
+  yomi: シカンノキショウ
+  where:
+    text: fatui_skirmisher
+    teyvatmapId: "54"
+
+- id: b010-3
+  nameJP: 尉官の記章
+  yomi: イカンノキショウ
+  where:
+    text: fatui_skirmisher
+    teyvatmapId: "54"
+
+- id: b011-1
+  nameJP: 宝探しの鴉マーク
+  yomi: タカラサガシノカラスマーク
+  where:
+    text: treasure_hoarder
+    teyvatmapId: "58"
+
+- id: b011-2
+  nameJP: シルバーの鴉マーク
+  yomi: シルバーノカラスマーク
+  where:
+    text: treasure_hoarder
+    teyvatmapId: "58"
+
+- id: b011-3
+  nameJP: ゴールドの鴉マーク
+  yomi: ゴールドノカラスマーク
+  where:
+    text: treasure_hoarder
+    teyvatmapId: "58"
+
+- id: b012-1
+  nameJP: トリックフラワーの蜜
+  yomi: トリックフラワーノミツ
+  where:
+    text: whopperflower
+    teyvatmapId: "47"
+
+- id: b012-2
+  nameJP: 微光花の蜜
+  yomi: ビコウカノミツ
+  where:
+    text: whopperflower
+    teyvatmapId: "47"
+
+- id: b012-3
+  nameJP: 原素花の蜜
+  yomi: ゲンソバナノミツ
+  where:
+    text: whopperflower
+    teyvatmapId: "47"
+
+- id: b013-1
+  nameJP: 脆い骨片
+  yomi: モロイコッペン
+  where:
+    text: vishap
+    teyvatmapId: "49,169"
+
+- id: b013-2
+  nameJP: 丈夫な骨片
+  yomi: ジョウブナコッペン
+  where:
+    text: vishap
+    teyvatmapId: "49,169"
+
+- id: b013-3
+  nameJP: 石化した骨片
+  yomi: セッカシタコッペン
+  where:
+    text: vishap
+    teyvatmapId: "49,169"
+
+- id: b014-1
+  nameJP: 暗晦の彫刻
+  yomi: アンカイノチョウコク
+  where:
+    text: black_serpent
+    teyvatmapId: "344"
+    teyvatmapDimensionId: "9"
+
+- id: b014-2
+  nameJP: 黒夜の彫刻
+  yomi: コクヤノチョウコク
+  where:
+    text: black_serpent
+    teyvatmapId: "344"
+    teyvatmapDimensionId: "9"
+
+- id: b014-3
+  nameJP: 幽邃なる彫刻
+  yomi: ユウスイナルチョウコク
+  where:
+    text: black_serpent
+    teyvatmapId: "344"
+    teyvatmapDimensionId: "9"
+
+- id: b015-1
+  nameJP: 古びた鍔
+  yomi: フルビタツバ
+  where:
+    text: nobushi
+    teyvatmapId: "209"
+
+- id: b015-2
+  nameJP: 影打の鍔
+  yomi: カゲウチノツバ
+  where:
+    text: nobushi
+    teyvatmapId: "209"
+
+- id: b015-3
+  nameJP: 名刀の鍔
+  yomi: メイトウノツバ
+  where:
+    text: nobushi
+    teyvatmapId: "209"
+
+- id: b016-1
+  nameJP: 混沌の機関
+  yomi: コントンノキカン
+  where:
+    text: ruin_sentinel
+    teyvatmapId: "215"
+
+- id: b016-2
+  nameJP: 混沌の中枢
+  yomi: コントンノチュウスウ
+  where:
+    text: ruin_sentinel
+    teyvatmapId: "215"
+
+- id: b016-3
+  nameJP: 混沌の真眼
+  yomi: コントンノシンガン
+  where:
+    text: ruin_sentinel
+    teyvatmapId: "215"
+
+- id: b017-1
+  nameJP: 隠獣の指爪
+  yomi: インジュウノシソウ
+  where:
+    text: riftwolves
+    teyvatmapId: "265"
+
+- id: b017-2
+  nameJP: 隠獣の利爪
+  yomi: インジュウノリソウ
+  where:
+    text: riftwolves
+    teyvatmapId: "265"
+
+- id: b017-3
+  nameJP: 隠獣の鬼爪
+  yomi: インジュウノキソウ
+  where:
+    text: riftwolves
+    teyvatmapId: "265"
+
+- id: b018-1
+  nameJP: 暗色プリズム
+  yomi: アンショクプリズム
+  where:
+    text: mirror_maiden
+    teyvatmapId: "210"
+
+- id: b018-2
+  nameJP: 水晶プリズム
+  yomi: スイショウプリズム
+  where:
+    text: mirror_maiden
+    teyvatmapId: "210"
+
+- id: b018-3
+  nameJP: 偏光プリズム
+  yomi: ヘンコウプリズム
+  where:
+    text: mirror_maiden
+    teyvatmapId: "210"
+
+- id: b019-1
+  nameJP: フライムの乾核
+  yomi: フライムノカンカク
+  where:
+    text: specter
+    teyvatmapId: "229"
+
+- id: b019-2
+  nameJP: フライムの幽核
+  yomi: フライムノユウカク
+  where:
+    text: specter
+    teyvatmapId: "229"
+
+- id: b019-3
+  nameJP: フライムの晶化核
+  yomi: フライムノショウカカク
+  where:
+    text: specter
+    teyvatmapId: "229"
+
+- id: b020-1
+  nameJP: 色褪せた赤い絹
+  yomi: イロアセタアカイキヌ
+  where:
+    text: eremites
+    teyvatmapId: "389"
+
+- id: b020-2
+  nameJP: 縁飾りの赤い絹
+  yomi: エニシカザリノアカイキヌ
+  where:
+    text: eremites
+    teyvatmapId: "389"
+
+- id: b020-3
+  nameJP: 金織の赤い絹
+  yomi: キンオリノアカイキヌ
+  where:
+    text: eremites
+    teyvatmapId: "389"
+
+- id: b021-1
+  nameJP: キノコンの胞子
+  yomi: キノコンノホウシ
+  where:
+    text: fungus_normal
+    teyvatmapId: "221"
+
+- id: b021-2
+  nameJP: キノコンの蛍胞子
+  yomi: キノコンノホタルホウシ
+  where:
+    text: fungus_normal
+    teyvatmapId: "221"
+
+- id: b021-3
+  nameJP: キノコンの晶胞子
+  yomi: キノコンノショウホウシ
+  where:
+    text: fungus_normal
+    teyvatmapId: "221"
+
+- id: b022-1
+  nameJP: キノコンの衰菌核
+  yomi: キノコンノスイキンカク
+  where:
+    text: fungus_activated
+    teyvatmapId: "221"
+
+- id: b022-2
+  nameJP: キノコンの眠菌核
+  yomi: キノコンノミンキンカク
+  where:
+    text: fungus_activated
+    teyvatmapId: "221"
+
+- id: b022-3
+  nameJP: キノコンの壮菌核
+  yomi: キノコンノソウキンカク
+  where:
+    text: fungus_activated
+    teyvatmapId: "221"
+
+- id: b023-1
+  nameJP: 混沌ストレージ
+  yomi: コントンストレージ
+  where:
+    text: ruin_drake
+    teyvatmapId: "388"
+
+- id: b023-2
+  nameJP: 混沌モジュール
+  yomi: コントンモジュール
+  where:
+    text: ruin_drake
+    teyvatmapId: "388"
+
+- id: b023-3
+  nameJP: 混沌ボルト
+  yomi: コントンボルト
+  where:
+    text: ruin_drake
+    teyvatmapId: "388"
+
+- id: b024-1
+  nameJP: 壊れたプリズム
+  yomi: コワレタプリズム
+  where:
+    text: primal_construct
+    teyvatmapId: "434"
+
+- id: b024-2
+  nameJP: 濁ったプリズム
+  yomi: ニゴッタプリズム
+  where:
+    text: primal_construct
+    teyvatmapId: "434"
+
+- id: b024-3
+  nameJP: 輝くプリズム
+  yomi: カガヤクプリズム
+  where:
+    text: primal_construct
+    teyvatmapId: "434"
+
+- id: c001
+  nameJP: 常燃の火種
+  yomi: ジョウネンノヒダネ
+  where:
+    text: pyro_regisvine
+
+- id: c002
+  nameJP: 浄水の心
+  yomi: ジョウスイノココロ
+  where:
+    text: oceanid
+
+- id: c003
+  nameJP: 雷光のプリズム
+  yomi: ライコウノプリズム
+  where:
+    text: electro_hypostasis
+
+- id: c004
+  nameJP: 極寒のコア
+  yomi: ゴッカンノコア
+  where:
+    text: cryo_regisvine
+
+- id: c005
+  nameJP: 暴風の種
+  yomi: ボウフウノタネ
+  where:
+    text: anemo_hypostasis
+
+- id: c006
+  nameJP: 玄岩の塔
+  yomi: ゲンガンノトウ
+  where:
+    text: geo_hypostasis
+
+- id: c007
+  nameJP: 未熟の玉石
+  yomi: ミジュクノギョクセキ
+  where:
+    text: primo_geovishap
+
+- id: c008
+  nameJP: 凝結の華
+  yomi: ギョウケツノハナ
+  where:
+    text: cryo_hypostasis
+
+- id: c009
+  nameJP: 魔偶の芯
+  yomi: マグウノシン
+  where:
+    text: maguu_kenki
+
+- id: c010
+  nameJP: 恒常からくりの芯
+  yomi: コウジョウカラクリノシン
+  where:
+    text: perpetual_mechanical_array
+
+- id: c011
+  nameJP: 陰燃の珠
+  yomi: インネンノジュ
+  where:
+    text: pyro_hypostasis
+
+- id: c012
+  nameJP: 拒絶の露
+  yomi: キョゼツノツユ
+  where:
+    text: hydro_hypostasis
+
+- id: c013
+  nameJP: 雷霆の念珠
+  yomi: ライテイノネンジュ
+  where:
+    text: thunder_manifestation
+
+- id: c014
+  nameJP: 獣域王器
+  yomi: ジュウイキオウキ
+  where:
+    text: golden_wolflord
+
+- id: c015
+  nameJP: ドラゴエアのニセヒレ
+  yomi: ドラゴエアノニセヒレ
+  where:
+    text: bathysmal_vishap_herd
+
+- id: c016
+  nameJP: 符文の歯車
+  yomi: フモンノハグルマ
+  where:
+    text: ruin_serpent
+
+- id: c017
+  nameJP: 茸王の鉤状のくちばし
+  yomi: タケオウノコウジョウノクチバシ
+  where:
+    text: jadeplume_terrorshroom
+
+- id: c018
+  nameJP: 隠雷の実
+  yomi: インライノミ
+  where:
+    text: electro_regisvine
+
+- id: c019
+  nameJP: 導光四面体
+  yomi: ドウコウシメンタイ
+  where:
+    text: semi_intransient_matrix
+
+- id: c020
+  nameJP: 永続コア
+  yomi: エイゾクコア
+  where:
+    text: aeonblight_drake
+
+- id: c021
+  nameJP: 滅諍の蔓
+  yomi: メッソウノツル
+  where:
+    text: dendro_hypostasis
+
+- id: d001-1
+  nameJP: 輝くダイヤ・砕屑
+  yomi: カガヤクダイヤサイセツ
+
+- id: d001-2
+  nameJP: 輝くダイヤ・欠片
+  yomi: カガヤクダイヤカケラ
+
+- id: d001-3
+  nameJP: 輝くダイヤ・塊
+  yomi: カガヤクダイヤカタマリ
+
+- id: d001-4
+  nameJP: 輝くダイヤ
+  yomi: カガヤクダイヤ
+
+- id: d002-1
+  nameJP: 炎願のアゲート・砕屑
+  yomi: エンガンノアゲートサイセツ
+
+- id: d002-2
+  nameJP: 炎願のアゲート・欠片
+  yomi: エンガンノアゲートカケラ
+
+- id: d002-3
+  nameJP: 炎願のアゲート・塊
+  yomi: エンガンノアゲートカタマリ
+
+- id: d002-4
+  nameJP: 炎願のアゲート
+  yomi: エンガンノアゲート
+
+- id: d003-1
+  nameJP: 澄明なラピスラズリ・砕屑
+  yomi: チョウメイナラピスラズリサイセツ
+
+- id: d003-2
+  nameJP: 澄明なラピスラズリ・欠片
+  yomi: チョウメイナラピスラズリカケラ
+
+- id: d003-3
+  nameJP: 澄明なラピスラズリ・塊
+  yomi: チョウメイナラピスラズリカタマリ
+
+- id: d003-4
+  nameJP: 澄明なラピスラズリ
+  yomi: チョウメイナラピスラズリ
+
+- id: d004-1
+  nameJP: 最勝のアメシスト・砕屑
+  yomi: サイショウノアメシストサイセツ
+
+- id: d004-2
+  nameJP: 最勝のアメシスト・欠片
+  yomi: サイショウノアメシストカケラ
+
+- id: d004-3
+  nameJP: 最勝のアメシスト・塊
+  yomi: サイショウノアメシストカタマリ
+
+- id: d004-4
+  nameJP: 最勝のアメシスト
+  yomi: サイショウノアメシスト
+
+- id: d005-1
+  nameJP: 哀切なアイスクリスタル・砕屑
+  yomi: アイセツナアイスクリスタルサイセツ
+
+- id: d005-2
+  nameJP: 哀切なアイスクリスタル・欠片
+  yomi: アイセツナアイスクリスタルカケラ
+
+- id: d005-3
+  nameJP: 哀切なアイスクリスタル・塊
+  yomi: アイセツナアイスクリスタルカタマリ
+
+- id: d005-4
+  nameJP: 哀切なアイスクリスタル
+  yomi: アイセツナアイスクリスタル
+
+- id: d006-1
+  nameJP: 自由のターコイズ・砕屑
+  yomi: ジユウノターコイズサイセツ
+
+- id: d006-2
+  nameJP: 自由のターコイズ・欠片
+  yomi: ジユウノターコイズカケラ
+
+- id: d006-3
+  nameJP: 自由のターコイズ・塊
+  yomi: ジユウノターコイズカタマリ
+
+- id: d006-4
+  nameJP: 自由のターコイズ
+  yomi: ジユウノターコイズ
+
+- id: d007-1
+  nameJP: 堅牢なトパーズ・砕屑
+  yomi: ケンロウナトパーズサイセツ
+
+- id: d007-2
+  nameJP: 堅牢なトパーズ・欠片
+  yomi: ケンロウナトパーズカケラ
+
+- id: d007-3
+  nameJP: 堅牢なトパーズ・塊
+  yomi: ケンロウナトパーズカタマリ
+
+- id: d007-4
+  nameJP: 堅牢なトパーズ
+  yomi: ケンロウナトパーズ
+
+- id: d008-1
+  nameJP: 成長のエメラルド・砕屑
+  yomi: セイチョウノエメラルドサイセツ
+
+- id: d008-2
+  nameJP: 成長のエメラルド・欠片
+  yomi: セイチョウノエメラルドカケラ
+
+- id: d008-3
+  nameJP: 成長のエメラルド・塊
+  yomi: セイチョウノエメラルドカタマリ
+
+- id: d008-4
+  nameJP: 成長のエメラルド
+  yomi: セイチョウノエメラルド
+
+- id: e001-1
+  nameJP: 「自由」の教え
+  availableDays:
+    - 0
+    - 1
+    - 4
+  yomi: ジユウノオシエ
+  where:
+    text: forsaken_rift
+
+- id: e001-2
+  nameJP: 「自由」の導き
+  availableDays:
+    - 0
+    - 1
+    - 4
+  yomi: ジユウノミチビキ
+  where:
+    text: forsaken_rift
+
+- id: e001-3
+  nameJP: 「自由」の哲学
+  availableDays:
+    - 0
+    - 1
+    - 4
+  yomi: ジユウノテツガク
+  where:
+    text: forsaken_rift
+
+- id: e002-1
+  nameJP: 「抗争」の教え
+  availableDays:
+    - 0
+    - 2
+    - 5
+  yomi: コウソウノオシエ
+  where:
+    text: forsaken_rift
+
+- id: e002-2
+  nameJP: 「抗争」の導き
+  availableDays:
+    - 0
+    - 2
+    - 5
+  yomi: コウソウノミチビキ
+  where:
+    text: forsaken_rift
+
+- id: e002-3
+  nameJP: 「抗争」の哲学
+  availableDays:
+    - 0
+    - 2
+    - 5
+  yomi: コウソウノテツガク
+  where:
+    text: forsaken_rift
+
+- id: e003-1
+  nameJP: 「詩文」の教え
+  availableDays:
+    - 0
+    - 3
+    - 6
+  yomi: シブンノオシエ
+  where:
+    text: forsaken_rift
+
+- id: e003-2
+  nameJP: 「詩文」の導き
+  availableDays:
+    - 0
+    - 3
+    - 6
+  yomi: シブンノミチビキ
+  where:
+    text: forsaken_rift
+
+- id: e003-3
+  nameJP: 「詩文」の哲学
+  availableDays:
+    - 0
+    - 3
+    - 6
+  yomi: シブンノテツガク
+  where:
+    text: forsaken_rift
+
+- id: e004-1
+  nameJP: 「繁栄」の教え
+  availableDays:
+    - 0
+    - 1
+    - 4
+  yomi: ハンエイノオシエ
+  where:
+    text: taishan
+
+- id: e004-2
+  nameJP: 「繁栄」の導き
+  availableDays:
+    - 0
+    - 1
+    - 4
+  yomi: ハンエイノミチビキ
+  where:
+    text: taishan
+
+- id: e004-3
+  nameJP: 「繁栄」の哲学
+  availableDays:
+    - 0
+    - 1
+    - 4
+  yomi: ハンエイノテツガク
+  where:
+    text: taishan
+
+- id: e005-1
+  nameJP: 「勤労」の教え
+  availableDays:
+    - 0
+    - 2
+    - 5
+  yomi: キンロウノオシエ
+  where:
+    text: taishan
+
+- id: e005-2
+  nameJP: 「勤労」の導き
+  availableDays:
+    - 0
+    - 2
+    - 5
+  yomi: キンロウノミチビキ
+  where:
+    text: taishan
+
+- id: e005-3
+  nameJP: 「勤労」の哲学
+  availableDays:
+    - 0
+    - 2
+    - 5
+  yomi: キンロウノテツガク
+  where:
+    text: taishan
+
+- id: e006-1
+  nameJP: 「黄金」の教え
+  availableDays:
+    - 0
+    - 3
+    - 6
+  yomi: オウゴンノオシエ
+  where:
+    text: taishan
+
+- id: e006-2
+  nameJP: 「黄金」の導き
+  availableDays:
+    - 0
+    - 3
+    - 6
+  yomi: オウゴンノミチビキ
+  where:
+    text: taishan
+
+- id: e006-3
+  nameJP: 「黄金」の哲学
+  availableDays:
+    - 0
+    - 3
+    - 6
+  yomi: オウゴンノテツガク
+  where:
+    text: taishan
+
+- id: e007-1
+  nameJP: 「浮世」の教え
+  availableDays:
+    - 0
+    - 1
+    - 4
+  yomi: ウキヨノオシエ
+  where:
+    text: violet_court
+
+- id: e007-2
+  nameJP: 「浮世」の導き
+  availableDays:
+    - 0
+    - 1
+    - 4
+  yomi: ウキヨノミチビキ
+  where:
+    text: violet_court
+
+- id: e007-3
+  nameJP: 「浮世」の哲学
+  availableDays:
+    - 0
+    - 1
+    - 4
+  yomi: ウキヨノテツガク
+  where:
+    text: violet_court
+
+- id: e008-1
+  nameJP: 「風雅」の教え
+  availableDays:
+    - 0
+    - 2
+    - 5
+  yomi: フウガノオシエ
+  where:
+    text: violet_court
+
+- id: e008-2
+  nameJP: 「風雅」の導き
+  availableDays:
+    - 0
+    - 2
+    - 5
+  yomi: フウガノミチビキ
+  where:
+    text: violet_court
+
+- id: e008-3
+  nameJP: 「風雅」の哲学
+  availableDays:
+    - 0
+    - 2
+    - 5
+  yomi: フウガノテツガク
+  where:
+    text: violet_court
+
+- id: e009-1
+  nameJP: 「天光」の教え
+  availableDays:
+    - 0
+    - 3
+    - 6
+  yomi: テンコウノオシエ
+  where:
+    text: violet_court
+
+- id: e009-2
+  nameJP: 「天光」の導き
+  availableDays:
+    - 0
+    - 3
+    - 6
+  yomi: テンコウノミチビキ
+  where:
+    text: violet_court
+
+- id: e009-3
+  nameJP: 「天光」の哲学
+  availableDays:
+    - 0
+    - 3
+    - 6
+  yomi: テンコウノテツガク
+  where:
+    text: violet_court
+
+- id: e010-1
+  nameJP: 「忠言」の教え
+  availableDays:
+    - 0
+    - 1
+    - 4
+  yomi: チュウゲンノオシエ
+  where:
+    text: steeple_of_ignorance
+
+- id: e010-2
+  nameJP: 「忠言」の導き
+  availableDays:
+    - 0
+    - 1
+    - 4
+  yomi: チュウゲンノミチビキ
+  where:
+    text: steeple_of_ignorance
+
+- id: e010-3
+  nameJP: 「忠言」の哲学
+  availableDays:
+    - 0
+    - 1
+    - 4
+  yomi: チュウゲンノテツガク
+  where:
+    text: steeple_of_ignorance
+
+- id: e011-1
+  nameJP: 「創意」の教え
+  availableDays:
+    - 0
+    - 2
+    - 5
+  yomi: ソウイノオシエ
+  where:
+    text: steeple_of_ignorance
+
+- id: e011-2
+  nameJP: 「創意」の導き
+  availableDays:
+    - 0
+    - 2
+    - 5
+  yomi: ソウイノミチビキ
+  where:
+    text: steeple_of_ignorance
+
+- id: e011-3
+  nameJP: 「創意」の哲学
+  availableDays:
+    - 0
+    - 2
+    - 5
+  yomi: ソウイノテツガク
+  where:
+    text: steeple_of_ignorance
+
+- id: e012-1
+  nameJP: 「篤行」の教え
+  availableDays:
+    - 0
+    - 3
+    - 6
+  yomi: トッコウノオシエ
+  where:
+    text: steeple_of_ignorance
+
+- id: e012-2
+  nameJP: 「篤行」の導き
+  availableDays:
+    - 0
+    - 3
+    - 6
+  yomi: トッコウノミチビキ
+  where:
+    text: steeple_of_ignorance
+
+- id: e012-3
+  nameJP: 「篤行」の哲学
+  availableDays:
+    - 0
+    - 3
+    - 6
+  yomi: トッコウノテツガク
+  where:
+    text: steeple_of_ignorance
+
+- id: f001
+  nameJP: 東風の羽根
+  yomi: トウフウノハネ
+  where:
+    text: stormterror_lair
+
+- id: f002
+  nameJP: 東風の爪
+  yomi: トウフウノツメ
+  where:
+    text: stormterror_lair
+
+- id: f003
+  nameJP: 東風の吐息
+  yomi: トウフウノトイキ
+  where:
+    text: stormterror_lair
+
+- id: f004
+  nameJP: 北風のしっぽ
+  yomi: ホクフウノシッポ
+  where:
+    text: wolf_of_the_north
+
+- id: f005
+  nameJP: 北風のリング
+  yomi: ホクフウノリング
+  where:
+    text: wolf_of_the_north
+
+- id: f006
+  nameJP: 北風の魂箱
+  yomi: ホクフウノコンソウ
+  where:
+    text: wolf_of_the_north
+
+- id: f007
+  nameJP: 呑天の鯨・只角
+  yomi: ドンテンノクジラタダスミ
+  where:
+    text: golden_house
+
+- id: f008
+  nameJP: 魔王の刃・残片
+  yomi: マオウノヤイバザンペン
+  where:
+    text: golden_house
+
+- id: f009
+  nameJP: 武練の魂・孤影
+  yomi: ブレンノタマシイコエイ
+  where:
+    text: golden_house
+
+- id: f010
+  nameJP: 龍王の冠
+  yomi: リュウオウノカンムリ
+  where:
+    text: beneath_the_dragon-queller
+
+- id: f011
+  nameJP: 血玉の枝
+  yomi: ケツギョクノエダ
+  where:
+    text: beneath_the_dragon-queller
+
+- id: f012
+  nameJP: 鍍金の鱗
+  yomi: トキンノリン
+  where:
+    text: beneath_the_dragon-queller
+
+- id: f013
+  nameJP: 溶滅の刻
+  yomi: ヨウメツノトキ
+  where:
+    text: tenshukaku
+
+- id: f014
+  nameJP: 獄炎の蝶
+  yomi: ゴクエンノチョウ
+  where:
+    text: tenshukaku
+
+- id: f015
+  nameJP: 灰燼の心
+  yomi: カイジンノココロ
+  where:
+    text: tenshukaku
+
+- id: f016
+  nameJP: 凶将の手眼
+  yomi: キョウショウノシュガン
+  where:
+    text: oneiric_euthymia
+
+- id: f017
+  nameJP: 禍神の禊涙
+  yomi: カジンノケイルイ
+  where:
+    text: oneiric_euthymia
+
+- id: f018
+  nameJP: 万劫の真意
+  yomi: バンゴウノシンイ
+  where:
+    text: oneiric_euthymia
+
+- id: f019
+  nameJP: 傀儡の糸
+  yomi: カイライノイト
+  where:
+    text: joururi_workshop
+
+- id: f020
+  nameJP: 無心の淵鏡
+  yomi: ムシンノエンキョウ
+  where:
+    text: joururi_workshop
+
+- id: f021
+  nameJP: 空行の虚鈴
+  yomi: クウギョウノキョレイ
+  where:
+    text: joururi_workshop
+
+- id: g001-1
+  nameJP: 高塔の王の瓦
+  availableDays:
+    - 0
+    - 1
+    - 4
+  yomi: コウトウノオウノカワラ
+  where: 
+    text: cecillia_garden
+
+- id: g001-2
+  nameJP: 高塔の王の残壁
+  availableDays:
+    - 0
+    - 1
+    - 4
+  yomi: コウトウノオウノザンペキ
+  where:
+    text: cecillia_garden
+
+- id: g001-3
+  nameJP: 高塔の王の断片
+  availableDays:
+    - 0
+    - 1
+    - 4
+  yomi: コウトウノオウノダンペン
+  where:
+    text: cecillia_garden
+
+- id: g001-4
+  nameJP: 高塔の王の砕けた夢
+  availableDays:
+    - 0
+    - 1
+    - 4
+  yomi: コウトウノオウノクダケタユメ
+  where:
+    text: cecillia_garden
+
+- id: g002-1
+  nameJP: 凛風奔狼の乳歯
+  availableDays:
+    - 0
+    - 2
+    - 5
+  yomi: リンプウホウロウノニュウシ
+  where:
+    text: cecillia_garden
+
+- id: g002-2
+  nameJP: 凛風奔狼の砕牙
+  availableDays:
+    - 0
+    - 2
+    - 5
+  yomi: リンプウホウロウノサイガ
+  where:
+    text: cecillia_garden
+
+- id: g002-3
+  nameJP: 凛風奔狼の断牙
+  availableDays:
+    - 0
+    - 2
+    - 5
+  yomi: リンプウホウロウノダンガ
+  where:
+    text: cecillia_garden
+
+- id: g002-4
+  nameJP: 凛風奔狼の郷愁
+  availableDays:
+    - 0
+    - 2
+    - 5
+  yomi: リンプウホウロウノキョウシュウ
+  where:
+    text: cecillia_garden
+
+- id: g003-1
+  nameJP: 獅牙戦士の枷
+  availableDays:
+    - 0
+    - 3
+    - 6
+  yomi: シガセンシノカセ
+  where:
+    text: cecillia_garden
+
+- id: g003-2
+  nameJP: 獅牙戦士の鎖
+  availableDays:
+    - 0
+    - 3
+    - 6
+  yomi: シガセンシノクサリ
+  where:
+    text: cecillia_garden
+
+- id: g003-3
+  nameJP: 獅牙戦士の手錠
+  availableDays:
+    - 0
+    - 3
+    - 6
+  yomi: シガセンシノテジョウ
+  where:
+    text: cecillia_garden
+
+- id: g003-4
+  nameJP: 獅牙戦士の理想
+  availableDays:
+    - 0
+    - 3
+    - 6
+  yomi: シガセンシノリソウ
+  where:
+    text: cecillia_garden
+
+- id: g004-1
+  nameJP: 孤雲寒林の光砂
+  availableDays:
+    - 0
+    - 1
+    - 4
+  yomi: コウンカンリンノコウサ
+  where:
+    text: lianshan
+
+- id: g004-2
+  nameJP: 孤雲寒林の輝岩
+  availableDays:
+    - 0
+    - 1
+    - 4
+  yomi: コウンカンリンノキガン
+  where:
+    text: lianshan
+
+- id: g004-3
+  nameJP: 孤雲寒林の聖骸
+  availableDays:
+    - 0
+    - 1
+    - 4
+  yomi: コウンカンリンノセイガイ
+  where:
+    text: lianshan
+
+- id: g004-4
+  nameJP: 孤雲寒林の神体
+  availableDays:
+    - 0
+    - 1
+    - 4
+  yomi: コウンカンリンノシンタイ
+  where:
+    text: lianshan
+
+- id: g005-1
+  nameJP: 霧海雲間の鉛丹
+  availableDays:
+    - 0
+    - 2
+    - 5
+  yomi: ムカイウンカンノエンタン
+  where:
+    text: lianshan
+
+- id: g005-2
+  nameJP: 霧海雲間の水銀
+  availableDays:
+    - 0
+    - 2
+    - 5
+  yomi: ムカイウンカンノスイギン
+  where:
+    text: lianshan
+
+- id: g005-3
+  nameJP: 霧海雲間の金丹
+  availableDays:
+    - 0
+    - 2
+    - 5
+  yomi: ムカイウンカンノキンタン
+  where:
+    text: lianshan
+
+- id: g005-4
+  nameJP: 霧海雲間の転還
+  availableDays:
+    - 0
+    - 2
+    - 5
+  yomi: ムカイウンカンノテンカン
+  where:
+    text: lianshan
+
+- id: g006-1
+  nameJP: 漆黒の隕鉄の一粒
+  availableDays:
+    - 0
+    - 3
+    - 6
+  yomi: シッコクノインテツノヒトツブ
+  where:
+    text: lianshan
+
+- id: g006-2
+  nameJP: 漆黒の隕鉄の一片
+  availableDays:
+    - 0
+    - 3
+    - 6
+  yomi: シッコクノインテツノイッペン
+  where:
+    text: lianshan
+
+- id: g006-3
+  nameJP: 漆黒の隕鉄の一角
+  availableDays:
+    - 0
+    - 3
+    - 6
+  yomi: シッコクノインテツノイッカク
+  where:
+    text: lianshan
+
+- id: g006-4
+  nameJP: 漆黒の隕鉄の塊
+  availableDays:
+    - 0
+    - 3
+    - 6
+  yomi: シッコクノインテツノカタマリ
+  where:
+    text: lianshan
+
+- id: g007-1
+  nameJP: 遠海夷地の瑚枝
+  availableDays:
+    - 0
+    - 1
+    - 4
+  yomi: エンカイゾチノコシ
+  where:
+    text: court_of_flowing_sand
+
+- id: g007-2
+  nameJP: 遠海夷地の石枝
+  availableDays:
+    - 0
+    - 1
+    - 4
+  yomi: エンカイゾチノセキシ
+  where:
+    text: court_of_flowing_sand
+
+- id: g007-3
+  nameJP: 遠海夷地の玉枝
+  availableDays:
+    - 0
+    - 1
+    - 4
+  yomi: エンカイゾチノギョクシ
+  where:
+    text: court_of_flowing_sand
+
+- id: g007-4
+  nameJP: 遠海夷地の金枝
+  availableDays:
+    - 0
+    - 1
+    - 4
+  yomi: エンカイゾチノキンシ
+  where:
+    text: court_of_flowing_sand
+
+- id: g008-1
+  nameJP: 鳴神御霊の恩恵
+  availableDays:
+    - 0
+    - 2
+    - 5
+  yomi: ナルカミミタマノオンケイ
+  where:
+    text: court_of_flowing_sand
+
+- id: g008-2
+  nameJP: 鳴神御霊の歓喜
+  availableDays:
+    - 0
+    - 2
+    - 5
+  yomi: ナルカミミタマノカンキ
+  where:
+    text: court_of_flowing_sand
+
+- id: g008-3
+  nameJP: 鳴神御霊の親愛
+  availableDays:
+    - 0
+    - 2
+    - 5
+  yomi: ナルカミミタマノシンアイ
+  where:
+    text: court_of_flowing_sand
+
+- id: g008-4
+  nameJP: 鳴神御霊の勇武
+  availableDays:
+    - 0
+    - 2
+    - 5
+  yomi: ナルカミミタマノユウブ
+  where:
+    text: court_of_flowing_sand
+
+- id: g009-1
+  nameJP: 今昔劇画の悪尉
+  availableDays:
+    - 0
+    - 3
+    - 6
+  yomi: コンジャクゲキガノアクイ
+  where:
+    text: court_of_flowing_sand
+
+- id: g009-2
+  nameJP: 今昔劇画の虎牙
+  availableDays:
+    - 0
+    - 3
+    - 6
+  yomi: コンジャクゲキガノコガ
+  where:
+    text: court_of_flowing_sand
+
+- id: g009-3
+  nameJP: 今昔劇画の隻角
+  availableDays:
+    - 0
+    - 3
+    - 6
+  yomi: コンジャクゲキガノセキカク
+  where:
+    text: court_of_flowing_sand
+
+- id: g009-4
+  nameJP: 今昔劇画の鬼人
+  availableDays:
+    - 0
+    - 3
+    - 6
+  yomi: コンジャクゲキガノキジン
+  where:
+    text: court_of_flowing_sand
+
+- id: g010-1
+  nameJP: 静謐な森のしずくの銅符
+  availableDays:
+    - 0
+    - 1
+    - 4
+  yomi: セイヒツナモリノシズクノドウフ
+  where:
+    text: tower_of_abject_pride
+
+- id: g010-2
+  nameJP: 静謐な森のしずくの鉄符
+  availableDays:
+    - 0
+    - 1
+    - 4
+  yomi: セイヒツナモリノシズクノテツフ
+  where:
+    text: tower_of_abject_pride
+
+- id: g010-3
+  nameJP: 静謐な森のしずくの銀符
+  availableDays:
+    - 0
+    - 1
+    - 4
+  yomi: セイヒツナモリノシズクノギンフ
+  where:
+    text: tower_of_abject_pride
+
+- id: g010-4
+  nameJP: 静謐な森のしずくの金符
+  availableDays:
+    - 0
+    - 1
+    - 4
+  yomi: セイヒツナモリノシズクノキンフ
+  where:
+    text: tower_of_abject_pride
+
+- id: g011-1
+  nameJP: オアシスガーデンの追憶
+  availableDays:
+    - 0
+    - 2
+    - 5
+  yomi: オアシスガーデンノツイオク
+  where:
+    text: tower_of_abject_pride
+
+- id: g011-2
+  nameJP: オアシスガーデンの恩恵
+  availableDays:
+    - 0
+    - 2
+    - 5
+  yomi: オアシスガーデンノオンケイ
+  where:
+    text: tower_of_abject_pride
+
+- id: g011-3
+  nameJP: オアシスガーデンの哀思
+  availableDays:
+    - 0
+    - 2
+    - 5
+  yomi: オアシスガーデンノアイシ
+  where:
+    text: tower_of_abject_pride
+
+- id: g011-4
+  nameJP: オアシスガーデンの真諦
+  availableDays:
+    - 0
+    - 2
+    - 5
+  yomi: オアシスガーデンノシンタイ
+  where:
+    text: tower_of_abject_pride
+
+- id: g012-1
+  nameJP: 烈日権威の残響
+  availableDays:
+    - 0
+    - 3
+    - 6
+  yomi: レツジツケンイノザンキョウ
+  where:
+    text: tower_of_abject_pride
+
+- id: g012-2
+  nameJP: 烈日権威の残光
+  availableDays:
+    - 0
+    - 3
+    - 6
+  yomi: レツジツケンイノザンコウ
+  where:
+    text: tower_of_abject_pride
+
+- id: g012-3
+  nameJP: 烈日権威の夢想
+  availableDays:
+    - 0
+    - 3
+    - 6
+  yomi: レツジツケンイノムソウ
+  where:
+    text: tower_of_abject_pride
+
+- id: g012-4
+  nameJP: 烈日権威の往日
+  availableDays:
+    - 0
+    - 3
+    - 6
+  yomi: レツジツケンイノオウジツ
+  where:
+    text: tower_of_abject_pride
+
+- id: h001
+  nameJP: ドドリアン
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "31"
+
+- id: h002
+  nameJP: セシリアの花
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "35"
+  yomi: セシリアノハナ
+
+- id: h003
+  nameJP: 石珀
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "40"
+  yomi: セキハク
+
+- id: h004
+  nameJP: 蒲公英の種
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "37"
+  yomi: タンポポノタネ
+
+- id: h005
+  nameJP: 琉璃百合
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "38"
+  yomi: ルリユリ
+
+- id: h006
+  nameJP: 絶雲の唐辛子
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "30"
+  yomi: ゼツウンノトウガラシ
+
+- id: h007
+  nameJP: 夜泊石
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "42"
+  yomi: ヨドマリイシ
+
+- id: h008
+  nameJP: 慕風のマッシュルーム
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "39"
+  yomi: ボフウノマッシュルーム
+
+- id: h009
+  nameJP: 霓裳花
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "36"
+  yomi: ゲイショウバナ
+
+- id: h010
+  nameJP: イグサ
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "33"
+
+- id: h011
+  nameJP: ヴァルベリー
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "29"
+
+- id: h012
+  nameJP: 琉璃袋
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "34"
+  yomi: ルリブクロ
+
+- id: h013
+  nameJP: 風車アスター
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "43"
+  yomi: フウシャアスター
+
+- id: h014
+  nameJP: ググプラム
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "41"
+
+- id: h015
+  nameJP: 清心
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "32"
+  yomi: セイシン
+
+- id: h016
+  nameJP: 星螺
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "78"
+  yomi: セイラ
+
+- id: h017
+  nameJP: ウミレイシ
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "185"
+
+- id: h018
+  nameJP: オニカブトムシ
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "196"
+
+- id: h019
+  nameJP: 緋櫻毬
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "199"
+  yomi: ヒオウキュウ
+
+- id: h020
+  nameJP: 晶化骨髄
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "211"
+  yomi: ショウカコツズイ
+
+- id: h021
+  nameJP: 血石華
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "198"
+  yomi: ケッセキカ
+
+- id: h022
+  nameJP: 鳴草
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "197"
+  yomi: ナグサ
+
+- id: h023
+  nameJP: 珊瑚真珠
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "227"
+  yomi: サンゴシンジュ
+
+- id: h024
+  nameJP: 天雲草の実
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "228"
+  yomi: アマクモグサノミ
+
+- id: h025
+  nameJP: ユウトウタケ
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "266"
+
+- id: h026
+  nameJP: ルッカデヴァタダケ
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "402"
+
+- id: h027
+  nameJP: カルパラタ蓮
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "401"
+  yomi: カルパラタハス
+
+- id: h028
+  nameJP: サウマラタ蓮
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "400"
+  yomi: サウマラタハス
+
+- id: h029
+  nameJP: 聖金虫
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "430"
+  yomi: セイキンチュウ
+
+- id: h030
+  nameJP: 赤念の実
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "431"
+  yomi: セキネンノミ
+
+- id: h031
+  nameJP: パティサラ
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "413"
+  yomi: パティサラ
+
+- id: i001
+  nameJP: 樺材
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "178"
+  yomi: カバザイ
+
+- id: i002
+  nameJP: 萃華材
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "179"
+  yomi: スイカザイ
+
+- id: i003
+  nameJP: 松材
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "175"
+  yomi: マツザイ
+
+- id: i004
+  nameJP: 却砂材
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "177"
+  yomi: キャクシャザイ
+
+- id: i005
+  nameJP: 竹材
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "176"
+  yomi: タケザイ
+
+- id: i006
+  nameJP: 垂香材
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "179"
+  yomi: スイコウザイ
+
+- id: i007
+  nameJP: 杉材
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "174"
+  yomi: スギザイ
+
+- id: i008
+  nameJP: 夢見材
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "220"
+  yomi: ユメミザイ
+
+- id: i009
+  nameJP: 楓材
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "218"
+  yomi: カエデザイ
+
+- id: i010
+  nameJP: 孔雀材
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "219"
+  yomi: クジャクザイ
+
+- id: i011
+  nameJP: 御伽材
+  where:
+    text: see_teyvatmap
+    teyvatmapId: "217"
+  yomi: オトギザイ
+
+- id: z001
+  nameJP: 知恵の冠
+  yomi: チエノカンムリ
+  where:
+    text: event_rewards_etc
+
+- id: z002
+  nameJP: モラ
+
+- id: z003
+  nameJP: 鉄の塊
+
+- id: z004
+  nameJP: 白鉄の塊
+
+- id: z005
+  nameJP: 青色の染料
+
+- id: z006
+  nameJP: 赤色の染料
+
+- id: z007
+  nameJP: 黄色の染料
+
+- id: z008
+  nameJP: 布材

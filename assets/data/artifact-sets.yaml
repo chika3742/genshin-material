@@ -1,0 +1,731 @@
+- id: '10010'
+  nameJP: 冒険者
+  highestQuality: 3
+  pieces:
+    - id: '60444'
+      nameJP: 冒険者の花
+      type: flower
+    - id: '60424'
+      nameJP: 冒険者の羽根
+      type: plume
+    - id: '60454'
+      nameJP: 冒険者の懐中時計
+      type: sands
+    - id: '60414'
+      nameJP: 冒険者の金杯
+      type: goblet
+    - id: '60434'
+      nameJP: 冒険者のバンダナ
+      type: circlet
+- id: '10013'
+  nameJP: 医者
+  highestQuality: 3
+  pieces:
+    - id: '63444'
+      nameJP: 医者のアネモネ
+      type: flower
+    - id: '63424'
+      nameJP: 医者の梟の羽根
+      type: plume
+    - id: '63454'
+      nameJP: 医者の懐中時計
+      type: sands
+    - id: '63414'
+      nameJP: 医者の薬壺
+      type: goblet
+    - id: '63434'
+      nameJP: 医者の方巾
+      type: circlet
+- id: '10001'
+  nameJP: 旅人の心
+  highestQuality: 4
+  pieces:
+    - id: '51544'
+      nameJP: 故人の心
+      type: flower
+    - id: '51524'
+      nameJP: 帰郷の羽
+      type: plume
+    - id: '51554'
+      nameJP: 逐光の石
+      type: sands
+    - id: '51514'
+      nameJP: 異国の杯
+      type: goblet
+    - id: '51534'
+      nameJP: 別離の冠
+      type: circlet
+- id: '10002'
+  nameJP: 勇士の心
+  highestQuality: 4
+  pieces:
+    - id: '52544'
+      nameJP: 勇士の勲章
+      type: flower
+    - id: '52524'
+      nameJP: 勇士の期待
+      type: plume
+    - id: '52554'
+      nameJP: 勇士の毅然
+      type: sands
+    - id: '52514'
+      nameJP: 勇士の壮行
+      type: goblet
+    - id: '52534'
+      nameJP: 勇士の冠
+      type: circlet
+- id: '10006'
+  nameJP: 武人
+  highestQuality: 4
+  pieces:
+    - id: '56544'
+      nameJP: 武人の赤い花
+      type: flower
+    - id: '56524'
+      nameJP: 武人の羽飾り
+      type: plume
+    - id: '56554'
+      nameJP: 武人の水時計
+      type: sands
+    - id: '56514'
+      nameJP: 武人の酒器
+      type: goblet
+    - id: '56534'
+      nameJP: 武人のバンダナ
+      type: circlet
+- id: '10005'
+  nameJP: 狂戦士
+  highestQuality: 4
+  pieces:
+    - id: '23529'
+      nameJP: 狂戦士の薔薇
+      type: flower
+    - id: '23527'
+      nameJP: 狂戦士の羽根
+      type: plume
+    - id: '23530'
+      nameJP: 狂戦士の時計
+      type: sands
+    - id: '23526'
+      nameJP: 狂戦士のコップ
+      type: goblet
+    - id: '23528'
+      nameJP: 狂戦士の仮面
+      type: circlet
+- id: '15008'
+  nameJP: 血染めの騎士道
+  highestQuality: 5
+  pieces:
+    - id: '23349'
+      nameJP: 血染めの鉄の心
+      type: flower
+    - id: '23347'
+      nameJP: 血染めの黒羽
+      type: plume
+    - id: '23350'
+      nameJP: 騎士が血に染めた時
+      type: sands
+    - id: '23346'
+      nameJP: 血染めの騎士のコップ
+      type: goblet
+    - id: '23348'
+      nameJP: 血染めの鉄仮面
+      type: circlet
+- id: '15001'
+  nameJP: 剣闘士のフィナーレ
+  highestQuality: 5
+  pieces:
+    - id: '23419'
+      nameJP: 剣闘士の未練
+      type: flower
+    - id: '23417'
+      nameJP: 剣闘士の帰着
+      type: plume
+    - id: '23420'
+      nameJP: 剣闘士の希望
+      type: sands
+    - id: '23416'
+      nameJP: 剣闘士の酩酊
+      type: goblet
+    - id: '23418'
+      nameJP: 剣闘士の凱旋
+      type: circlet
+- id: '15003'
+  nameJP: 大地を流浪する楽団
+  highestQuality: 5
+  pieces:
+    - id: '23399'
+      nameJP: 楽団の朝の光
+      type: flower
+    - id: '23397'
+      nameJP: 琴師の矢羽
+      type: plume
+    - id: '23400'
+      nameJP: フィナーレの時計
+      type: sands
+    - id: '23396'
+      nameJP: 吟遊者の水筒
+      type: goblet
+    - id: '23398'
+      nameJP: 指揮者のハット
+      type: circlet
+- id: '15018'
+  nameJP: 蒼白の炎
+  highestQuality: 5
+  pieces:
+    - id: '23559'
+      nameJP: 無垢の花
+      type: flower
+    - id: '23557'
+      nameJP: 良医の羽
+      type: plume
+    - id: '23560'
+      nameJP: 停頓の時
+      type: sands
+    - id: '23556'
+      nameJP: 超越の盃
+      type: goblet
+    - id: '23558'
+      nameJP: 嗤笑の面
+      type: circlet
+- id: '10008'
+  nameJP: 博徒
+  highestQuality: 4
+  pieces:
+    - id: '58544'
+      nameJP: 博徒の花飾り
+      type: flower
+    - id: '58524'
+      nameJP: 博徒の羽飾り
+      type: plume
+    - id: '58554'
+      nameJP: 博徒の懐中時計
+      type: sands
+    - id: '58514'
+      nameJP: 博徒のツボ
+      type: goblet
+    - id: '58534'
+      nameJP: 博徒のピアス
+      type: circlet
+- id: '15005'
+  nameJP: 雷のような怒り
+  highestQuality: 5
+  pieces:
+    - id: '23379'
+      nameJP: 雷鳥の憐み
+      type: flower
+    - id: '23377'
+      nameJP: 雷災の生存者
+      type: plume
+    - id: '23380'
+      nameJP: 雷霆の時計
+      type: sands
+    - id: '23376'
+      nameJP: 落雷の前兆
+      type: goblet
+    - id: '23378'
+      nameJP: 雷を呼ぶ冠
+      type: circlet
+- id: '15002'
+  nameJP: 翠緑の影
+  highestQuality: 5
+  pieces:
+    - id: '23409'
+      nameJP: 野花の記憶の草原
+      type: flower
+    - id: '23407'
+      nameJP: 狩人の青緑色の矢羽
+      type: plume
+    - id: '23410'
+      nameJP: 緑の狩人の決心
+      type: sands
+    - id: '23406'
+      nameJP: 緑の狩人の容器
+      type: goblet
+    - id: '23408'
+      nameJP: 緑の狩人の冠
+      type: circlet
+- id: '15014'
+  nameJP: 悠久の磐岩
+  highestQuality: 5
+  pieces:
+    - id: '23499'
+      nameJP: 盤石芽生の花
+      type: flower
+    - id: '23497'
+      nameJP: 嵯峨連山の翼
+      type: plume
+    - id: '23500'
+      nameJP: 星羅圭玉の日時計
+      type: sands
+    - id: '23496'
+      nameJP: 危岩磐石の杯
+      type: goblet
+    - id: '23498'
+      nameJP: 不動玄石の相
+      type: circlet
+- id: '15006'
+  nameJP: 燃え盛る炎の魔女
+  highestQuality: 5
+  pieces:
+    - id: '23369'
+      nameJP: 魔女の炎の花
+      type: flower
+    - id: '23367'
+      nameJP: 魔女の炎の羽根
+      type: plume
+    - id: '23370'
+      nameJP: 魔女の破滅の時
+      type: sands
+    - id: '23366'
+      nameJP: 魔女の心の炎
+      type: goblet
+    - id: '23368'
+      nameJP: 焦げた魔女の帽子
+      type: circlet
+- id: '15007'
+  nameJP: 旧貴族のしつけ
+  highestQuality: 5
+  pieces:
+    - id: '23359'
+      nameJP: 旧貴族の花
+      type: flower
+    - id: '23357'
+      nameJP: 旧貴族の羽根
+      type: plume
+    - id: '23360'
+      nameJP: 旧貴族の時計
+      type: sands
+    - id: '23356'
+      nameJP: 旧貴族の銀瓶
+      type: goblet
+    - id: '23358'
+      nameJP: 旧貴族の仮面
+      type: circlet
+- id: '14001'
+  nameJP: 氷風を彷徨う勇士
+  highestQuality: 5
+  pieces:
+    - id: '23459'
+      nameJP: 吹雪の中の思い
+      type: flower
+    - id: '23457'
+      nameJP: 氷を砕く執念
+      type: plume
+    - id: '23460'
+      nameJP: 雪覆う故郷の最後
+      type: sands
+    - id: '23456'
+      nameJP: 霜を纏った気骨
+      type: goblet
+    - id: '23458'
+      nameJP: 氷雪を踏む音
+      type: circlet
+- id: '15016'
+  nameJP: 沈淪の心
+  highestQuality: 5
+  pieces:
+    - id: '23539'
+      nameJP: 金メッキのコサージュ
+      type: flower
+    - id: '23537'
+      nameJP: 追憶の風
+      type: plume
+    - id: '23540'
+      nameJP: 堅い銅のコンパス
+      type: sands
+    - id: '23536'
+      nameJP: 浮沈の杯
+      type: goblet
+    - id: '23538'
+      nameJP: 酒に漬けた帽子
+      type: circlet
+- id: '15019'
+  nameJP: 追憶のしめ縄
+  highestQuality: 5
+  pieces:
+    - id: '23569'
+      nameJP: 羈絆の花
+      type: flower
+    - id: '23567'
+      nameJP: 憶念の矢
+      type: plume
+    - id: '23570'
+      nameJP: 朝露の時
+      type: sands
+    - id: '23566'
+      nameJP: 祈望の心
+      type: goblet
+    - id: '23568'
+      nameJP: 無常の面
+      type: circlet
+- id: '10011'
+  nameJP: 幸運
+  highestQuality: 3
+  pieces:
+    - id: '61444'
+      nameJP: 幸運のクローバー
+      type: flower
+    - id: '61424'
+      nameJP: 幸運の鷹の羽根
+      type: plume
+    - id: '61454'
+      nameJP: 幸運の砂時計
+      type: sands
+    - id: '61414'
+      nameJP: 幸運のコップ
+      type: goblet
+    - id: '61434'
+      nameJP: 幸運の冠
+      type: circlet
+- id: '10003'
+  nameJP: 守護の心
+  highestQuality: 4
+  pieces:
+    - id: '23489'
+      nameJP: 守護の花
+      type: flower
+    - id: '23487'
+      nameJP: 守護の印
+      type: plume
+    - id: '23490'
+      nameJP: 守護の置き時計
+      type: sands
+    - id: '23486'
+      nameJP: 守護の瓶
+      type: goblet
+    - id: '23488'
+      nameJP: 守護の帯
+      type: circlet
+- id: '15015'
+  nameJP: 逆飛びの流星
+  highestQuality: 5
+  pieces:
+    - id: '23509'
+      nameJP: 夏祭りの花
+      type: flower
+    - id: '23507'
+      nameJP: 夏祭りの終わり
+      type: plume
+    - id: '23510'
+      nameJP: 夏祭りの刻
+      type: sands
+    - id: '23506'
+      nameJP: 夏祭りの水風船
+      type: goblet
+    - id: '23508'
+      nameJP: 夏祭りの仮面
+      type: circlet
+- id: '10004'
+  nameJP: 奇跡
+  highestQuality: 4
+  pieces:
+    - id: '54544'
+      nameJP: 奇跡の花
+      type: flower
+    - id: '54524'
+      nameJP: 奇跡の羽根
+      type: plume
+    - id: '54554'
+      nameJP: 奇跡の砂
+      type: sands
+    - id: '54514'
+      nameJP: 奇跡のコップ
+      type: goblet
+    - id: '54534'
+      nameJP: 奇跡のピアス
+      type: circlet
+- id: '14002'
+  nameJP: 雷を鎮める尊者
+  highestQuality: 5
+  pieces:
+    - id: '23449'
+      nameJP: 雷討ちの心
+      type: flower
+    - id: '23447'
+      nameJP: 雷討ちの羽根
+      type: plume
+    - id: '23450'
+      nameJP: 雷討ちの刻
+      type: sands
+    - id: '23446'
+      nameJP: 雷討ちの器
+      type: goblet
+    - id: '23448'
+      nameJP: 雷討ちの冠
+      type: circlet
+- id: '14003'
+  nameJP: 烈火を渡る賢者
+  highestQuality: 5
+  pieces:
+    - id: '23439'
+      nameJP: 火渡りの堅実
+      type: flower
+    - id: '23437'
+      nameJP: 火渡りの解放
+      type: plume
+    - id: '23440'
+      nameJP: 火渡りの苦しみ
+      type: sands
+    - id: '23436'
+      nameJP: 火渡りの悟り
+      type: goblet
+    - id: '23438'
+      nameJP: 火渡りの知恵
+      type: circlet
+- id: '10012'
+  nameJP: 学者
+  highestQuality: 4
+  pieces:
+    - id: '62544'
+      nameJP: 学者のしおり
+      type: flower
+    - id: '62524'
+      nameJP: 学者の羽根ペン
+      type: plume
+    - id: '62554'
+      nameJP: 学者の時計
+      type: sands
+    - id: '62514'
+      nameJP: 学者のコップ
+      type: goblet
+    - id: '62534'
+      nameJP: 学者のレンズ
+      type: circlet
+- id: '10007'
+  nameJP: 教官
+  highestQuality: 4
+  pieces:
+    - id: '23519'
+      nameJP: 教官の花飾り
+      type: flower
+    - id: '23517'
+      nameJP: 教官の羽飾り
+      type: plume
+    - id: '23520'
+      nameJP: 教官の懐中時計
+      type: sands
+    - id: '23516'
+      nameJP: 教官のティーカップ
+      type: goblet
+    - id: '23518'
+      nameJP: 教官の帽子
+      type: circlet
+- id: '10009'
+  nameJP: 亡命者
+  highestQuality: 4
+  pieces:
+    - id: '59544'
+      nameJP: 亡命者の花
+      type: flower
+    - id: '59524'
+      nameJP: 亡命者の羽根
+      type: plume
+    - id: '59554'
+      nameJP: 亡命者の懐中時計
+      type: sands
+    - id: '59514'
+      nameJP: 亡命者のコップ
+      type: goblet
+    - id: '59534'
+      nameJP: 亡命者の冠
+      type: circlet
+- id: '14004'
+  nameJP: 愛される少女
+  highestQuality: 5
+  pieces:
+    - id: '23479'
+      nameJP: 彼方にある少女の心
+      type: flower
+    - id: '23477'
+      nameJP: 少女の揺らぐ思い
+      type: plume
+    - id: '23480'
+      nameJP: 少女の短い華年
+      type: sands
+    - id: '23476'
+      nameJP: 少女の暫く息抜き
+      type: goblet
+    - id: '23478'
+      nameJP: 少女の儚き顔
+      type: circlet
+- id: '15017'
+  nameJP: 千岩牢固
+  highestQuality: 5
+  pieces:
+    - id: '23549'
+      nameJP: 偉勲の花
+      type: flower
+    - id: '23547'
+      nameJP: 昭武の羽根
+      type: plume
+    - id: '23550'
+      nameJP: 金銅の日時計
+      type: sands
+    - id: '23546'
+      nameJP: 誓いの金杯
+      type: goblet
+    - id: '23548'
+      nameJP: 将帥の兜
+      type: circlet
+- id: '15020'
+  nameJP: 絶縁の旗印
+  highestQuality: 5
+  pieces:
+    - id: '23579'
+      nameJP: 威厳の鍔
+      type: flower
+    - id: '23577'
+      nameJP: 切落の羽
+      type: plume
+    - id: '23580'
+      nameJP: 雷雲の印籠
+      type: sands
+    - id: '23576'
+      nameJP: 緋花の壺
+      type: goblet
+    - id: '23578'
+      nameJP: 華飾の兜
+      type: circlet
+- id: '15009'
+  nameJP: 火祭りの人
+  highestQuality: 4
+  pieces:
+    - id: '83534'
+      nameJP: 火祭りの冠
+      type: flower
+- id: '15010'
+  nameJP: 水祭りの人
+  highestQuality: 4
+  pieces:
+    - id: '84534'
+      nameJP: 水祭りの冠
+      type: flower
+- id: '15011'
+  nameJP: 雷祭りの人
+  highestQuality: 4
+  pieces:
+    - id: '85534'
+      nameJP: 雷祭りの冠
+      type: flower
+- id: '15013'
+  nameJP: 氷祭りの人
+  highestQuality: 4
+  pieces:
+    - id: '87534'
+      nameJP: 氷祭りの冠
+      type: flower
+- id: '15021'
+  nameJP: 華館夢醒形骸記
+  highestQuality: 5
+  pieces:
+    - id: '23584'
+      nameJP: 栄花の期
+      type: flower
+    - id: '23582'
+      nameJP: 華館の羽
+      type: plume
+    - id: '23585'
+      nameJP: 衆生の歌
+      type: sands
+    - id: '23581'
+      nameJP: 夢醒の瓢箪
+      type: goblet
+    - id: '23583'
+      nameJP: 形骸の笠
+      type: circlet
+- id: '15022'
+  nameJP: 海染硨磲
+  highestQuality: 5
+  pieces:
+    - id: '23599'
+      nameJP: 海染の花
+      type: flower
+    - id: '23597'
+      nameJP: 淵宮の羽
+      type: plume
+    - id: '23600'
+      nameJP: 別れの貝
+      type: sands
+    - id: '23596'
+      nameJP: 真珠の籠
+      type: goblet
+    - id: '23598'
+      nameJP: 海祇の冠
+      type: circlet
+- id: '15023'
+  nameJP: 辰砂往生録
+  highestQuality: 5
+  pieces:
+    - id: '97442'
+      nameJP: 生霊の華
+      type: flower
+    - id: '97422'
+      nameJP: 陽轡の遺品
+      type: plume
+    - id: '97452'
+      nameJP: 潜光の羽
+      type: sands
+    - id: '97412'
+      nameJP: 契約の時
+      type: goblet
+    - id: '97432'
+      nameJP: 虺雷の姿
+      type: circlet
+- id: '15024'
+  nameJP: 来歆の余響
+  highestQuality: 5
+  pieces:
+    - id: '98442'
+      nameJP: 魂香の花
+      type: flower
+    - id: '98422'
+      nameJP: 祭祀の証
+      type: plume
+    - id: '98452'
+      nameJP: 垂玉の葉
+      type: sands
+    - id: '98412'
+      nameJP: 湧水の杯
+      type: goblet
+    - id: '98432'
+      nameJP: 浮流の対玉
+      type: circlet
+- id: '20100'
+  nameJP: 深林の記憶
+  highestQuality: 5
+  pieces:
+    - id: '30101'
+      nameJP: 月桂の宝冠
+      type: circlet
+    - id: '30102'
+      nameJP: 翠蔓の知者
+      type: plume
+    - id: '30103'
+      nameJP: 迷宮の遊客
+      type: flower
+    - id: '30104'
+      nameJP: 賢知の定期
+      type: sands
+    - id: '30105'
+      nameJP: 迷い人の灯
+      type: goblet
+- id: '20200'
+  nameJP: 金メッキの夢
+  highestQuality: 5
+  pieces:
+    - id: '30201'
+      nameJP: 砂王の投影
+      type: circlet
+    - id: '30202'
+      nameJP: 裁断の羽根
+      type: plume
+    - id: '30203'
+      nameJP: 夢境の鉄花
+      type: flower
+    - id: '30204'
+      nameJP: 深金の歳月
+      type: sands
+    - id: '30205'
+      nameJP: 甘露の終宴
+      type: goblet

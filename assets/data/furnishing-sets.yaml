@@ -1,0 +1,1618 @@
+- id: '10'
+  nameJP: 万巻の書斎
+  type: indoor
+  elements:
+    - id: '1100203'
+      amount: 1
+    - id: '1100213'
+      amount: 1
+    - id: '300206'
+      amount: 1
+    - id: '300207'
+      amount: 1
+    - id: '300208'
+      amount: 1
+    - id: '300308'
+      amount: 1
+    - id: '400105'
+      amount: 1
+    - id: '400404'
+      amount: 1
+  gift: false
+- id: '11'
+  nameJP: 家具が備えられたモンドの寝室
+  type: indoor
+  elements:
+    - id: '1100102'
+      amount: 1
+    - id: '1100208'
+      amount: 1
+    - id: '1100214'
+      amount: 1
+    - id: '300105'
+      amount: 1
+    - id: '300311'
+      amount: 1
+    - id: '300601'
+      amount: 1
+    - id: '400204'
+      amount: 1
+    - id: '400404'
+      amount: 1
+  gift: false
+- id: '12'
+  nameJP: 「6人のキーマン」会議室
+  type: indoor
+  elements:
+    - id: '1100102'
+      amount: 1
+    - id: '1100214'
+      amount: 1
+    - id: '300303'
+      amount: 1
+    - id: '400102'
+      amount: 6
+    - id: '400404'
+      amount: 1
+  gift: false
+- id: '13'
+  nameJP: パーティーと痛飲の時
+  type: indoor
+  elements:
+    - id: '1100214'
+      amount: 1
+    - id: '300306'
+      amount: 1
+    - id: '400104'
+      amount: 4
+  gift: false
+- id: '14'
+  nameJP: 店員たちのランチタイム
+  type: indoor
+  elements:
+    - id: '300102'
+      amount: 1
+    - id: '300103'
+      amount: 1
+    - id: '300305'
+      amount: 1
+  gift: false
+- id: '15'
+  nameJP: ゲストルームの暖かさ
+  type: indoor
+  elements:
+    - id: '1100102'
+      amount: 1
+    - id: '400101'
+      amount: 2
+    - id: '400106'
+      amount: 1
+    - id: '400201'
+      amount: 1
+    - id: '400401'
+      amount: 1
+  gift: false
+- id: '16'
+  nameJP: 完備した書斎
+  type: indoor
+  elements:
+    - id: '1100206'
+      amount: 1
+    - id: '1100208'
+      amount: 1
+    - id: '300203'
+      amount: 1
+    - id: '300205'
+      amount: 1
+    - id: '300302'
+      amount: 1
+    - id: '400102'
+      amount: 1
+    - id: '400106'
+      amount: 1
+    - id: '400404'
+      amount: 1
+  gift: false
+- id: '4'
+  nameJP: 簡素な璃月の寝室
+  type: indoor
+  elements:
+    - id: '1100305'
+      amount: 1
+    - id: '300106'
+      amount: 1
+    - id: '300602'
+      amount: 1
+    - id: '400205'
+      amount: 1
+    - id: '400403'
+      amount: 1
+  gift: false
+- id: '5'
+  nameJP: 茶室の片隅
+  type: indoor
+  elements:
+    - id: '300310'
+      amount: 1
+    - id: '400106'
+      amount: 4
+    - id: '400202'
+      amount: 1
+    - id: '400403'
+      amount: 1
+  gift: false
+- id: '7'
+  nameJP: 万能の机と椅子
+  type: indoor
+  elements:
+    - id: '1100305'
+      amount: 1
+    - id: '300301'
+      amount: 1
+    - id: '400106'
+      amount: 3
+  gift: false
+- id: '8'
+  nameJP: 忙しい厨房
+  type: indoor
+  elements:
+    - id: '1000401'
+      amount: 1
+    - id: '300304'
+      amount: 1
+    - id: '300305'
+      amount: 1
+    - id: '400104'
+      amount: 1
+  gift: false
+- id: '9'
+  nameJP: 休憩時の茶話
+  type: indoor
+  elements:
+    - id: '1100203'
+      amount: 1
+    - id: '1100209'
+      amount: 1
+    - id: '300309'
+      amount: 1
+    - id: '400105'
+      amount: 2
+    - id: '400202'
+      amount: 1
+    - id: '400403'
+      amount: 1
+  gift: false
+- id: '33'
+  nameJP: 詩と思索の間
+  preferredBy:
+    - Eula
+    - Jean
+    - Lisa
+    - Fischl
+    - Mona
+  type: indoor
+  elements:
+    - id: '1100102'
+      amount: 1
+    - id: '1100207'
+      amount: 1
+    - id: '1100214'
+      amount: 1
+    - id: '300201'
+      amount: 1
+    - id: '300202'
+      amount: 2
+    - id: '300203'
+      amount: 1
+    - id: '300205'
+      amount: 1
+    - id: '300302'
+      amount: 1
+    - id: '400101'
+      amount: 1
+    - id: '400102'
+      amount: 1
+    - id: '400106'
+      amount: 1
+    - id: '400401'
+      amount: 1
+  gift: true
+- id: '34'
+  nameJP: 囁く風の間
+  preferredBy:
+    - Eula
+    - Barbara
+    - Noelle
+  type: indoor
+  elements:
+    - id: '1100102'
+      amount: 2
+    - id: '1100208'
+      amount: 1
+    - id: '1100209'
+      amount: 1
+    - id: '1100214'
+      amount: 1
+    - id: '1100305'
+      amount: 1
+    - id: '300105'
+      amount: 1
+    - id: '300301'
+      amount: 1
+    - id: '300302'
+      amount: 1
+    - id: '300311'
+      amount: 1
+    - id: '300601'
+      amount: 1
+    - id: '400102'
+      amount: 1
+    - id: '400106'
+      amount: 1
+    - id: '400204'
+      amount: 1
+    - id: '400401'
+      amount: 1
+  gift: true
+- id: '35'
+  nameJP: 緋雲文斎
+  preferredBy:
+    - Xingqiu
+    - Ningguang
+    - Zhongli
+    - YunJin
+  type: indoor
+  elements:
+    - id: '1100102'
+      amount: 2
+    - id: '1100103'
+      amount: 1
+    - id: '1100203'
+      amount: 1
+    - id: '1100213'
+      amount: 1
+    - id: '300206'
+      amount: 1
+    - id: '300207'
+      amount: 1
+    - id: '300208'
+      amount: 1
+    - id: '300308'
+      amount: 1
+    - id: '400105'
+      amount: 2
+    - id: '400106'
+      amount: 1
+    - id: '400202'
+      amount: 1
+    - id: '400404'
+      amount: 1
+  gift: true
+- id: '36'
+  nameJP: 煙霞の梦閣
+  preferredBy:
+    - Yanfei
+    - Chongyun
+    - Ganyu
+    - Keqing
+    - HuTao
+  type: indoor
+  elements:
+    - id: '1100102'
+      amount: 1
+    - id: '1100203'
+      amount: 1
+    - id: '1100215'
+      amount: 1
+    - id: '1100305'
+      amount: 1
+    - id: '300106'
+      amount: 1
+    - id: '300207'
+      amount: 1
+    - id: '300309'
+      amount: 1
+    - id: '300602'
+      amount: 1
+    - id: '400105'
+      amount: 2
+    - id: '400202'
+      amount: 1
+    - id: '400205'
+      amount: 1
+    - id: '400404'
+      amount: 1
+  gift: true
+- id: '37'
+  nameJP: 秘術研究所
+  preferredBy:
+    - Lisa
+    - Klee
+    - Albedo
+    - Sucrose
+  type: indoor
+  elements:
+    - id: '1100102'
+      amount: 1
+    - id: '1100205'
+      amount: 1
+    - id: '1100206'
+      amount: 1
+    - id: '1100208'
+      amount: 1
+    - id: '1100211'
+      amount: 1
+    - id: '1100212'
+      amount: 1
+    - id: '300105'
+      amount: 1
+    - id: '300205'
+      amount: 1
+    - id: '300301'
+      amount: 1
+    - id: '300302'
+      amount: 1
+    - id: '400102'
+      amount: 2
+    - id: '400103'
+      amount: 1
+    - id: '400401'
+      amount: 1
+  gift: true
+- id: '38'
+  nameJP: 薪と煙の厨房
+  preferredBy:
+    - Razor
+    - Xiangling
+    - Xiao
+    - Tartaglia
+    - Mona
+  type: indoor
+  elements:
+    - id: '1100202'
+      amount: 2
+    - id: '300102'
+      amount: 1
+    - id: '300103'
+      amount: 1
+    - id: '300305'
+      amount: 1
+    - id: '300306'
+      amount: 1
+    - id: '300311'
+      amount: 2
+    - id: '400104'
+      amount: 3
+  gift: true
+- id: '56'
+  nameJP: 夢の常しえ
+  preferredBy:
+    - Sayu
+    - SangonomiyaKokomi
+    - ShikanoinHeizou
+  type: indoor
+  elements:
+    - id: '361314'
+      amount: 1
+    - id: '361403'
+      amount: 1
+    - id: '362210'
+      amount: 4
+    - id: '362216'
+      amount: 1
+    - id: '363206'
+      amount: 1
+    - id: '363316'
+      amount: 1
+    - id: '370114'
+      amount: 1
+    - id: '370115'
+      amount: 1
+    - id: '373325'
+      amount: 1
+  gift: true
+- id: '57'
+  nameJP: 千振り道場
+  preferredBy:
+    - KamisatoAyaka
+    - RaidenShogun
+  type: indoor
+  elements:
+    - id: '360410'
+      amount: 1
+    - id: '362210'
+      amount: 2
+    - id: '362211'
+      amount: 1
+    - id: '362213'
+      amount: 4
+    - id: '362214'
+      amount: 2
+    - id: '362215'
+      amount: 1
+    - id: '363315'
+      amount: 1
+  gift: true
+- id: '58'
+  nameJP: 明窓浄机
+  preferredBy:
+    - SangonomiyaKokomi
+    - KukiShinobu
+  type: indoor
+  elements:
+    - id: '360407'
+      amount: 1
+    - id: '360410'
+      amount: 1
+    - id: '361209'
+      amount: 2
+    - id: '361210'
+      amount: 1
+    - id: '361316'
+      amount: 1
+    - id: '362210'
+      amount: 1
+    - id: '362213'
+      amount: 2
+    - id: '363206'
+      amount: 1
+    - id: '363314'
+      amount: 1
+    - id: '373325'
+      amount: 1
+  gift: true
+- id: '59'
+  nameJP: 楓香る茶室
+  preferredBy:
+    - KaedeharaKazuha
+    - Thoma
+  type: indoor
+  elements:
+    - id: '361315'
+      amount: 1
+    - id: '361502'
+      amount: 1
+    - id: '362108'
+      amount: 3
+    - id: '363207'
+      amount: 1
+    - id: '363312'
+      amount: 1
+    - id: '363313'
+      amount: 1
+    - id: '363316'
+      amount: 1
+    - id: '370111'
+      amount: 1
+    - id: '370112'
+      amount: 1
+    - id: '370113'
+      amount: 1
+  gift: true
+- id: '1'
+  nameJP: 冒険者の臨時拠点
+  type: outdoor
+  elements:
+    - id: '1000301'
+      amount: 1
+    - id: '1000405'
+      amount: 2
+    - id: '600603'
+      amount: 1
+    - id: '600604'
+      amount: 1
+    - id: '700119'
+      amount: 1
+    - id: '700602'
+      amount: 6
+  gift: false
+- id: '17'
+  nameJP: 山の中の一軒家
+  type: outdoor
+  elements:
+    - id: '1000301'
+      amount: 1
+    - id: '600110'
+      amount: 1
+    - id: '700601'
+      amount: 6
+    - id: '700803'
+      amount: 1
+  gift: false
+- id: '18'
+  nameJP: 町の民家
+  type: outdoor
+  elements:
+    - id: '1000301'
+      amount: 1
+    - id: '1000405'
+      amount: 3
+    - id: '600106'
+      amount: 1
+    - id: '700602'
+      amount: 6
+    - id: '700802'
+      amount: 1
+  gift: false
+- id: '19'
+  nameJP: 収穫期の露店
+  type: outdoor
+  elements:
+    - id: '600501'
+      amount: 1
+    - id: '700107'
+      amount: 2
+    - id: '700504'
+      amount: 2
+  gift: false
+- id: '2'
+  nameJP: 前哨地での生活
+  type: outdoor
+  elements:
+    - id: '1000301'
+      amount: 1
+    - id: '1000405'
+      amount: 2
+    - id: '600107'
+      amount: 1
+    - id: '700602'
+      amount: 3
+  gift: false
+- id: '20'
+  nameJP: なんでも売ってる青果市場
+  type: outdoor
+  elements:
+    - id: '600503'
+      amount: 1
+    - id: '600505'
+      amount: 1
+    - id: '600510'
+      amount: 1
+    - id: '700114'
+      amount: 1
+  gift: false
+- id: '21'
+  nameJP: 練兵場の片隅
+  type: outdoor
+  elements:
+    - id: '700501'
+      amount: 1
+    - id: '700502'
+      amount: 2
+    - id: '700503'
+      amount: 1
+  gift: false
+- id: '22'
+  nameJP: 整備された武器工房
+  type: outdoor
+  elements:
+    - id: '600504'
+      amount: 1
+    - id: '700501'
+      amount: 1
+    - id: '700502'
+      amount: 2
+    - id: '700503'
+      amount: 1
+  gift: false
+- id: '23'
+  nameJP: 輸送の中継地
+  type: outdoor
+  elements:
+    - id: '700104'
+      amount: 1
+    - id: '700105'
+      amount: 1
+    - id: '700116'
+      amount: 2
+    - id: '700402'
+      amount: 1
+  gift: false
+- id: '24'
+  nameJP: 祭日の市場
+  type: outdoor
+  elements:
+    - id: '700110'
+      amount: 1
+    - id: '700111'
+      amount: 1
+    - id: '700116'
+      amount: 1
+    - id: '700207'
+      amount: 1
+  gift: false
+- id: '25'
+  nameJP: 大通りの入り口-「妖魔退散」
+  type: outdoor
+  elements:
+    - id: '600201'
+      amount: 1
+    - id: '700509'
+      amount: 1
+    - id: '700510'
+      amount: 1
+  gift: false
+- id: '26'
+  nameJP: 大人気の飲食店
+  type: outdoor
+  elements:
+    - id: '600115'
+      amount: 2
+    - id: '600601'
+      amount: 1
+    - id: '700209'
+      amount: 3
+  gift: false
+- id: '27'
+  nameJP: 田舎の井戸
+  type: outdoor
+  elements:
+    - id: '1000301'
+      amount: 1
+    - id: '1000405'
+      amount: 2
+    - id: '700508'
+      amount: 1
+  gift: false
+- id: '28'
+  nameJP: 慎重な孤独の冒険者
+  type: outdoor
+  elements:
+    - id: '600604'
+      amount: 1
+    - id: '700119'
+      amount: 1
+    - id: '700120'
+      amount: 1
+  gift: false
+- id: '29'
+  nameJP: 気候が交わる地
+  type: outdoor
+  elements:
+    - id: '1000201'
+      amount: 1
+    - id: '1000202'
+      amount: 1
+    - id: '1000306'
+      amount: 1
+    - id: '1000404'
+      amount: 1
+    - id: '1000409'
+      amount: 3
+  gift: false
+- id: '3'
+  nameJP: 自在な岩石と植物
+  type: outdoor
+  elements:
+    - id: '1000201'
+      amount: 1
+    - id: '1000301'
+      amount: 1
+    - id: '1000405'
+      amount: 2
+  gift: false
+- id: '30'
+  nameJP: 朽木と盤石の会話
+  type: outdoor
+  elements:
+    - id: '1000201'
+      amount: 1
+    - id: '1000305'
+      amount: 1
+    - id: '1000405'
+      amount: 1
+  gift: false
+- id: '6'
+  nameJP: 郊外の灯影
+  type: outdoor
+  elements:
+    - id: '1000301'
+      amount: 1
+    - id: '1000405'
+      amount: 2
+    - id: '700601'
+      amount: 2
+    - id: '700803'
+      amount: 1
+  gift: false
+- id: '39'
+  nameJP: 武器の鍛冶屋
+  preferredBy:
+    - Diluc
+    - Bennett
+    - Noelle
+    - Diona
+  type: outdoor
+  elements:
+    - id: '372211'
+      amount: 1
+    - id: '372307'
+      amount: 1
+    - id: '372410'
+      amount: 1
+    - id: '600504'
+      amount: 1
+    - id: '700203'
+      amount: 1
+    - id: '700204'
+      amount: 1
+    - id: '700501'
+      amount: 1
+    - id: '700502'
+      amount: 3
+    - id: '700503'
+      amount: 2
+    - id: '700507'
+      amount: 1
+  gift: true
+- id: '40'
+  nameJP: 牧歌の町
+  preferredBy:
+    - Razor
+    - Amber
+    - Diona
+  type: outdoor
+  elements:
+    - id: '1000301'
+      amount: 1
+    - id: '372211'
+      amount: 1
+    - id: '600105'
+      amount: 1
+    - id: '600106'
+      amount: 1
+    - id: '600107'
+      amount: 1
+    - id: '700104'
+      amount: 1
+    - id: '700105'
+      amount: 1
+    - id: '700107'
+      amount: 1
+    - id: '700204'
+      amount: 1
+    - id: '700504'
+      amount: 1
+    - id: '700508'
+      amount: 1
+    - id: '700701'
+      amount: 2
+    - id: '700802'
+      amount: 2
+  gift: true
+- id: '41'
+  nameJP: 花鳥の公園
+  preferredBy:
+    - Jean
+    - Barbara
+    - Kaeya
+    - Venti
+    - Rosaria
+  type: outdoor
+  elements:
+    - id: '1000301'
+      amount: 1
+    - id: '1000402'
+      amount: 4
+    - id: '372307'
+      amount: 1
+    - id: '372410'
+      amount: 2
+    - id: '600301'
+      amount: 1
+    - id: '700125'
+      amount: 1
+    - id: '700701'
+      amount: 3
+    - id: '700702'
+      amount: 2
+    - id: '700801'
+      amount: 1
+  gift: true
+- id: '42'
+  nameJP: 美食の集結
+  preferredBy:
+    - Xiangling
+    - Beidou
+    - Tartaglia
+    - Ganyu
+    - Xinyan
+    - Yelan
+  type: outdoor
+  elements:
+    - id: '1000401'
+      amount: 1
+    - id: '372307'
+      amount: 1
+    - id: '372431'
+      amount: 1
+    - id: '600506'
+      amount: 1
+    - id: '600509'
+      amount: 1
+    - id: '600510'
+      amount: 1
+    - id: '700109'
+      amount: 2
+    - id: '700113'
+      amount: 2
+    - id: '700114'
+      amount: 1
+    - id: '700207'
+      amount: 1
+    - id: '700208'
+      amount: 1
+    - id: '700209'
+      amount: 3
+    - id: '700401'
+      amount: 1
+    - id: '700507'
+      amount: 1
+    - id: '700803'
+      amount: 1
+  gift: true
+- id: '43'
+  nameJP: 百里琳琅街
+  preferredBy:
+    - Yanfei
+    - Xingqiu
+    - Ningguang
+    - Zhongli
+    - Keqing
+    - Shenhe
+    - YunJin
+  type: outdoor
+  elements:
+    - id: '400104'
+      amount: 1
+    - id: '600506'
+      amount: 1
+    - id: '600508'
+      amount: 1
+    - id: '600601'
+      amount: 1
+    - id: '700109'
+      amount: 1
+    - id: '700110'
+      amount: 1
+    - id: '700111'
+      amount: 1
+    - id: '700113'
+      amount: 1
+    - id: '700114'
+      amount: 1
+    - id: '700207'
+      amount: 1
+    - id: '700208'
+      amount: 1
+    - id: '700401'
+      amount: 1
+    - id: '700402'
+      amount: 1
+    - id: '700803'
+      amount: 1
+  gift: true
+- id: '44'
+  nameJP: 軽策暇雲居
+  preferredBy:
+    - Xiao
+    - Qiqi
+    - Xinyan
+    - HuTao
+    - Shenhe
+    - Yelan
+  type: outdoor
+  elements:
+    - id: '1000301'
+      amount: 1
+    - id: '372211'
+      amount: 2
+    - id: '372410'
+      amount: 1
+    - id: '372423'
+      amount: 1
+    - id: '600115'
+      amount: 1
+    - id: '600116'
+      amount: 1
+    - id: '600201'
+      amount: 1
+    - id: '600602'
+      amount: 1
+    - id: '700205'
+      amount: 1
+    - id: '700208'
+      amount: 2
+    - id: '700209'
+      amount: 1
+    - id: '700402'
+      amount: 1
+    - id: '700505'
+      amount: 1
+    - id: '700602'
+      amount: 4
+    - id: '700803'
+      amount: 1
+    - id: '700805'
+      amount: 1
+  gift: true
+- id: '45'
+  nameJP: 狩りと歌舞の拠点
+  preferredBy:
+    - Amber
+    - Beidou
+    - Klee
+    - Sucrose
+    - Aloy
+  type: outdoor
+  elements:
+    - id: '1000201'
+      amount: 1
+    - id: '1000301'
+      amount: 1
+    - id: '372211'
+      amount: 1
+    - id: '372307'
+      amount: 1
+    - id: '372410'
+      amount: 1
+    - id: '372411'
+      amount: 1
+    - id: '600117'
+      amount: 1
+    - id: '600118'
+      amount: 1
+    - id: '600303'
+      amount: 1
+    - id: '600304'
+      amount: 1
+    - id: '700117'
+      amount: 1
+    - id: '700118'
+      amount: 1
+    - id: '700201'
+      amount: 1
+    - id: '700501'
+      amount: 1
+    - id: '700502'
+      amount: 1
+    - id: '700503'
+      amount: 1
+    - id: '700603'
+      amount: 2
+    - id: '700604'
+      amount: 2
+  gift: true
+- id: '46'
+  nameJP: 星と深淵の旅
+  preferredBy:
+    - Fischl
+    - Bennett
+    - Qiqi
+    - Chongyun
+    - Albedo
+    - Aloy
+  type: outdoor
+  elements:
+    - id: '1000304'
+      amount: 1
+    - id: '1000409'
+      amount: 1
+    - id: '1100206'
+      amount: 1
+    - id: '372211'
+      amount: 2
+    - id: '372411'
+      amount: 2
+    - id: '600603'
+      amount: 1
+    - id: '600604'
+      amount: 1
+    - id: '700119'
+      amount: 1
+    - id: '700120'
+      amount: 1
+    - id: '700512'
+      amount: 1
+  gift: true
+- id: '47'
+  nameJP: アカツキ果樹園
+  preferredBy:
+    - Kaeya
+    - Diluc
+    - Venti
+    - Rosaria
+  type: outdoor
+  elements:
+    - id: '371106'
+      amount: 1
+    - id: '700105'
+      amount: 1
+    - id: '700121'
+      amount: 1
+    - id: '700122'
+      amount: 2
+    - id: '700303'
+      amount: 1
+    - id: '700504'
+      amount: 1
+    - id: '700605'
+      amount: 8
+    - id: '700607'
+      amount: 2
+    - id: '700608'
+      amount: 2
+    - id: '700802'
+      amount: 1
+  gift: true
+- id: '48'
+  nameJP: 正統派庭園
+  preferredBy:
+    - KujouSara
+    - KamisatoAyato
+  type: outdoor
+  elements:
+    - id: '370616'
+      amount: 1
+    - id: '370617'
+      amount: 2
+    - id: '371213'
+      amount: 1
+    - id: '371214'
+      amount: 4
+    - id: '371215'
+      amount: 3
+    - id: '372328'
+      amount: 1
+    - id: '372330'
+      amount: 2
+    - id: '373126'
+      amount: 1
+    - id: '373127'
+      amount: 2
+  gift: true
+- id: '49'
+  nameJP: 気晴れの湯
+  preferredBy:
+    - Yoimiya
+    - Gorou
+    - YaeMiko
+    - ShikanoinHeizou
+  type: outdoor
+  elements:
+    - id: '371116'
+      amount: 1
+    - id: '371227'
+      amount: 2
+    - id: '371228'
+      amount: 6
+    - id: '371229'
+      amount: 1
+    - id: '371230'
+      amount: 1
+    - id: '372225'
+      amount: 1
+    - id: '372226'
+      amount: 1
+    - id: '372227'
+      amount: 1
+    - id: '372325'
+      amount: 1
+    - id: '372327'
+      amount: 1
+    - id: '372439'
+      amount: 2
+  gift: true
+- id: '50'
+  nameJP: 村に隠れし影
+  preferredBy:
+    - Sayu
+    - Gorou
+  type: outdoor
+  elements:
+    - id: '370609'
+      amount: 1
+    - id: '370610'
+      amount: 1
+    - id: '371216'
+      amount: 1
+    - id: '371217'
+      amount: 10
+    - id: '372329'
+      amount: 1
+    - id: '373130'
+      amount: 1
+    - id: '373131'
+      amount: 1
+    - id: '373322'
+      amount: 1
+    - id: '374109'
+      amount: 6
+  gift: true
+- id: '51'
+  nameJP: 追懐の神社
+  preferredBy:
+    - RaidenShogun
+    - YaeMiko
+  type: outdoor
+  elements:
+    - id: '370602'
+      amount: 1
+    - id: '370623'
+      amount: 1
+    - id: '372224'
+      amount: 1
+    - id: '372328'
+      amount: 2
+    - id: '372330'
+      amount: 1
+    - id: '372433'
+      amount: 1
+    - id: '373315'
+      amount: 1
+    - id: '373321'
+      amount: 2
+    - id: '373329'
+      amount: 1
+    - id: '373411'
+      amount: 2
+    - id: '373413'
+      amount: 3
+    - id: '374501'
+      amount: 1
+    - id: '374502'
+      amount: 2
+    - id: '374503'
+      amount: 2
+  gift: true
+- id: '52'
+  nameJP: 軍事演習場
+  preferredBy:
+    - KujouSara
+  type: outdoor
+  elements:
+    - id: '370618'
+      amount: 1
+    - id: '370619'
+      amount: 1
+    - id: '370620'
+      amount: 1
+    - id: '370621'
+      amount: 1
+    - id: '371218'
+      amount: 5
+    - id: '371219'
+      amount: 2
+    - id: '371220'
+      amount: 5
+    - id: '372329'
+      amount: 1
+    - id: '372330'
+      amount: 1
+    - id: '373132'
+      amount: 1
+    - id: '373316'
+      amount: 2
+    - id: '373318'
+      amount: 2
+    - id: '373333'
+      amount: 1
+  gift: true
+- id: '53'
+  nameJP: 花びら散る野原
+  preferredBy:
+    - KaedeharaKazuha
+    - AratakiItto
+  type: outdoor
+  elements:
+    - id: '370601'
+      amount: 1
+    - id: '372224'
+      amount: 1
+    - id: '372225'
+      amount: 2
+    - id: '372226'
+      amount: 1
+    - id: '372328'
+      amount: 1
+    - id: '372330'
+      amount: 1
+    - id: '372434'
+      amount: 7
+    - id: '372435'
+      amount: 2
+    - id: '373413'
+      amount: 2
+    - id: '373414'
+      amount: 2
+  gift: true
+- id: '54'
+  nameJP: 夏夜の追憶
+  preferredBy:
+    - KamisatoAyaka
+    - KamisatoAyato
+    - AratakiItto
+  type: outdoor
+  elements:
+    - id: '370505'
+      amount: 1
+    - id: '370510'
+      amount: 1
+    - id: '370511'
+      amount: 1
+    - id: '370606'
+      amount: 1
+    - id: '372325'
+      amount: 1
+    - id: '372327'
+      amount: 1
+    - id: '373133'
+      amount: 1
+    - id: '373333'
+      amount: 1
+    - id: '373410'
+      amount: 1
+    - id: '374205'
+      amount: 4
+    - id: '374313'
+      amount: 2
+    - id: '374501'
+      amount: 4
+  gift: true
+- id: '55'
+  nameJP: 櫻染の通り
+  preferredBy:
+    - Yoimiya
+    - Thoma
+    - KukiShinobu
+  type: outdoor
+  elements:
+    - id: '370310'
+      amount: 1
+    - id: '370508'
+      amount: 1
+    - id: '370509'
+      amount: 2
+    - id: '370512'
+      amount: 1
+    - id: '370604'
+      amount: 1
+    - id: '370605'
+      amount: 1
+    - id: '372328'
+      amount: 1
+    - id: '372330'
+      amount: 1
+    - id: '373133'
+      amount: 1
+    - id: '373333'
+      amount: 1
+    - id: '373410'
+      amount: 1
+    - id: '373415'
+      amount: 2
+    - id: '374501'
+      amount: 5
+  gift: true
+- id: '66'
+  nameJP: 賑やか市場
+  preferredBy:
+    - Dori
+  type: outdoor
+  elements:
+    - id: '1000001'
+      amount: 1
+    - id: '1000002'
+      amount: 1
+    - id: '1000003'
+      amount: 1
+    - id: '1000004'
+      amount: 1
+    - id: '1000005'
+      amount: 1
+    - id: '1000006'
+      amount: 1
+    - id: '1000007'
+      amount: 2
+    - id: '1000008'
+      amount: 1
+    - id: '1000009'
+      amount: 1
+    - id: '1000010'
+      amount: 1
+    - id: '1000011'
+      amount: 1
+  gift: true
+- id: '67'
+  nameJP: 清らかな深い森の住まい
+  preferredBy:
+    - Collei
+    - Cyno
+  type: outdoor
+  elements:
+    - id: '1000012'
+      amount: 3
+    - id: '1000013'
+      amount: 1
+    - id: '1000014'
+      amount: 1
+    - id: '1000015'
+      amount: 1
+    - id: '1000016'
+      amount: 29
+    - id: '1000017'
+      amount: 1
+    - id: '1000018'
+      amount: 1
+    - id: '1000019'
+      amount: 6
+  gift: true
+- id: '68'
+  nameJP: 気ままに踊る姿
+  preferredBy:
+    - Nilou
+  type: outdoor
+  elements:
+    - id: '1000020'
+      amount: 2
+    - id: '1000021'
+      amount: 6
+    - id: '1000022'
+      amount: 1
+    - id: '1000023'
+      amount: 20
+    - id: '1000024'
+      amount: 1
+  gift: true
+- id: '69'
+  nameJP: 畔の静かなひと時
+  preferredBy: []
+  type: outdoor
+  elements:
+    - id: '1000019'
+      amount: 4
+    - id: '1000025'
+      amount: 1
+    - id: '1000026'
+      amount: 1
+    - id: '1000027'
+      amount: 1
+    - id: '1000028'
+      amount: 1
+    - id: '1000029'
+      amount: 2
+    - id: '1000030'
+      amount: 1
+    - id: '1000016'
+      amount: 20
+    - id: '1000031'
+      amount: 2
+    - id: '1000012'
+      amount: 2
+  gift: true
+- id: '70'
+  nameJP: 風食を阻む集落
+  preferredBy:
+    - Candace
+    - Layla
+  type: outdoor
+  elements:
+    - id: '1000003'
+      amount: 1
+    - id: '1000010'
+      amount: 1
+    - id: '1000009'
+      amount: 1
+    - id: '1000032'
+      amount: 1
+    - id: '1000033'
+      amount: 1
+    - id: '1000034'
+      amount: 3
+    - id: '1000035'
+      amount: 1
+    - id: '1000004'
+      amount: 1
+    - id: '1000036'
+      amount: 1
+    - id: '1000037'
+      amount: 5
+    - id: '1000038'
+      amount: 1
+    - id: '1000039'
+      amount: 1
+  gift: true
+- id: '71'
+  nameJP: 旅団陣形の雄姿
+  preferredBy: []
+  type: outdoor
+  elements:
+    - id: '1000037'
+      amount: 5
+    - id: '1000040'
+      amount: 3
+    - id: '1000013'
+      amount: 1
+    - id: '1000003'
+      amount: 1
+    - id: '1000041'
+      amount: 2
+    - id: '1000042'
+      amount: 1
+    - id: '1000043'
+      amount: 1
+    - id: '1000044'
+      amount: 7
+  gift: true
+- id: '72'
+  nameJP: 香りと閑静の中
+  preferredBy:
+    - Nahida
+  type: outdoor
+  elements:
+    - id: '1000021'
+      amount: 2
+    - id: '1000023'
+      amount: 22
+    - id: '1000024'
+      amount: 1
+    - id: '1000045'
+      amount: 1
+    - id: '1000046'
+      amount: 5
+    - id: '1000013'
+      amount: 1
+    - id: '1000006'
+      amount: 1
+    - id: '1000047'
+      amount: 6
+  gift: true
+- id: '73'
+  nameJP: 森と砂漠の合奏
+  preferredBy:
+    - Tighnari
+  type: outdoor
+  elements:
+    - id: '1000047'
+      amount: 3
+    - id: '1000048'
+      amount: 1
+    - id: '1000049'
+      amount: 3
+    - id: '1000037'
+      amount: 4
+  gift: true
+- id: '74'
+  nameJP: レンジャーの日常エピソード
+  preferredBy:
+    - Tighnari
+    - Collei
+  type: indoor
+  elements:
+    - id: '1000050'
+      amount: 5
+    - id: '1000051'
+      amount: 1
+    - id: '1000052'
+      amount: 1
+    - id: '1000053'
+      amount: 1
+    - id: '1000054'
+      amount: 1
+  gift: true
+- id: '75'
+  nameJP: 静止した豪華絢爛
+  preferredBy:
+    - Dori
+    - Nilou
+  type: indoor
+  elements:
+    - id: '1000055'
+      amount: 2
+    - id: '1000056'
+      amount: 2
+    - id: '1000057'
+      amount: 3
+    - id: '1000058'
+      amount: 2
+    - id: '1000059'
+      amount: 2
+    - id: '1000060'
+      amount: 2
+    - id: '1000061'
+      amount: 1
+    - id: '1000062'
+      amount: 1
+    - id: '1000063'
+      amount: 1
+  gift: true
+- id: '76'
+  nameJP: 最高の芳醇
+  preferredBy: []
+  type: indoor
+  elements:
+    - id: '1000064'
+      amount: 2
+    - id: '1000057'
+      amount: 1
+    - id: '1000065'
+      amount: 1
+    - id: '1000066'
+      amount: 1
+    - id: '1000067'
+      amount: 1
+    - id: '1000068'
+      amount: 1
+    - id: '1000069'
+      amount: 2
+    - id: '1000070'
+      amount: 1
+    - id: '1000052'
+      amount: 1
+    - id: '1000071'
+      amount: 1
+  gift: true
+- id: '77'
+  nameJP: 知見が沈着する場所
+  preferredBy:
+    - Cyno
+  type: indoor
+  elements:
+    - id: '1000072'
+      amount: 1
+    - id: '1000073'
+      amount: 3
+    - id: '1000050'
+      amount: 6
+    - id: '1000052'
+      amount: 1
+    - id: '1000074'
+      amount: 2
+  gift: true
+- id: '78'
+  nameJP: 喧騒と煩悩から離れて
+  preferredBy:
+    - Nahida
+    - Layla
+  type: indoor
+  elements:
+    - id: '1000075'
+      amount: 1
+    - id: '1000076'
+      amount: 1
+    - id: '1000074'
+      amount: 2
+    - id: '1000077'
+      amount: 2
+    - id: '1000078'
+      amount: 3
+    - id: '1000079'
+      amount: 1
+    - id: '1000052'
+      amount: 1
+    - id: '1000071'
+      amount: 1
+    - id: '1000069'
+      amount: 2
+  gift: true
+- id: '79'
+  nameJP: 砂塵の境地に身を置いて
+  preferredBy:
+    - Candace
+  type: indoor
+  elements:
+    - id: '1000075'
+      amount: 1
+    - id: '1000081'
+      amount: 1
+    - id: '1000082'
+      amount: 2
+    - id: '1000083'
+      amount: 1
+    - id: '1000084'
+      amount: 1
+    - id: '1000061'
+      amount: 1
+    - id: '1000062'
+      amount: 1
+  gift: true

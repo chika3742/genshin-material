@@ -1,0 +1,1503 @@
+ingredients:
+  purposes:
+    levelUp:
+      levels:
+        20:
+          - id: a002
+            craftLevel: 3
+            quantity: 6
+          - id: a002
+            craftLevel: 1
+            quantity: 1
+          - id: z002
+            quantity: 24200
+        40:
+          - id: a002
+            craftLevel: 3
+            quantity: 28
+          - id: a002
+            craftLevel: 2
+            quantity: 3
+          - id: a002
+            craftLevel: 1
+            quantity: 4
+          - id: z002
+            quantity: 115800
+        50:
+          - id: a002
+            craftLevel: 3
+            quantity: 29
+          - id: z002
+            quantity: 116000
+        60:
+          - id: a002
+            craftLevel: 3
+            quantity: 42
+          - id: a002
+            craftLevel: 2
+            quantity: 3
+          - id: z002
+            quantity: 171000
+        70:
+          - id: a002
+            craftLevel: 3
+            quantity: 59
+          - id: a002
+            craftLevel: 2
+            quantity: 3
+          - id: a002
+            craftLevel: 1
+            quantity: 1
+          - id: z002
+            quantity: 239200
+        80:
+          - id: a002
+            craftLevel: 3
+            quantity: 80
+          - id: a002
+            craftLevel: 2
+            quantity: 2
+          - id: a002
+            craftLevel: 1
+            quantity: 2
+          - id: z002
+            quantity: 322400
+        90:
+          - id: a002
+            craftLevel: 3
+            quantity: 171
+          - id: a002
+            craftLevel: 1
+            quantity: 4
+          - id: z002
+            quantity: 684800
+
+    ascension:
+      levels:
+        40:
+          - type: primary
+            craftLevel: 1
+            quantity: 1
+          - type: secondary
+            craftLevel: 1
+            quantity: 3
+          - type: local
+            quantity: 3
+          - id: z002
+            quantity: 20000
+        50:
+          - type: primary
+            craftLevel: 2
+            quantity: 3
+          - type: elementalStone
+            quantity: 2
+          - type: secondary
+            craftLevel: 1
+            quantity: 15
+          - type: local
+            quantity: 10
+          - id: z002
+            quantity: 40000
+        60:
+          - type: primary
+            craftLevel: 2
+            quantity: 6
+          - type: elementalStone
+            quantity: 4
+          - type: secondary
+            craftLevel: 2
+            quantity: 12
+          - type: local
+            quantity: 20
+          - id: z002
+            quantity: 60000
+        70:
+          - type: primary
+            craftLevel: 3
+            quantity: 3
+          - type: elementalStone
+            quantity: 8
+          - type: secondary
+            craftLevel: 2
+            quantity: 18
+          - type: local
+            quantity: 30
+          - id: z002
+            quantity: 80000
+        80:
+          - type: primary
+            craftLevel: 3
+            quantity: 6
+          - type: elementalStone
+            quantity: 12
+          - type: secondary
+            craftLevel: 3
+            quantity: 12
+          - type: local
+            quantity: 45
+          - id: z002
+            quantity: 100000
+        90:
+          - type: primary
+            craftLevel: 4
+            quantity: 6
+          - type: elementalStone
+            quantity: 20
+          - type: secondary
+            craftLevel: 3
+            quantity: 24
+          - type: local
+            quantity: 60
+          - id: z002
+            quantity: 120000
+
+    normalTalent:
+      levels:
+        2:
+          - type: talentPrimary
+            craftLevel: 1
+            quantity: 3
+            special:
+              Traveler_anemo: e001
+              Traveler_geo: e001
+              Traveler_electro: e007
+              Traveler_dendro: e010
+          - type: talentSecondary
+            ref: secondary
+            craftLevel: 1
+            quantity: 6
+            special:
+              Traveler_geo: b003
+          - id: z002
+            quantity: 12500
+        3:
+          - type: talentPrimary
+            craftLevel: 2
+            quantity: 2
+            special:
+              Traveler_anemo: e002
+              Traveler_geo: e002
+              Traveler_electro: e008
+              Traveler_dendro: e011
+          - type: talentSecondary
+            ref: secondary
+            craftLevel: 2
+            quantity: 3
+            special:
+              Traveler_geo: b003
+          - id: z002
+            quantity: 17500
+        4:
+          - type: talentPrimary
+            craftLevel: 2
+            quantity: 4
+            special:
+              Traveler_anemo: e003
+              Traveler_geo: e003
+              Traveler_electro: e009
+              Traveler_dendro: e012
+          - type: talentSecondary
+            ref: secondary
+            craftLevel: 2
+            quantity: 4
+            special:
+              Traveler_geo: b003
+          - id: z002
+            quantity: 25000
+        5:
+          - type: talentPrimary
+            craftLevel: 2
+            quantity: 6
+            special:
+              Traveler_anemo: e001
+              Traveler_geo: e001
+              Traveler_electro: e007
+              Traveler_dendro: e010
+          - type: talentSecondary
+            ref: secondary
+            craftLevel: 2
+            quantity: 6
+            special:
+              Traveler_geo: b003
+          - id: z002
+            quantity: 30000
+        6:
+          - type: talentPrimary
+            craftLevel: 2
+            quantity: 9
+            special:
+              Traveler_anemo: e002
+              Traveler_geo: e002
+              Traveler_electro: e008
+              Traveler_dendro: e011
+          - type: talentSecondary
+            ref: secondary
+            craftLevel: 2
+            quantity: 9
+            special:
+              Traveler_geo: b003
+          - id: z002
+            quantity: 37500
+        7:
+          - type: talentPrimary
+            craftLevel: 3
+            quantity: 4
+            special:
+              Traveler_anemo: e003
+              Traveler_geo: e003
+              Traveler_electro: e009
+              Traveler_dendro: e012
+          - type: talentSecondary
+            ref: secondary
+            craftLevel: 3
+            quantity: 4
+            special:
+              Traveler_geo: b003
+          - type: talentBoss
+            quantity: 1
+            special:
+              Traveler_geo: f003
+          - id: z002
+            quantity: 120000
+        8:
+          - type: talentPrimary
+            craftLevel: 3
+            quantity: 6
+            special:
+              Traveler_anemo: e001
+              Traveler_geo: e001
+              Traveler_electro: e007
+              Traveler_dendro: e010
+          - type: talentSecondary
+            ref: secondary
+            craftLevel: 3
+            quantity: 6
+            special:
+              Traveler_geo: b003
+          - type: talentBoss
+            quantity: 1
+            special:
+              Traveler_geo: f003
+          - id: z002
+            quantity: 260000
+        9:
+          - type: talentPrimary
+            craftLevel: 3
+            quantity: 12
+            special:
+              Traveler_anemo: e002
+              Traveler_geo: e002
+              Traveler_electro: e008
+              Traveler_dendro: e011
+          - type: talentSecondary
+            ref: secondary
+            craftLevel: 3
+            quantity: 9
+            special:
+              Traveler_geo: b003
+          - type: talentBoss
+            quantity: 2
+            special:
+              Traveler_geo: f003
+          - id: z002
+            quantity: 450000
+        10:
+          - type: talentPrimary
+            craftLevel: 3
+            quantity: 16
+            special:
+              Traveler_anemo: e003
+              Traveler_geo: e003
+              Traveler_electro: e009
+              Traveler_dendro: e012
+          - type: talentSecondary
+            ref: secondary
+            craftLevel: 3
+            quantity: 12
+            special:
+              Traveler_geo: b003
+          - type: talentBoss
+            quantity: 2
+            special:
+              Traveler_geo: f003
+          - id: z002
+            quantity: 700000
+
+    skillTalent:
+      levels:
+        2:
+          - type: talentPrimary
+            craftLevel: 1
+            quantity: 3
+            special:
+              Traveler_anemo: e001
+              Traveler_geo: e004
+              Traveler_electro: e007
+              Traveler_dendro: e010
+          - type: talentSecondary
+            ref: secondary
+            craftLevel: 1
+            quantity: 6
+            special:
+              Traveler_geo: b004
+          - id: z002
+            quantity: 12500
+        3:
+          - type: talentPrimary
+            craftLevel: 2
+            quantity: 2
+            special:
+              Traveler_anemo: e002
+              Traveler_geo: e005
+              Traveler_electro: e008
+              Traveler_dendro: e011
+          - type: talentSecondary
+            ref: secondary
+            craftLevel: 2
+            quantity: 3
+            special:
+              Traveler_geo: b004
+          - id: z002
+            quantity: 17500
+        4:
+          - type: talentPrimary
+            craftLevel: 2
+            quantity: 4
+            special:
+              Traveler_anemo: e003
+              Traveler_geo: e006
+              Traveler_electro: e009
+              Traveler_dendro: e012
+          - type: talentSecondary
+            ref: secondary
+            craftLevel: 2
+            quantity: 4
+            special:
+              Traveler_geo: b004
+          - id: z002
+            quantity: 25000
+        5:
+          - type: talentPrimary
+            craftLevel: 2
+            quantity: 6
+            special:
+              Traveler_anemo: e001
+              Traveler_geo: e004
+              Traveler_electro: e007
+              Traveler_dendro: e010
+          - type: talentSecondary
+            ref: secondary
+            craftLevel: 2
+            quantity: 6
+            special:
+              Traveler_geo: b004
+          - id: z002
+            quantity: 30000
+        6:
+          - type: talentPrimary
+            craftLevel: 2
+            quantity: 9
+            special:
+              Traveler_anemo: e002
+              Traveler_geo: e005
+              Traveler_electro: e008
+              Traveler_dendro: e011
+          - type: talentSecondary
+            ref: secondary
+            craftLevel: 2
+            quantity: 9
+            special:
+              Traveler_geo: b004
+          - id: z002
+            quantity: 37500
+        7:
+          - type: talentPrimary
+            craftLevel: 3
+            quantity: 4
+            special:
+              Traveler_anemo: e003
+              Traveler_geo: e006
+              Traveler_electro: e009
+              Traveler_dendro: e012
+          - type: talentSecondary
+            ref: secondary
+            craftLevel: 3
+            quantity: 4
+            special:
+              Traveler_geo: b004
+          - type: talentBoss
+            quantity: 1
+            special:
+              Traveler_geo: f004
+          - id: z002
+            quantity: 120000
+        8:
+          - type: talentPrimary
+            craftLevel: 3
+            quantity: 6
+            special:
+              Traveler_anemo: e001
+              Traveler_geo: e004
+              Traveler_electro: e007
+              Traveler_dendro: e010
+          - type: talentSecondary
+            ref: secondary
+            craftLevel: 3
+            quantity: 6
+            special:
+              Traveler_geo: b004
+          - type: talentBoss
+            quantity: 1
+            special:
+              Traveler_geo: f004
+          - id: z002
+            quantity: 260000
+        9:
+          - type: talentPrimary
+            craftLevel: 3
+            quantity: 12
+            special:
+              Traveler_anemo: e002
+              Traveler_geo: e005
+              Traveler_electro: e008
+              Traveler_dendro: e011
+          - type: talentSecondary
+            ref: secondary
+            craftLevel: 3
+            quantity: 9
+            special:
+              Traveler_geo: b004
+          - type: talentBoss
+            quantity: 2
+            special:
+              Traveler_geo: f004
+          - id: z002
+            quantity: 450000
+        10:
+          - type: talentPrimary
+            craftLevel: 3
+            quantity: 16
+            special:
+              Traveler_anemo: e003
+              Traveler_geo: e006
+              Traveler_electro: e009
+              Traveler_dendro: e012
+          - type: talentSecondary
+            ref: secondary
+            craftLevel: 3
+            quantity: 12
+            special:
+              Traveler_geo: b004
+          - type: talentBoss
+            quantity: 2
+            special:
+              Traveler_geo: f004
+          - id: z002
+            quantity: 700000
+
+    burstTalent:
+      levels:
+        2:
+          - type: talentPrimary
+            craftLevel: 1
+            quantity: 3
+            special:
+              Traveler_anemo: e001
+              Traveler_geo: e004
+              Traveler_electro: e007
+              Traveler_dendro: e010
+          - type: talentSecondary
+            ref: secondary
+            craftLevel: 1
+            quantity: 6
+            special:
+              Traveler_geo: b004
+          - id: z002
+            quantity: 12500
+        3:
+          - type: talentPrimary
+            craftLevel: 2
+            quantity: 2
+            special:
+              Traveler_anemo: e002
+              Traveler_geo: e005
+              Traveler_electro: e008
+              Traveler_dendro: e011
+          - type: talentSecondary
+            ref: secondary
+            craftLevel: 2
+            quantity: 3
+            special:
+              Traveler_geo: b004
+          - id: z002
+            quantity: 17500
+        4:
+          - type: talentPrimary
+            craftLevel: 2
+            quantity: 4
+            special:
+              Traveler_anemo: e003
+              Traveler_geo: e006
+              Traveler_electro: e009
+              Traveler_dendro: e012
+          - type: talentSecondary
+            ref: secondary
+            craftLevel: 2
+            quantity: 4
+            special:
+              Traveler_geo: b004
+          - id: z002
+            quantity: 25000
+        5:
+          - type: talentPrimary
+            craftLevel: 2
+            quantity: 6
+            special:
+              Traveler_anemo: e001
+              Traveler_geo: e004
+              Traveler_electro: e007
+              Traveler_dendro: e010
+          - type: talentSecondary
+            ref: secondary
+            craftLevel: 2
+            quantity: 6
+            special:
+              Traveler_geo: b004
+          - id: z002
+            quantity: 30000
+        6:
+          - type: talentPrimary
+            craftLevel: 2
+            quantity: 9
+            special:
+              Traveler_anemo: e002
+              Traveler_geo: e005
+              Traveler_electro: e008
+              Traveler_dendro: e011
+          - type: talentSecondary
+            ref: secondary
+            craftLevel: 2
+            quantity: 9
+            special:
+              Traveler_geo: b004
+          - id: z002
+            quantity: 37500
+        7:
+          - type: talentPrimary
+            craftLevel: 3
+            quantity: 4
+            special:
+              Traveler_anemo: e003
+              Traveler_geo: e006
+              Traveler_electro: e009
+              Traveler_dendro: e012
+          - type: talentSecondary
+            ref: secondary
+            craftLevel: 3
+            quantity: 4
+            special:
+              Traveler_geo: b004
+          - type: talentBoss
+            quantity: 1
+            special:
+              Traveler_geo: f004
+          - id: z002
+            quantity: 120000
+        8:
+          - type: talentPrimary
+            craftLevel: 3
+            quantity: 6
+            special:
+              Traveler_anemo: e001
+              Traveler_geo: e004
+              Traveler_electro: e007
+              Traveler_dendro: e010
+          - type: talentSecondary
+            ref: secondary
+            craftLevel: 3
+            quantity: 6
+            special:
+              Traveler_geo: b004
+          - type: talentBoss
+            quantity: 1
+            special:
+              Traveler_geo: f004
+          - id: z002
+            quantity: 260000
+        9:
+          - type: talentPrimary
+            craftLevel: 3
+            quantity: 12
+            special:
+              Traveler_anemo: e002
+              Traveler_geo: e005
+              Traveler_electro: e008
+              Traveler_dendro: e011
+          - type: talentSecondary
+            ref: secondary
+            craftLevel: 3
+            quantity: 9
+            special:
+              Traveler_geo: b004
+          - type: talentBoss
+            quantity: 2
+            special:
+              Traveler_geo: f004
+          - id: z002
+            quantity: 450000
+        10:
+          - type: talentPrimary
+            craftLevel: 3
+            quantity: 16
+            special:
+              Traveler_anemo: e003
+              Traveler_geo: e006
+              Traveler_electro: e009
+              Traveler_dendro: e012
+          - type: talentSecondary
+            ref: secondary
+            craftLevel: 3
+            quantity: 12
+            special:
+              Traveler_geo: b004
+          - type: talentBoss
+            quantity: 2
+            special:
+              Traveler_geo: f004
+          - id: z002
+            quantity: 700000
+
+
+entries:
+  - id: Traveler_anemo
+    nameJP: 旅人(風)
+    yomi: タビビト
+    element: anemo
+    weaponType: u
+    rarity: 5
+    materials:
+      primary: d001
+      local: h013
+      secondary: b002
+      talentSecondary: b003
+      talentBoss: f003
+
+  - id: Traveler_geo
+    nameJP: 旅人(岩)
+    yomi: タビビト
+    element: geo
+    weaponType: u
+    rarity: 5
+    materials:
+      primary: d001
+      local: h013
+      secondary: b002
+
+  - id: Traveler_electro
+    nameJP: 旅人(雷)
+    yomi: タビビト
+    element: electro
+    weaponType: u
+    rarity: 5
+    materials:
+      primary: d001
+      local: h013
+      secondary: b002
+      talentSecondary: b015
+      talentBoss: f010
+
+  - id: Traveler_dendro
+    nameJP: 旅人(草)
+    yomi: タビビト
+    element: dendro
+    weaponType: u
+    rarity: 5
+    materials:
+      primary: d001
+      local: h013
+      secondary: b002
+      talentSecondary: b021
+      talentBoss: f016
+
+  - id: Jean
+    nameJP: ジン
+    element: anemo
+    weaponType: u
+    rarity: 5
+    materials:
+      primary: d006
+      elementalStone: c005
+      local: h004
+      secondary: b002
+      talentPrimary: e002
+      talentBoss: f001
+
+  - id: Kaeya
+    nameJP: ガイア
+    element: cryo
+    weaponType: u
+    rarity: 4
+    materials:
+      primary: d005
+      elementalStone: c004
+      local: h001
+      secondary: b011
+      talentPrimary: e003
+      talentBoss: f006
+
+  - id: Amber
+    nameJP: アンバー
+    element: pyro
+    weaponType: x
+    rarity: 4
+    materials:
+      primary: d002
+      elementalStone: c001
+      local: h010
+      secondary: b004
+      talentPrimary: e001
+      talentBoss: f003
+
+  - id: Lisa
+    nameJP: リサ
+    element: electro
+    weaponType: y
+    rarity: 4
+    materials:
+      primary: d004
+      elementalStone: c003
+      local: h011
+      secondary: b001
+      talentPrimary: e003
+      talentBoss: f002
+
+  - id: Barbara
+    nameJP: バーバラ
+    element: hydro
+    weaponType: y
+    rarity: 4
+    materials:
+      primary: d003
+      elementalStone: c002
+      local: h008
+      secondary: b003
+      talentPrimary: e001
+      talentBoss: f005
+
+  - id: Diluc
+    nameJP: ディルック
+    element: pyro
+    weaponType: v
+    rarity: 5
+    materials:
+      primary: d002
+      elementalStone: c001
+      local: h010
+      secondary: b010
+      talentPrimary: e002
+      talentBoss: f001
+
+  - id: Razor
+    nameJP: レザー
+    element: electro
+    weaponType: v
+    rarity: 4
+    materials:
+      primary: d004
+      elementalStone: c003
+      local: h014
+      secondary: b002
+      talentPrimary: e002
+      talentBoss: f002
+
+  - id: Venti
+    nameJP: ウェンティ
+    element: anemo
+    weaponType: x
+    rarity: 5
+    materials:
+      primary: d006
+      elementalStone: c005
+      local: h002
+      secondary: b001
+      talentPrimary: e003
+      talentBoss: f004
+
+  - id: Klee
+    nameJP: クレー
+    element: pyro
+    weaponType: y
+    rarity: 5
+    materials:
+      primary: d002
+      elementalStone: c001
+      local: h008
+      secondary: b003
+      talentPrimary: e001
+      talentBoss: f005
+
+  - id: Bennett
+    nameJP: ベネット
+    element: pyro
+    weaponType: u
+    rarity: 4
+    materials:
+      primary: d002
+      elementalStone: c001
+      local: h013
+      secondary: b011
+      talentPrimary: e002
+      talentBoss: f001
+
+  - id: Noelle
+    nameJP: ノエル
+    element: geo
+    weaponType: v
+    rarity: 4
+    materials:
+      primary: d007
+      elementalStone: c006
+      local: h011
+      secondary: b002
+      talentPrimary: e002
+      talentBoss: f002
+
+  - id: Fischl
+    nameJP: フィッシュル
+    element: electro
+    weaponType: x
+    rarity: 4
+    materials:
+      primary: d004
+      elementalStone: c003
+      local: h010
+      secondary: b004
+      talentPrimary: e003
+      talentBoss: f006
+
+  - id: Sucrose
+    nameJP: スクロース
+    element: anemo
+    weaponType: y
+    rarity: 4
+    materials:
+      primary: d006
+      elementalStone: c005
+      local: h013
+      secondary: b012
+      talentPrimary: e001
+      talentBoss: f006
+
+  - id: Mona
+    nameJP: モナ
+    element: hydro
+    weaponType: y
+    rarity: 5
+    materials:
+      primary: d003
+      elementalStone: c002
+      local: h008
+      secondary: b012
+      talentPrimary: e002
+      talentBoss: f005
+
+  - id: Diona
+    nameJP: ディオナ
+    element: cryo
+    weaponType: x
+    rarity: 4
+    materials:
+      primary: d005
+      elementalStone: c004
+      local: h001
+      secondary: b004
+      talentPrimary: e001
+      talentBoss: f008
+
+  - id: Albedo
+    nameJP: アルベド
+    element: geo
+    weaponType: u
+    rarity: 5
+    materials:
+      primary: d007
+      elementalStone: c006
+      local: h002
+      secondary: b003
+      talentPrimary: e003
+      talentBoss: f007
+
+  - id: Rosaria
+    nameJP: ロサリア
+    element: cryo
+    weaponType: w
+    rarity: 4
+    materials:
+      primary: d005
+      elementalStone: c004
+      local: h011
+      secondary: b010
+      talentPrimary: e003
+      talentBoss: f009
+
+  - id: Eula
+    nameJP: エウルア
+    element: cryo
+    weaponType: v
+    rarity: 5
+    materials:
+      primary: d005
+      elementalStone: c008
+      local: h004
+      secondary: b002
+      talentPrimary: e002
+      talentBoss: f010
+
+  - id: Xiao
+    nameJP: 魈
+    yomi: ショウ
+    element: anemo
+    weaponType: w
+    rarity: 5
+    materials:
+      primary: d006
+      elementalStone: c007
+      local: h015
+      secondary: b001
+      talentPrimary: e004
+      talentBoss: f009
+
+  - id: Beidou
+    nameJP: 北斗
+    yomi: ホクト
+    element: electro
+    weaponType: v
+    rarity: 4
+    materials:
+      primary: d004
+      elementalStone: c003
+      local: h007
+      secondary: b011
+      talentPrimary: e006
+      talentBoss: f003
+
+  - id: Ningguang
+    nameJP: 凝光
+    yomi: ギョウコウ
+    element: geo
+    weaponType: y
+    rarity: 4
+    materials:
+      primary: d007
+      elementalStone: c006
+      local: h005
+      secondary: b010
+      talentPrimary: e004
+      talentBoss: f006
+
+  - id: Xiangling
+    nameJP: 香菱
+    yomi: シャンリン
+    element: pyro
+    weaponType: w
+    rarity: 4
+    materials:
+      primary: d002
+      elementalStone: c001
+      local: h006
+      secondary: b001
+      talentPrimary: e005
+      talentBoss: f002
+
+  - id: Xingqiu
+    nameJP: 行秋
+    yomi: ユクアキ
+    element: hydro
+    weaponType: u
+    rarity: 4
+    materials:
+      primary: d003
+      elementalStone: c002
+      local: h009
+      secondary: b002
+      talentPrimary: e006
+      talentBoss: f004
+
+  - id: Chongyun
+    nameJP: 重雲
+    yomi: チョウウン
+    element: cryo
+    weaponType: v
+    rarity: 4
+    materials:
+      primary: d005
+      elementalStone: c004
+      local: h003
+      secondary: b002
+      talentPrimary: e005
+      talentBoss: f003
+
+  - id: Qiqi
+    nameJP: 七七
+    yomi: ナナ
+    element: cryo
+    weaponType: u
+    rarity: 5
+    materials:
+      primary: d005
+      elementalStone: c004
+      local: h012
+      secondary: b003
+      talentPrimary: e004
+      talentBoss: f004
+
+  - id: Keqing
+    nameJP: 刻晴
+    yomi: コクセイ
+    element: electro
+    weaponType: u
+    rarity: 5
+    materials:
+      primary: d004
+      elementalStone: c003
+      local: h003
+      secondary: b012
+      talentPrimary: e004
+      talentBoss: f005
+
+  - id: Tartaglia
+    nameJP: タルタリヤ
+    element: hydro
+    weaponType: x
+    rarity: 5
+    materials:
+      primary: d003
+      elementalStone: c002
+      local: h016
+      secondary: b010
+      talentPrimary: e001
+      talentBoss: f008
+
+  - id: Zhongli
+    nameJP: 鍾離
+    yomi: ショウリ
+    element: geo
+    weaponType: w
+    rarity: 5
+    materials:
+      primary: d007
+      elementalStone: c006
+      local: h003
+      secondary: b001
+      talentPrimary: e006
+      talentBoss: f007
+
+  - id: Xinyan
+    nameJP: 辛炎
+    yomi: シンエン
+    element: pyro
+    weaponType: v
+    rarity: 4
+    materials:
+      primary: d002
+      elementalStone: c001
+      local: h012
+      secondary: b011
+      talentPrimary: e006
+      talentBoss: f007
+
+  - id: Ganyu
+    nameJP: 甘雨
+    yomi: カンウ
+    element: cryo
+    weaponType: x
+    rarity: 5
+    materials:
+      primary: d005
+      elementalStone: c004
+      local: h015
+      secondary: b012
+      talentPrimary: e005
+      talentBoss: f009
+
+  - id: HuTao
+    nameJP: 胡桃
+    yomi: フータオ
+    element: pyro
+    weaponType: w
+    rarity: 5
+    materials:
+      primary: d002
+      elementalStone: c007
+      local: h009
+      secondary: b012
+      talentPrimary: e005
+      talentBoss: f008
+
+  - id: Yanfei
+    nameJP: 煙緋
+    yomi: エンヒ
+    element: pyro
+    weaponType: y
+    rarity: 4
+    materials:
+      primary: d002
+      elementalStone: c007
+      local: h007
+      secondary: b011
+      talentPrimary: e006
+      talentBoss: f011
+
+  - id: KamisatoAyaka
+    nameJP: 神里綾華
+    yomi: カミサトアヤカ
+    element: cryo
+    weaponType: u
+    rarity: 5
+    materials:
+      primary: d005
+      elementalStone: c010
+      local: h019
+      secondary: b015
+      talentPrimary: e008
+      talentBoss: f011
+
+  - id: KaedeharaKazuha
+    nameJP: 楓原万葉
+    yomi: カエデハラカズハ
+    element: anemo
+    weaponType: u
+    rarity: 5
+    materials:
+      primary: d006
+      elementalStone: c009
+      local: h017
+      secondary: b011
+      talentPrimary: e005
+      talentBoss: f012
+
+  - id: Yoimiya
+    nameJP: 宵宮
+    yomi: ヨイミヤ
+    element: pyro
+    weaponType: x
+    rarity: 5
+    materials:
+      primary: d002
+      elementalStone: c011
+      local: h022
+      secondary: b003
+      talentPrimary: e007
+      talentBoss: f010
+
+  - id: Sayu
+    nameJP: 早柚
+    yomi: サユ
+    element: anemo
+    weaponType: v
+    rarity: 4
+    materials:
+      primary: d006
+      elementalStone: c009
+      local: h020
+      secondary: b012
+      talentPrimary: e009
+      talentBoss: f012
+
+  - id: RaidenShogun
+    nameJP: 雷電将軍
+    yomi: ライデンショウグン
+    element: electro
+    weaponType: w
+    rarity: 5
+    materials:
+      primary: d004
+      elementalStone: c013
+      local: h024
+      secondary: b015
+      talentPrimary: e009
+      talentBoss: f013
+
+  - id: SangonomiyaKokomi
+    nameJP: 珊瑚宮心海
+    yomi: サンゴノミヤココミ
+    element: hydro
+    weaponType: y
+    rarity: 5
+    materials:
+      primary: d003
+      elementalStone: c012
+      local: h023
+      secondary: b019
+      talentPrimary: e007
+      talentBoss: f014
+
+  - id: KujouSara
+    nameJP: 九条裟羅
+    yomi: クジョウサラ
+    element: electro
+    weaponType: x
+    rarity: 4
+    materials:
+      primary: d004
+      elementalStone: c013
+      local: h021
+      secondary: b002
+      talentPrimary: e008
+      talentBoss: f015
+
+  - id: Aloy
+    nameJP: アーロイ
+    element: cryo
+    weaponType: x
+    rarity: 5
+    materials:
+      primary: d005
+      elementalStone: c008
+      local: h020
+      secondary: b019
+      talentPrimary: e001
+      talentBoss: f013
+
+  - id: Thoma
+    nameJP: トーマ
+    element: pyro
+    weaponType: w
+    rarity: 4
+    materials:
+      primary: d002
+      elementalStone: c011
+      local: h025
+      secondary: b011
+      talentPrimary: e007
+      talentBoss: f014
+
+  - id: Gorou
+    nameJP: ゴロー
+    element: geo
+    weaponType: x
+    rarity: 4
+    materials:
+      primary: d007
+      elementalStone: c010
+      local: h023
+      secondary: b019
+      talentPrimary: e009
+      talentBoss: f013
+
+  - id: AratakiItto
+    nameJP: 荒瀧一斗
+    yomi: アラタキイット
+    element: geo
+    weaponType: v
+    rarity: 5
+    materials:
+      primary: d007
+      elementalStone: c014
+      local: h018
+      secondary: b001
+      talentPrimary: e008
+      talentBoss: f015
+
+  - id: Shenhe
+    nameJP: 申鶴
+    yomi: シンカク
+    element: cryo
+    weaponType: w
+    rarity: 5
+    materials:
+      primary: d005
+      elementalStone: c015
+      local: h015
+      secondary: b012
+      talentPrimary: e004
+      talentBoss: f014
+
+  - id: YunJin
+    nameJP: 雲菫
+    yomi: ウンキン
+    element: geo
+    weaponType: w
+    rarity: 4
+    materials:
+      primary: d007
+      elementalStone: c014
+      local: h005
+      secondary: b002
+      talentPrimary: e005
+      talentBoss: f015
+
+  - id: YaeMiko
+    nameJP: 八重神子
+    yomi: ヤエミコ
+    element: electro
+    weaponType: y
+    rarity: 5
+    materials:
+      primary: d004
+      elementalStone: c015
+      local: h017
+      secondary: b015
+      talentPrimary: e009
+      talentBoss: f018
+
+  - id: KamisatoAyato
+    nameJP: 神里綾人
+    yomi: カミサトアヤト
+    element: hydro
+    weaponType: u
+    rarity: 5
+    materials:
+      primary: d003
+      elementalStone: c012
+      local: h019
+      secondary: b015
+      talentPrimary: e008
+      talentBoss: f016
+
+  - id: Yelan
+    nameJP: 夜蘭
+    yomi: イェラン
+    element: hydro
+    weaponType: x
+    rarity: 5
+    materials:
+      primary: d003
+      elementalStone: c016
+      local: h016
+      secondary: b010
+      talentPrimary: e004
+      talentBoss: f012
+
+  - id: KukiShinobu
+    nameJP: 久岐忍
+    yomi: クキシノブ
+    element: electro
+    weaponType: u
+    rarity: 4
+    materials:
+      primary: d004
+      elementalStone: c016
+      local: h022
+      secondary: b019
+      talentPrimary: e008
+      talentBoss: f017
+
+  - id: ShikanoinHeizou
+    nameJP: 鹿野院平蔵
+    yomi: シカノインヘイゾウ
+    element: anemo
+    weaponType: y
+    rarity: 4
+    materials:
+      primary: d006
+      elementalStone: c016
+      local: h018
+      secondary: b011
+      talentPrimary: e007
+      talentBoss: f018
+
+  - id: Collei
+    nameJP: コレイ
+    element: dendro
+    weaponType: x
+    rarity: 4
+    materials:
+      primary: d008
+      elementalStone: c017
+      local: h026
+      secondary: b004
+      talentPrimary: e012
+      talentBoss: f017
+
+  - id: Tighnari
+    nameJP: ティナリ
+    element: dendro
+    weaponType: x
+    rarity: 5
+    materials:
+      primary: d008
+      elementalStone: c017
+      local: h028
+      secondary: b021
+      talentPrimary: e010
+      talentBoss: f018
+
+  - id: Dori
+    nameJP: ドリー
+    element: electro
+    weaponType: v
+    rarity: 4
+    materials:
+      primary: d004
+      elementalStone: c018
+      local: h027
+      secondary: b020
+      talentPrimary: e011
+      talentBoss: f011
+
+  - id: Cyno
+    nameJP: セノ
+    element: electro
+    weaponType: w
+    rarity: 5
+    materials:
+      primary: d004
+      elementalStone: c018
+      local: h029
+      secondary: b003
+      talentPrimary: e010
+      talentBoss: f016
+
+  - id: Candace
+    nameJP: キャンディス
+    element: hydro
+    weaponType: w
+    rarity: 4
+    materials:
+      primary: d003
+      elementalStone: c019
+      local: h030
+      secondary: b020
+      talentPrimary: e010
+      talentBoss: f017
+
+  - id: Nilou
+    nameJP: ニィロウ
+    element: hydro
+    weaponType: u
+    rarity: 5
+    materials:
+      primary: d003
+      elementalStone: c020
+      local: h031
+      secondary: b021
+      talentPrimary: e012
+      talentBoss: f017
+
+  - id: Nahida
+    nameJP: ナヒーダ
+    element: dendro
+    weaponType: y
+    rarity: 5
+    materials:
+      primary: d008
+      elementalStone: c021
+      local: h027
+      secondary: b021
+      talentPrimary: e011
+      talentBoss: f019
+
+  - id: Layla
+    nameJP: レイラ
+    element: cryo
+    weaponType: u
+    rarity: 4
+    materials:
+      primary: d005
+      elementalStone: c020
+      local: h028
+      secondary: b003
+      talentPrimary: e011
+      talentBoss: f020
+  
