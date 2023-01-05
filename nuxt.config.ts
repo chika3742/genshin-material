@@ -99,6 +99,10 @@ export default defineNuxtConfig({
     ],
   },
 
+  nitro: {
+    preset: "cloudflare-pages",
+  },
+
   runtimeConfig: {
     public: {
       algoliaApiKey: process.env.ALGOLIA_API_KEY,
