@@ -390,6 +390,11 @@
   dependencies:
     mime "^3.0.0"
 
+"@cloudflare/workers-types@^4.20221111.1":
+  version "4.20221111.1"
+  resolved "https://registry.yarnpkg.com/@cloudflare/workers-types/-/workers-types-4.20221111.1.tgz#c3dbb5ef52cf5fab275803ece0424b205c78ad3e"
+  integrity sha512-BNV2wN8V6Zduvo7UzxcdjBbLQ906D2KhS804PDufLgx/sanGJCHVJMOIaLvS/b61JKtot1U7P/l1fjrjZ7/E3A==
+
 "@esbuild/android-arm64@0.16.12":
   version "0.16.12"
   resolved "https://registry.yarnpkg.com/@esbuild/android-arm64/-/android-arm64-0.16.12.tgz#86c4fdd7c0d65fe9dcbe138fbe72720658ec3b88"
@@ -928,6 +933,22 @@
     unplugin "^1.0.0"
     vue-i18n "^9.3.0-beta.10"
     vue-i18n-routing "^0.10.1"
+
+"@pinia-plugin-persistedstate/nuxt@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@pinia-plugin-persistedstate/nuxt/-/nuxt-1.0.0.tgz#057fd3b0649e9c4ce90f60e3fc136eeef50c0777"
+  integrity sha512-oBLnkFXy0mcP9wCR0NQj1SguhgalEoubDF302gpRr1lh0V34vSL2Nlw8XDwRrULq5v3eHt4da632YSjNny1+BA==
+  dependencies:
+    "@nuxt/kit" "^3.0.0"
+    pinia-plugin-persistedstate ">=3.0.0"
+
+"@pinia/nuxt@^0.4.6":
+  version "0.4.6"
+  resolved "https://registry.yarnpkg.com/@pinia/nuxt/-/nuxt-0.4.6.tgz#ce83714f700594187d8a29e8f4bdaf31abe0bef1"
+  integrity sha512-HjrYEfLdFpmsjhicPJgL36jVhzHWukIQPFFHGTSF84Cplu+f2nY2XHKqe9ToHzE9rLee2RjLOwAzOnXa/I/u6A==
+  dependencies:
+    "@nuxt/kit" "^3.0.0"
+    pinia ">=2.0.27"
 
 "@pkgr/utils@^2.3.1":
   version "2.3.1"
@@ -4818,6 +4839,19 @@ pify@^2.3.0:
   resolved "https://registry.yarnpkg.com/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
   integrity sha512-udgsAY+fTnvv7kI7aaxbqwWNb0AHiB0qBO89PZKPkoTmGOgdbrHDKD+0B2X4uTfJ/FT1R09r9gTsjUjNJotuog==
 
+pinia-plugin-persistedstate@>=3.0.0:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/pinia-plugin-persistedstate/-/pinia-plugin-persistedstate-3.0.2.tgz#c604591442d23ba3a86eaf8156f019812d59038e"
+  integrity sha512-84vPyUhPA/8Pr+1mT1ioNb2d8z4tvdgYRqMQf8xyauOVBKjo0ZcRBwPQBV7ZAJG43Kwar43nXG2jU+ZMvAFFRQ==
+
+pinia@>=2.0.27:
+  version "2.0.28"
+  resolved "https://registry.yarnpkg.com/pinia/-/pinia-2.0.28.tgz#887c982d854972042d9bdfd5bc4fad3b9d6ab02a"
+  integrity sha512-YClq9DkqCblq9rlyUual7ezMu/iICWdBtfJrDt4oWU9Zxpijyz7xB2xTwx57DaBQ96UGvvTMORzALr+iO5PVMw==
+  dependencies:
+    "@vue/devtools-api" "^6.4.5"
+    vue-demi "*"
+
 pkg-types@^1.0.0, pkg-types@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/pkg-types/-/pkg-types-1.0.1.tgz#25234407f9dc63409af45ced9407625ff446a761"
@@ -6171,7 +6205,7 @@ vue-bundle-renderer@^1.0.0:
   dependencies:
     ufo "^1.0.0"
 
-vue-demi@^0.13.11, vue-demi@^0.13.5:
+vue-demi@*, vue-demi@^0.13.11, vue-demi@^0.13.5:
   version "0.13.11"
   resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.13.11.tgz#7d90369bdae8974d87b1973564ad390182410d99"
   integrity sha512-IR8HoEEGM65YY3ZJYAjMlKygDQn25D5ajNFNoKh9RSDMQtlzCxtfQjdQgv9jjK+m3377SsJXY8ysq8kLCZL25A==
