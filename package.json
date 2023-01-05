@@ -3,11 +3,13 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "wrangler-dev": "wrangler pages dev ./output/public",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@cloudflare/workers-types": "^4.20221111.1",
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "eslint": "^8.0.1",
