@@ -90,4 +90,11 @@ export default defineNuxtConfig({
       }),
     ],
   },
+
+  runtimeConfig: {
+    public: {
+      algoliaApiKey: process.env.ALGOLIA_API_KEY,
+      algoliaAppId: process.env.ALGOLIA_APP_ID,
+    },
+  },
 })
