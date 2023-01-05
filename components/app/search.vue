@@ -35,7 +35,6 @@
 <script lang="ts" setup>
 import algoliasearch from "algoliasearch/lite"
 import {Hit} from "@algolia/client-search"
-import {hiraToKana} from "~/utils/hira-to-kana"
 
 const props = defineProps<{
   modelValue: boolean
