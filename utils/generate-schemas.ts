@@ -1,16 +1,21 @@
 import fs from "fs"
+import path from "path"
 import {compile} from "json-schema-to-typescript"
 import {parse} from "yaml"
 import {pascalCase} from "scule"
 
 export const generateSchemas = async() => {
-  const files = fs.readdirSync("./schemas")
+  const inputDir = "./schemas"
+  const outputDir = "./types/generated"
+
+  const files = fs.readdirSync(inputDir)
   for (const fileName of files) {
     const name = pascalCase(fileName.split(".")[0])
-    const result = await compile(parse(fs.readFileSync(`./schemas/${fileName}`).toString()), name, {
+    const result = await compile(parse(fs.readFileSync(path.resolve(inputDir, fileName)).toString()), name, {
       bannerComment: "/* eslint-disable */\n/* This file was generated. DO NOT edit by hand. */",
     })
-    fs.mkdirSync("./models/generated", {recursive: true})
-    fs.writeFileSync(`./models/generated/${fileName.split(".")[0]}.g.ts`, result)
+    fs.mkdirSync(outputDir, {recursive: true})
+    const outputFilePath = path.join(outputDir, `${fileName.split(".")[0]}.g.ts`)
+    fs.writeFileSync(outputFilePath, result)
   }
 }
