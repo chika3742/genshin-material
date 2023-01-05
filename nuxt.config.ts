@@ -28,6 +28,8 @@ export default defineNuxtConfig({
   modules: [
     "@nuxtjs/i18n",
     "@nuxtjs/google-fonts",
+    "@pinia/nuxt",
+    "@pinia-plugin-persistedstate/nuxt",
   ],
   css: [
     "assets/styles/global.sass",
@@ -68,6 +70,12 @@ export default defineNuxtConfig({
       Cairo: [700],
       "Kiwi Maru": [500],
     },
+  },
+
+  pinia: {
+    autoImports: [
+      "defineStore",
+    ],
   },
 
   ssr: false,
