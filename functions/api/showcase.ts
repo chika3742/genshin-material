@@ -31,7 +31,13 @@ export const onRequest: PagesFunction = async(context) => {
     return errorResponse("Parameter 'uid' is required", 400)
   }
 
-  const result = await fetch(`https://enka.network/u/${requestUrl.searchParams.get("uid")}/__data.json`, {
+  const uid = requestUrl.searchParams.get("uid")
+
+  if (!uid.match(/^\d{9,}$/)) {
+    return errorResponse("Parameter 'uid' must be at least 9 digits", 400)
+  }
+
+  const result = await fetch(`https://enka.network/u/${uid}/__data.json`, {
     headers: {
       "User-Agent": "Genshin Material Data Sync/2.0.0 (gms.chikach.net)",
     },
@@ -41,8 +47,8 @@ export const onRequest: PagesFunction = async(context) => {
   if (!data.playerInfo.showAvatarInfoList || !data.avatarInfoList ||
     data.playerInfo.showAvatarInfoList.length === 0) {
     return errorResponse(
-      "キャラクターラインナップの詳細が公開されていないか、1体も設定されていません",
-      204,
+      "Showcase character not found",
+      404,
     )
   }
 
