@@ -33,7 +33,7 @@ export const onRequest: PagesFunction = async(context) => {
 async function sendGachaLogRequest(authKey: string, wishType: string, lastId?: string): Promise<GachaLogData[] | Response> {
   const url = new URL("https://hk4e-api-os.mihoyo.com/event/gacha_info/api/getGachaLog?authkey_ver=1&lang=ja&game_biz=hk4e_global&size=20")
 
-  url.searchParams.set("authkey", encodeURIComponent(authKey))
+  url.searchParams.set("authkey", authKey)
   url.searchParams.set("region", "os_asia")
   url.searchParams.set("gacha_type", wishType)
   if (lastId) {
