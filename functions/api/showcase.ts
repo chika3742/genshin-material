@@ -1,40 +1,24 @@
-import {EnkaNetworkResponse, ErrorResponse} from "~types/showcase"
+import {EnkaNetworkResponse} from "~types/showcase"
+import {errorResponse, jsonResponse} from "~utils/functions"
 import loc from "~libs/data/loc.json"
 import characterIds from "~libs/data/character-ids.json"
 import travelerSkillSetIds from "~libs/data/traveler-skill-set-ids.json"
 
-function errorResponse(message: string, status: number) {
-  return jsonResponse({
-    errorMessage: message,
-  } as ErrorResponse, {
-    status,
-  })
-}
-
-function jsonResponse(json: Record<string, any>, init?: ResponseInit) {
-  return new Response(JSON.stringify(json), {
-    headers: {
-      "Content-Type": "application/json",
-    },
-    ...init,
-  })
-}
-
 export const onRequest: PagesFunction = async(context) => {
   if (context.request.method !== "GET") {
-    return errorResponse("Method not allowed", 405)
+    return errorResponse("Method not allowed", "failed_precondition", 405)
   }
 
   const requestUrl = new URL(context.request.url)
 
   if (!requestUrl.searchParams.has("uid")) {
-    return errorResponse("Parameter 'uid' is required", 400)
+    return errorResponse("Parameter 'uid' is required", "failed_precondition", 400)
   }
 
   const uid = requestUrl.searchParams.get("uid")
 
   if (!uid.match(/^\d{9,}$/)) {
-    return errorResponse("Parameter 'uid' must be at least 9 digits", 400)
+    return errorResponse("Parameter 'uid' must be at least 9 digits", "failed_precondition", 400)
   }
 
   const result = await fetch(`https://enka.network/u/${uid}/__data.json`, {
@@ -48,6 +32,7 @@ export const onRequest: PagesFunction = async(context) => {
     data.playerInfo.showAvatarInfoList.length === 0) {
     return errorResponse(
       "Showcase character not found",
+      "no_character_in_showcase",
       404,
     )
   }
