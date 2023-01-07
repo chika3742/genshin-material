@@ -1,16 +1,15 @@
-import path from "path"
 import {GenshinElement} from "~/types/common"
 
-const baseUrl = "https://gms-r2-assets.chikach.net/assets"
+const baseUrl = "https://gms-r2-assets.chikach.net"
 
 export const getCharacterImage = (characterId: string, variant: "full" | "small") => {
   if (variant === "full") {
-    return path.join(baseUrl, `character/${characterId}.webp`)
+    return new URL(`assets/character/${characterId}.webp`, baseUrl).toString()
   } else {
-    return path.join(baseUrl, `character/${characterId}_small.webp`)
+    return new URL(`assets/character/${characterId}_small.webp`, baseUrl).toString()
   }
 }
 
 export const getElementImage = (element: GenshinElement) => {
-  return path.join(baseUrl, `element/${element}.webp`)
+  return new URL(`assets/element/${element}.webp`, baseUrl).toString()
 }
