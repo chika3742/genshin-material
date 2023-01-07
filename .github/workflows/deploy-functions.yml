@@ -4,7 +4,6 @@ on:
       - main
     paths:
       - firebase/**
-      - .github/workflows/deploy-functions.yml
   repository_dispatch:
   workflow_dispatch:
 
