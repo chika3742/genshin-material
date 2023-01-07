@@ -97,6 +97,11 @@ export default defineNuxtConfig({
         exclude: "locales/**",
       }),
     ],
+    resolve: {
+      alias: {
+        path: "path-browserify",
+      },
+    },
   },
 
   nitro: {

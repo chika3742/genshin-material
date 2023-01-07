@@ -9,3 +9,10 @@ declare module "~/assets/data/materials.yaml" {
   const materials: Materials
   export default materials
 }
+
+
+declare module "~/assets/data/characters.yaml" {
+  import {Characters} from "~/types/generated/characters.g";
+  const _characters: Characters
+  export default _characters
+}

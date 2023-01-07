@@ -32,6 +32,7 @@
     "firebase": "^9.15.0",
     "marked": "^4.2.5",
     "moment": "^2.29.4",
+    "path-browserify": "^1.0.1",
     "vuetify": "^3.0.6",
     "yaml": "^2.2.1"
   },
