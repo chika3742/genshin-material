@@ -4,7 +4,7 @@ import * as moment from "moment"
 import * as admin from "firebase-admin"
 import {Materials} from "../../../../nuxt/types/generated/materials.g"
 import {UserDocument} from "../models/user-document"
-import {getResinRecoveryRemainingMinutes} from "../../../../nuxt/utils/resin"
+import {getResinRecoveryRemainingMinutes} from "../utils/resin"
 import {makeMulticastRequest, queryIn} from "../utils/sender"
 import {getTargetMaterialIds} from "../utils/common"
 
