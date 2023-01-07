@@ -1,5 +1,5 @@
 import {errorResponse, jsonResponse} from "~utils/functions"
-import {GachaLogData} from "~types/gacha-log"
+import {GachaLogEntry} from "~types/gacha-log"
 import {sleep} from "~utils/sleep"
 
 export const onRequest: PagesFunction = async(context) => {
@@ -13,7 +13,7 @@ export const onRequest: PagesFunction = async(context) => {
     return errorResponse("Parameter 'auth_key' is required", "failed_precondition", 400)
   }
 
-  const result: GachaLogData[] = []
+  const result: GachaLogEntry[] = []
   const gachaTypes = [200, 301, 302]
 
   for (const wishType of gachaTypes) {
@@ -30,7 +30,7 @@ export const onRequest: PagesFunction = async(context) => {
   return jsonResponse(result)
 }
 
-async function sendGachaLogRequest(authKey: string, wishType: string, lastId?: string): Promise<GachaLogData[] | Response> {
+async function sendGachaLogRequest(authKey: string, wishType: string, lastId?: string): Promise<GachaLogEntry[] | Response> {
   const url = new URL("https://hk4e-api-os.mihoyo.com/event/gacha_info/api/getGachaLog?authkey_ver=1&lang=ja&game_biz=hk4e_global&size=20")
 
   url.searchParams.set("authkey", authKey)
@@ -46,7 +46,7 @@ async function sendGachaLogRequest(authKey: string, wishType: string, lastId?: s
     retcode: number
     message: string
     data: {
-      list: GachaLogData[]
+      list: GachaLogEntry[]
     }
   }>()
 
@@ -92,13 +92,13 @@ async function sendGachaLogRequest(authKey: string, wishType: string, lastId?: s
   }
 }
 
-async function getGachaLog(authKey: string, wishType: string, lastId: string | null): Promise<GachaLogData[] | Response> {
-  const result: GachaLogData[] = []
+async function getGachaLog(authKey: string, wishType: string, lastId: string | null): Promise<GachaLogEntry[] | Response> {
+  const result: GachaLogEntry[] = []
   let endLoop = false
   let lastIdTemp: string | null = null
 
   while (!endLoop) {
-    const listOrResponse: GachaLogData[] | Response = await sendGachaLogRequest(authKey, wishType, lastIdTemp)
+    const listOrResponse: GachaLogEntry[] | Response = await sendGachaLogRequest(authKey, wishType, lastIdTemp)
 
     // エラーが返された場合
     if (listOrResponse instanceof Response) {

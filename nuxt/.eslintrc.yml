@@ -43,3 +43,4 @@ rules:
         - error
   vue/multi-word-component-names: off
   vue/no-v-html: off
+  import/named: off

@@ -1,4 +1,4 @@
-export interface GachaLogData {
+export interface GachaLogEntry {
   id: string
   gachaType: string
   time: string
