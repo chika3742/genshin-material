@@ -1,0 +1,44 @@
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - firebase/**
+  repository_dispatch:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Deploy to Firebase Cloud Functions
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: yarn
+          cache-dependency-path: "**/yarn.lock"
+
+      - name: yarn install
+        working-directory: firebase
+        run: yarn install --frozen-lockfile
+
+      - name: Install Firebase CLI
+        run: yarn global add firebase-tools
+
+      - name: 'Authenticate to Google Cloud'
+        id: auth
+        uses: 'google-github-actions/auth@v0'
+        with:
+          workload_identity_provider: projects/1018400803757/locations/global/workloadIdentityPools/github-actions/providers/github
+          service_account: github-actions@genshin-material.iam.gserviceaccount.com
+          audience: https://github.com/chika3742
+
+      - name: Deploy to Cloud Functions
+        working-directory: firebase
+        run: firebase deploy --only functions
