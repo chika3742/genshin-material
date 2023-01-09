@@ -17,14 +17,14 @@ export const onRequest: PagesFunction = async(context) => {
   const gachaTypes = [200, 301, 302]
 
   for (const wishType of gachaTypes) {
-    const result = await getGachaLog(searchParams.get("auth_key")!, wishType.toString(), searchParams.get(`lastId${wishType}`))
+    const wishTypeResult = await getGachaLog(searchParams.get("auth_key")!, wishType.toString(), searchParams.get(`lastId${wishType}`))
 
     // エラーが返された場合
-    if (result instanceof Response) {
-      return result
+    if (wishTypeResult instanceof Response) {
+      return wishTypeResult
     }
 
-    result.push(...result)
+    result.push(...wishTypeResult)
   }
 
   return jsonResponse(result)
@@ -46,7 +46,7 @@ async function sendGachaLogRequest(authKey: string, wishType: string, lastId?: s
     retcode: number
     message: string
     data: {
-      list: GachaLogEntry[]
+      list: any[]
     }
   }>()
 
@@ -72,7 +72,7 @@ async function sendGachaLogRequest(authKey: string, wishType: string, lastId?: s
         // 頻繁なリクエスト
         return errorResponse(
           "Too many requests",
-          "authkey_timeout",
+          "too_many_requests",
           429,
         )
 
@@ -90,6 +90,15 @@ async function sendGachaLogRequest(authKey: string, wishType: string, lastId?: s
         )
     }
   }
+
+  return data.data.list.map(e => ({
+    id: e.id,
+    name: e.name,
+    rankType: e.rank_type,
+    itemType: e.item_type,
+    gachaType: e.gacha_type,
+    time: e.time,
+  }))
 }
 
 async function getGachaLog(authKey: string, wishType: string, lastId: string | null): Promise<GachaLogEntry[] | Response> {
@@ -125,7 +134,7 @@ async function getGachaLog(authKey: string, wishType: string, lastId: string | n
 
     lastIdTemp = list.splice(-1)[0].id
 
-    await sleep(200)
+    await sleep(250)
   }
 
   return result.reverse()
