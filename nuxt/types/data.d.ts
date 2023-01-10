@@ -16,3 +16,18 @@ declare module "~/assets/data/characters.yaml" {
   const _characters: Characters
   export default _characters
 }
+
+declare module "~/assets/data/d3.0.0.corr.yaml" {
+  const d300corr: {[oldId: string]: string}
+  export default d300corr
+}
+
+declare module "~/assets/data/d3.2.1.corr.yaml" {
+  const d321corr: {[oldId: string]: string}
+  export default d321corr
+}
+
+declare module "~/assets/data/d3.3.1.corr.yaml" {
+  const d331corr: {[oldId: string]: string}
+  export default d331corr
+}
