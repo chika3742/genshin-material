@@ -12,6 +12,7 @@ extends:
   - plugin:vue/vue3-recommended
   - plugin:promise/recommended
   - "@nuxtjs/eslint-config-typescript"
+  - ../.eslintrc.yml
 
 parserOptions:
   sourceType: module
@@ -22,25 +23,3 @@ plugins:
 
 ignorePatterns:
   - .output/**
-
-rules:
-  quotes:
-    - error
-    - double
-  object-curly-spacing:
-    - error
-    - never
-  comma-dangle:
-    - error
-    - always-multiline
-  func-call-spacing: off
-  space-before-function-paren:
-    - error
-    - never
-  no-console:
-    - warn
-    - allow:
-        - error
-  vue/multi-word-component-names: off
-  vue/no-v-html: off
-  import/named: off
