@@ -28,14 +28,20 @@
       <slot />
 
       <AppUpdateInfo />
+
+      <v-snackbar v-model="snackbar.ref.value.displayed" :color="snackbar.ref.value.color">
+        <span>{{ snackbar.ref.value.message }}</span>
+      </v-snackbar>
     </v-app>
   </div>
 </template>
 
 <script lang="ts" setup>
+import {useSnackbar} from "#imports"
 
 const route = useRoute()
 const i18n = useI18n()
+const snackbar = useSnackbar()
 
 const isDrawerOpenSp = ref(false)
 const isSearchDialogShown = ref(false)
