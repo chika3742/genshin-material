@@ -1,3 +1,5 @@
+import {ApiErrorCode} from "~/types/api-error-codes"
+
 export interface ShowcaseCharacterWeapon {
   nameJP: string
   level: number
@@ -51,4 +53,5 @@ export interface EnkaNetworkResponse {
 
 export interface ErrorResponse {
   errorMessage: string
+  code: ApiErrorCode
 }
