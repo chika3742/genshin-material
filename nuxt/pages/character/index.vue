@@ -100,7 +100,7 @@
 </template>
 
 <script lang="ts" setup>
-import {GenshinElement, WeaponType} from "~/types/common"
+import {GenshinElement, WeaponType} from "~/types/enums"
 import _characters from "~/assets/data/characters.yaml"
 import {getCharacterImage, getElementImage} from "~/utils/images"
 
@@ -170,6 +170,10 @@ const characters = computed(() => {
 
 <style lang="scss" scoped>
 .character-card {
+  .v-theme--light & {
+    background-color: #dddddd;
+  }
+
   &__image {
     opacity: 90%;
   }
@@ -181,6 +185,10 @@ const characters = computed(() => {
     right: 32px;
     top: 50%;
     transform: translateY(-50%);
+
+    .v-theme--light & {
+      filter: brightness(0);
+    }
   }
 
   &__name-text {
