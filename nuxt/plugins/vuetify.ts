@@ -15,9 +15,17 @@ export default defineNuxtPlugin((nuxtApp) => {
       themes: {
         dark: {
           dark: true,
+          colors: {
+            star: "#ffff00",
+            "button-activated": "#d24700",
+          },
         },
         light: {
           dark: false,
+          colors: {
+            star: "#ff8c00",
+            "button-activated": "#ff5900",
+          },
         },
       },
     },

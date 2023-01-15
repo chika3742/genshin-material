@@ -5,11 +5,11 @@
       <v-btn prepend-icon="mdi-sort">
         {{ $t("common.sort") }}
         <v-menu activator="parent">
-          <v-list v-model:selected="sort" :items="sortMenuItems" />
+          <v-list v-model:selected="sort" :items="sortMenuItems" mandatory />
         </v-menu>
       </v-btn>
       <!-- Filter button -->
-      <v-btn :color="refined ? '#d24700' : undefined" class="" prepend-icon="mdi-filter">
+      <v-btn :color="refined ? 'button-activated' : undefined" class="" prepend-icon="mdi-filter">
         {{ $t("common.filter") }}
         <v-menu :close-on-content-click="false" activator="parent">
           <v-card>
@@ -21,7 +21,7 @@
                 <!-- 4-star -->
                 <v-list-item :value="4">
                   <v-list-item-title>
-                    <v-icon v-for="i in [1, 2, 3, 4]" :key="i" color="yellow" size="18">
+                    <v-icon v-for="i in [1, 2, 3, 4]" :key="i" color="star" size="18">
                       mdi-star
                     </v-icon>
                   </v-list-item-title>
@@ -29,7 +29,7 @@
                 <!-- 5-star -->
                 <v-list-item :value="5">
                   <v-list-item-title>
-                    <v-icon v-for="i in [1, 2, 3, 4, 5]" :key="i" color="yellow" size="18">
+                    <v-icon v-for="i in [1, 2, 3, 4, 5]" :key="i" color="star" size="18">
                       mdi-star
                     </v-icon>
                   </v-list-item-title>
@@ -42,7 +42,7 @@
                 </v-list-subheader>
                 <v-list-item v-for="element in elements" :key="element" :value="element">
                   <v-list-item-title>
-                    <v-img :src="getElementImage(element)" class="mx-auto" width="30" />
+                    <v-img :src="getElementImage(element)" class="mx-auto filter-element" width="30" />
                   </v-list-item-title>
                 </v-list-item>
               </v-list>
@@ -169,6 +169,11 @@ const characters = computed(() => {
 </script>
 
 <style lang="scss" scoped>
+
+.v-theme--light .filter-element {
+  filter: brightness(0);
+}
+
 .character-card {
   .v-theme--light & {
     background-color: #dddddd;
