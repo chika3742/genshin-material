@@ -1,0 +1,35 @@
+$schema: "http://json-schema.org/draft-07/schema#"
+title: GrindRateList
+type: array
+items:
+  type: object
+  properties:
+    desc:
+      type: string
+    note:
+      type: string
+    target:
+      oneOf:
+        - type: object
+          properties:
+            prefix:
+              type: string
+            suffix:
+              type: string
+          additionalProperties: false
+          required:
+            - prefix
+        - type: array
+          items:
+            type: string
+    rate:
+      type: number
+    condensedResinUsable:
+      type: boolean
+  additionalProperties: false
+  required:
+    - desc
+    - note
+    - target
+    - rate
+    - condensedResinUsable

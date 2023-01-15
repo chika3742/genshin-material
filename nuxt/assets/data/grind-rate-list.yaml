@@ -1,0 +1,83 @@
+- desc: 天賦素材(☆2, 教え)
+  note: ''
+  target:
+    prefix: e
+    suffix: '1'
+  rate: 2.2
+  condensedResinUsable: true
+
+- desc: 天賦素材(☆3, 導き)
+  note: ☆2は☆3へ換算した値です。
+  target:
+    prefix: e
+    suffix: '2'
+  rate: 2.733
+  condensedResinUsable: true
+
+- desc: 天賦素材(☆4, 哲学)
+  note: ☆2及び☆3は☆4へ換算した値です。
+  target:
+    prefix: e
+    suffix: '3'
+  rate: 1.111
+  condensedResinUsable: true
+
+- desc: 武器突破素材(☆2)
+  note: ''
+  target:
+    prefix: g
+    suffix: '1'
+  rate: 2.2
+  condensedResinUsable: true
+
+- desc: 武器突破素材(☆3)
+  note: ☆2は☆3に換算した値です。
+  target:
+    prefix: g
+    suffix: '2'
+  rate: 3.133
+  condensedResinUsable: true
+
+- desc: 武器突破素材(☆4)
+  note: 下位の素材は全て☆4に換算した値です。
+  target:
+    prefix: g
+    suffix: '3'
+  rate: 1.644
+  condensedResinUsable: true
+
+- desc: 武器突破素材(☆5)
+  note: 下位の素材は全て☆5に換算した値です。
+  target:
+    prefix: g
+    suffix: '4'
+  rate: 0.648
+  condensedResinUsable: true
+
+- desc: 週ボス素材
+  note: 濃縮樹脂なし、北風の狼については世界ランク7以上
+  target:
+    prefix: f
+  rate: 2.4
+  condensedResinUsable: false
+
+- desc: フィールドボス素材
+  note: 濃縮樹脂なし、世界ランク7以上
+  target:
+    prefix: c
+  rate: 2.55
+  condensedResinUsable: false
+
+- desc: 大英雄の経験
+  note: 世界ランク6以上
+  target:
+  - a002-3
+  rate: 6.125
+  condensedResinUsable: true
+
+- desc: モラ
+  note: 世界ランク6以上
+  target:
+  - j002
+  rate: 60000
+  condensedResinUsable: true

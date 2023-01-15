@@ -10,11 +10,16 @@ declare module "~/assets/data/materials.yaml" {
   export default materials
 }
 
-
 declare module "~/assets/data/characters.yaml" {
   import {Characters} from "~/types/generated/characters.g";
   const _characters: Characters
   export default _characters
+}
+
+declare module "~/assets/data/grind-rate-list.yaml" {
+  import {GrindRateList} from "~/types/generated/grind-rate-list.g";
+  const grindRateList: GrindRateList
+  export default grindRateList
 }
 
 declare module "~/assets/data/d3.0.0.corr.yaml" {
