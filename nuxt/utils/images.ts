@@ -1,4 +1,4 @@
-import {GenshinElement} from "~/types/common"
+import {GenshinElement} from "~/types/enums"
 
 const baseUrl = "https://gms-r2-assets.chikach.net"
 
