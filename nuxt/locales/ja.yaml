@@ -83,7 +83,7 @@ pages:
   character__characterId: キャラクター / {name}
   weapon: 武器
   weapon__weaponId: 武器 / {name}
-  artifact: 聖遺物
+  artifacts: 聖遺物
   furnishing_set: 調度品セット
   furnishing_set__furnishingSetId: 調度品セット / {name}
   material: 素材一覧(逆引き)

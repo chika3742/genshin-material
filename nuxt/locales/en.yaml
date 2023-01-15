@@ -82,7 +82,7 @@ pages:
   character__characterId: Character / {name}
   weapon: Weapons
   weapon__weaponId: Weapon / {name}
-  artifact: Artifacts
+  artifacts: Artifacts
   furnishing_set: Furnishing Sets
   furnishing_set__furnishingSetId: Furnishing Set / {name}
   furniture: Furniture

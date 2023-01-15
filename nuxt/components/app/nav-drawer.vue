@@ -87,8 +87,8 @@ const drawerItems: (DrawerItem | Divider)[] = [
   },
   {
     icon: "mdi-flower-poppy",
-    title: "artifact",
-    to: "/artifact",
+    title: "artifacts",
+    to: "/artifacts",
   },
   {
     icon: "mdi-sofa-single",
