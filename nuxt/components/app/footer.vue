@@ -2,7 +2,9 @@
   <v-footer class="py-2">
     <div class="d-flex flex-column align-end w-100">
       <div class="d-flex align-end align-sm-center flex-column flex-sm-row justify-end" style="gap: 8px">
-        <!--      <v-spacer />-->
+        <v-btn density="comfortable" href="https://github.com/chika3742/genshin-material" icon target="_blank" variant="text">
+          <v-icon>mdi-github</v-icon>
+        </v-btn>
         <v-btn :to="localePath('/release-notes')" color="primary" density="comfortable">
           {{ $t('pages.release_notes') }}
         </v-btn>
