@@ -10,7 +10,7 @@ export const useConfigStore = defineStore("config", {
     return {
       previousVersion: null as string | null,
       resinBaseTime: new Date(),
-      resinCount: 0,
+      resinCount: "0",
       characterStatus: {} as {[characterId: string]: ShowcaseCharacter},
       gachaAuthKey: "",
       uid: "",
