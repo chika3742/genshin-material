@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-app class="position-relative" theme="dark">
+    <v-app class="position-relative">
       <AppNavDrawer v-model="isDrawerOpenSp" />
 
       <AppSearch v-model="isSearchDialogShown" />

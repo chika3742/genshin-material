@@ -1,5 +1,7 @@
 import {ShowcaseCharacter} from "~/types/showcase"
 
+export type ThemeConfig = "auto" | "light" | "dark"
+
 export const useConfigStore = defineStore("config", {
   persist: {
     storage: localStorage,
@@ -13,11 +15,15 @@ export const useConfigStore = defineStore("config", {
       gachaAuthKey: "",
       uid: "",
       autoImport: 0,
+      theme: "auto" as ThemeConfig,
     }
   },
   getters: {
     isAutoImportEnabled: (state) => {
       return state.autoImport === 1
+    },
+    currentTheme(state): string {
+      return state.theme === "auto" ? window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light" : state.theme
     },
   },
 })

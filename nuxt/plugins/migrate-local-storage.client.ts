@@ -5,7 +5,6 @@ export default defineNuxtPlugin(() => {
     "previous_version",
     "resin_base_time",
     "resin_count",
-    "gacha_auth_key",
     "character_status",
     "uid",
     "auto_import",
