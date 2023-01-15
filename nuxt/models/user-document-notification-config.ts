@@ -1,4 +1,6 @@
-import {NotificationConfig} from "~/types/notification-config"
+// noinspection ES6PreferShortImport
+
+import {NotificationConfig} from "../types/notification-config"
 
 export class UserDocumentNotificationConfig implements NotificationConfig {
   tokens: string[]

@@ -2,7 +2,7 @@
 
 import {GachaLogEntry} from "../types/gacha-log"
 import {UserDocumentNotificationConfig} from "../models/user-document-notification-config"
-import {FurnishingSetMakeCount} from "~/types/common"
+import {FurnishingSetMakeCount} from "../types/common"
 
 export interface UserDocument {
   resinCount?: string
