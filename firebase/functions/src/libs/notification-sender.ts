@@ -3,10 +3,10 @@ import {parse} from "yaml"
 import * as moment from "moment"
 import * as admin from "firebase-admin"
 import {Materials} from "../../../../nuxt/types/generated/materials.g"
-import {UserDocument} from "../../../../nuxt/types/user-document"
 import {getResinRecoveryRemainingMinutes} from "../utils/resin"
 import {makeMulticastRequest, queryIn} from "../utils/sender"
 import {getTargetMaterialIds} from "../utils/common"
+import {UserDocument} from "../../../../shared-types/user-document"
 
 type UserDoc = admin.firestore.DocumentSnapshot<UserDocument>
 

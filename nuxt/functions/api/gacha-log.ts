@@ -1,5 +1,5 @@
+import {GachaLogEntry} from "../../../shared-types/gacha-log-entry"
 import {errorResponse, jsonResponse} from "~utils/functions"
-import {GachaLogEntry} from "~types/gacha-log"
 import {GachaLogRequest} from "~functions/lib/gacha-log-request"
 
 export const onRequest: PagesFunction = async(context) => {

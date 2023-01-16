@@ -1,4 +1,4 @@
-import {GachaLogEntry} from "~/types/gacha-log"
+import {GachaLogEntry} from "../../../shared-types/gacha-log-entry"
 import {errorResponse} from "~/utils/functions"
 import {sleep} from "~utils/sleep"
 

@@ -1,5 +1,5 @@
 import {Dexie, Table} from "dexie"
-import {GachaLogEntry} from "~/types/gacha-log"
+import {GachaLogEntry} from "../../shared-types/gacha-log-entry"
 import d331corr from "~/assets/data/d3.3.1.corr.yaml"
 import d321corr from "~/assets/data/d3.2.1.corr.yaml"
 import {CollectingFurnishingSet} from "~/types/collecting-furnishing-set"

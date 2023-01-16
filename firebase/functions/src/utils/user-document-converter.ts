@@ -1,5 +1,5 @@
 import * as admin from "firebase-admin"
-import {UserDocument} from "../../../../nuxt/types/user-document"
+import {UserDocument} from "../../../../shared-types/user-document"
 
 export const userDocumentConverter: admin.firestore.FirestoreDataConverter<UserDocument> = {
   fromFirestore(snapshot: admin.firestore.QueryDocumentSnapshot): UserDocument {
