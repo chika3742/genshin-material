@@ -101,6 +101,11 @@ pages:
   terms: 利用規約
   terms_summarized: 利用規約 (要約版)
 
+wishes:
+  pity_count: ☆{rank} 天井カウント
+  latest: 最後に引いた ☆{rank}
+  rank_5_probability: あと{count}回で☆5が出る確率
+
 about:
   settings:
     h: 設定

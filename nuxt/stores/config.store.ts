@@ -12,7 +12,7 @@ export const useConfigStore = defineStore("config", {
       resinBaseTime: new Date(),
       resinCount: "0",
       characterStatus: {} as {[characterId: string]: ShowcaseCharacter},
-      gachaAuthKey: "",
+      gachaUrl: "",
       uid: "",
       autoImport: 0,
       theme: "auto" as ThemeConfig,

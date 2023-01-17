@@ -7,4 +7,17 @@ export function hiraToKana(input: string): string {
   }).replace(/[\uFF41-\uFF5A]/g, "")
 }
 
+export function getGachaProbability(type: "weapon" | "others", trials: number): number {
+  const baseProbability = type === "weapon" ? 0.007 : 0.006
+  const pseudoPityBorder = type === "weapon" ? 63 : 73
+  if (!trials) { return 0 }
+  if (trials <= pseudoPityBorder) { return 1 - Math.pow(1 - baseProbability, trials) } else {
+    let prob = Math.pow(1 - baseProbability, pseudoPityBorder)
+    for (let i = 1; i <= trials - pseudoPityBorder; i++) {
+      prob *= 1 - (0.06 * i)
+    }
+    return 1 - prob
+  }
+}
+
 export const currentVersion = `${releaseNotes[0].funcVersion}_D${releaseNotes[0].dataVersion}`

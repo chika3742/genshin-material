@@ -28,10 +28,6 @@ export class GachaLogRequest {
       }
 
       for (const item of list) {
-        if (!lastId && result.some(e => e.rankType === "5") && result.some(e => e.rankType === "4")) {
-          endLoop = true
-          break
-        }
         if (lastId && item.id === lastId) {
           endLoop = true
           break
@@ -41,7 +37,7 @@ export class GachaLogRequest {
 
       lastIdTemp = list.splice(-1)[0].id
 
-      await sleep(250)
+      await sleep(1000)
     }
 
     return result.reverse()
@@ -113,7 +109,7 @@ export class GachaLogRequest {
       name: e.name,
       rankType: e.rank_type,
       itemType: e.item_type,
-      gachaType: e.gacha_type,
+      gachaType: wishType,
       time: e.time,
     }))
   }

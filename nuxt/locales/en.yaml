@@ -102,6 +102,11 @@ pages:
   terms: Terms
   terms_summarized: Terms (summarized)
 
+wishes:
+  pity_count: ☆{rank} Pity count
+  latest: ☆{rank} Last pulled
+  rank_5_probability: ☆5 Probability within {count} wishes
+
 about:
   settings:
     h: Settings
