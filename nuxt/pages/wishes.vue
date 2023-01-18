@@ -204,8 +204,12 @@ const fetchWishes = async() => {
     if (result.data.value.length === 0) {
       snackbar.show("新しい祈願がありません。反映に1時間ほどかかる場合があります。")
     } else {
-      snackbar.show("祈願履歴の取得が完了しました。")
-      await wishesStore.appendAll(result.data.value)
+      try {
+        await wishesStore.appendAll(result.data.value)
+        snackbar.show("祈願履歴の取得が完了しました。")
+      } catch (e) {
+        snackbar.show("取得した祈願履歴の反映に失敗しました")
+      }
     }
   } else if (result.error.value) {
     switch (result.error.value?.data?.code) {

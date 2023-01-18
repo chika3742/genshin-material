@@ -107,7 +107,7 @@ export default defineNuxtConfig({
     public: {
       algoliaApiKey: process.env.ALGOLIA_API_KEY,
       algoliaAppId: process.env.ALGOLIA_APP_ID,
-      apiBaseUrl: process.env.API_BASE_URL ?? "",
+      apiBaseUrl: process.env.API_BASE_URL,
     },
   },
 })
