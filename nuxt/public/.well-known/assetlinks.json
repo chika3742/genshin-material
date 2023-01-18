@@ -1,0 +1,17 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "web",
+      "url": "https://gms.chikach.net"
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "net.chikach.genshinms",
+      "sha256_cert_fingerprints": ["28:6F:79:B9:DF:FD:FE:F8:7D:19:9E:C7:66:98:A3:81:A0:8B:C4:10:E3:7A:BD:DC:C5:4E:13:6B:A3:4A:07:82", "12:98:5E:1F:7E:DD:EC:1C:63:B5:E8:3B:CD:31:AF:F7:D6:24:98:0F:4C:EF:C2:F8:1F:03:46:C2:BF:39:FA:4E"]
+    }
+  }
+]
