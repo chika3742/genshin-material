@@ -51,8 +51,12 @@
             contact me
           </nuxt-link>.
         </div>
-        <div style="font-size: 0.7em">
-          Images/Data: ©miHoYo/COGNOSPHERE<br>このWebページはmiHoYoおよびCOGNOSPHEREとは一切関係ありません
+        <div style="font-size: 0.7em; line-height: 1.5">
+          Images/Data: ©miHoYo/COGNOSPHERE<br>
+          このWebページは miHoYo および COGNOSPHERE とは一切関係ありません
+        </div>
+        <div style="font-size: 0.8em; text-align: end">
+          v{{ currentVersion }}
         </div>
       </div>
     </div>
@@ -61,6 +65,7 @@
 
 <script lang="ts" setup>
 import {useTheme} from "vuetify"
+import {currentVersion} from "~/utils"
 import {ThemeConfig, useConfigStore} from "~/stores/config.store"
 
 const theme = useTheme()

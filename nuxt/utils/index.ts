@@ -20,4 +20,6 @@ export function getGachaProbability(type: "weapon" | "others", trials: number): 
   }
 }
 
-export const currentVersion = `${releaseNotes[0].funcVersion}_D${releaseNotes[0].dataVersion}`
+const config = useRuntimeConfig()
+
+export const currentVersion = `${releaseNotes[0].funcVersion}-build${config.public.ghRunNumber}_D${releaseNotes[0].dataVersion}`

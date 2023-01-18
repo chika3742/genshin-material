@@ -108,6 +108,7 @@ export default defineNuxtConfig({
       algoliaApiKey: process.env.ALGOLIA_API_KEY,
       algoliaAppId: process.env.ALGOLIA_APP_ID,
       apiBaseUrl: process.env.API_BASE_URL,
+      ghRunNumber: process.env.GITHUB_RUN_NUMBER,
     },
   },
 })
