@@ -1,6 +1,6 @@
 import {GenshinElement} from "~/types/enums"
 
-const baseUrl = "https://gms-r2-assets.chikach.net"
+const baseUrl = "https://uploads.gmnext.chikach.net"
 
 export const getCharacterImage = (characterId: string, variant: "full" | "small") => {
   if (variant === "full") {
