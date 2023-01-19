@@ -22,4 +22,4 @@ export function getGachaProbability(type: "weapon" | "others", trials: number): 
 
 const config = useRuntimeConfig()
 
-export const currentVersion = `${releaseNotes[0].funcVersion}-${config.public.gitCommitSha}_D${releaseNotes[0].dataVersion}`
+export const currentVersion = `${releaseNotes[0].funcVersion}-${config.public.gitCommitSha.substring(0, 7)}_D${releaseNotes[0].dataVersion}`
