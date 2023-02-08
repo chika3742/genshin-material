@@ -21,7 +21,7 @@ export const onRequest: PagesFunction = async(context) => {
     return errorResponse("Parameter 'uid' must be at least 9 digits", "failed_precondition", 400)
   }
 
-  const result = await fetch(`https://enka.network/u/${uid}/__data.json`, {
+  const result = await fetch(`https://enka.network/api/uid/${uid}`, {
     headers: {
       "User-Agent": "Genshin Material Data Sync/2.0.0 (gms.chikach.net)",
     },
