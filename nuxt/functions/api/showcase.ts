@@ -1,8 +1,8 @@
 import {EnkaNetworkResponse} from "~types/showcase"
 import {errorResponse, jsonResponse} from "~utils/functions"
 import loc from "~libs/data/loc.json"
-import characterIds from "~libs/data/character-ids.json"
-import travelerSkillSetIds from "~libs/data/traveler-skill-set-ids.json"
+import characterIds from "~libs/data/character-id-map.json"
+import travelerSkillSetIds from "~libs/data/traveler-skill-set-id-map.json"
 
 export const onRequest: PagesFunction = async(context) => {
   if (context.request.method !== "GET") {
