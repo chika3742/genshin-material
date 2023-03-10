@@ -5,9 +5,7 @@ import {generateSchemas} from "./utils/generate-schemas"
 // noinspection JSUnusedGlobalSymbols
 export default defineNuxtConfig({
   app: {
-    keepalive: {
-      max: 10,
-    },
+    keepalive: true,
     pageTransition: {
       name: "scroll-x-reverse-transition",
       leaveActiveClass: "position-absolute w-100",
