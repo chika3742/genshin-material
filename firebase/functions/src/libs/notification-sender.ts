@@ -3,12 +3,12 @@ import {parse} from "yaml"
 import * as moment from "moment"
 import * as admin from "firebase-admin"
 import {Materials} from "../../../../nuxt/types/generated/materials.g"
-import {getResinRecoveryRemainingMinutes} from "../utils/resin"
 import {makeMulticastRequest, queryIn} from "../utils/sender"
 import {getTargetMaterialIds} from "../utils/common"
-import {UserDocument} from "../../../../shared-types/user-document"
+import {UserSettings} from "../types/shared/user-settings"
+import {getResinRecoveryRemainingMinutes} from "../utils/shared/resin"
 
-type UserDoc = admin.firestore.DocumentSnapshot<UserDocument>
+type UserDoc = admin.firestore.DocumentSnapshot<UserSettings>
 
 export class NotificationSender {
   readonly messaging = admin.messaging()

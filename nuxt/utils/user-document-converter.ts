@@ -1,4 +1,4 @@
-import {UserDocument} from "../../shared-types/user-document"
+import {UserSettings} from "#shared/user-settings"
 import {createSimpleDataConverter} from "~/utils/create-simple-data-converter"
 
-export const userDocumentConverter = createSimpleDataConverter<UserDocument>()
+export const userDocumentConverter = createSimpleDataConverter<UserSettings>()

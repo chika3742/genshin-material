@@ -1,6 +1,6 @@
-import {GachaLogEntry} from "../../../shared-types/gacha-log-entry"
 import {errorResponse, jsonResponse} from "~utils/functions"
 import {GachaLogRequest} from "~functions/lib/gacha-log-request"
+import {WishItem} from "~types/wish-item"
 
 export const onRequest: PagesFunction = async(context) => {
   if (context.request.method !== "GET") {
@@ -13,7 +13,7 @@ export const onRequest: PagesFunction = async(context) => {
     return errorResponse("Insufficient parameters", "failed_precondition", 400)
   }
 
-  const result: GachaLogEntry[] = []
+  const result: WishItem[] = []
   const gachaTypes = [200, 301, 302]
   const request = new GachaLogRequest(searchParams.get("auth_key"), searchParams.get("region"))
 

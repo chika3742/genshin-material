@@ -1,1 +1,0 @@
-export type FurnishingSetMakeCount = { [setId: string]: { [furnitureId: string]: number } }

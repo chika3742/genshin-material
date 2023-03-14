@@ -71,10 +71,10 @@
 <script lang="ts" setup>
 import moment from "moment"
 import "moment/dist/locale/ja"
-import {GachaLogEntry} from "../../../shared-types/gacha-log-entry"
 import {useWishesStore} from "~/stores/wishes.store"
 import {getGachaProbability} from "~/utils"
 import {computed} from "#imports"
+import {WishItem} from "~/types/wish-item"
 
 const props = withDefaults(defineProps<{
   wishType: string,
@@ -106,7 +106,7 @@ const getPityCount = (rankType: string) => {
   }
 }
 
-const getIndividualWishPity = (item: GachaLogEntry) => {
+const getIndividualWishPity = (item: WishItem) => {
   const index = wishList.value.findIndex(e => e.id === item.id)
   const nextIndex = wishList.value.findIndex((e, findIndex) => findIndex > index && e.rankType === item.rankType)
   if (nextIndex === -1) {
@@ -115,7 +115,7 @@ const getIndividualWishPity = (item: GachaLogEntry) => {
   return nextIndex - index
 }
 
-const getIndividualPityClass = (item: GachaLogEntry) => {
+const getIndividualPityClass = (item: WishItem) => {
   const pity = getIndividualWishPity(item)
   switch (item.rankType) {
     case "4": {

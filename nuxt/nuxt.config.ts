@@ -97,6 +97,20 @@ export default defineNuxtConfig({
     ],
   },
 
+  typescript: {
+    strict: true,
+    tsConfig: {
+      compilerOptions: {
+        paths: {
+          "#shared/*": [
+            "../firebase/functions/src/types/shared/*",
+            "../firebase/functions/src/utils/shared/*",
+          ],
+        },
+      },
+    },
+  },
+
   nitro: {
     preset: "node-server",
   },

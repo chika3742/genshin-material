@@ -1,4 +1,4 @@
-export interface GachaLogEntry {
+export interface WishItem {
   id: string
   gachaType: string
   time: string

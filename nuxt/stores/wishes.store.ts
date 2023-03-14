@@ -1,11 +1,11 @@
-import {GachaLogEntry} from "../../shared-types/gacha-log-entry"
 import {db} from "~/dexie/db"
 import {auth} from "~/libs/firebase-init"
+import {WishItem} from "~/types/wish-item"
 
 export const useWishesStore = defineStore("wishes", {
   state() {
     return {
-      wishes: [] as GachaLogEntry[],
+      wishes: [] as WishItem[],
     }
   },
   actions: {
@@ -18,7 +18,7 @@ export const useWishesStore = defineStore("wishes", {
         throw e
       })
     },
-    async appendAll(entries: GachaLogEntry[]) {
+    async appendAll(entries: WishItem[]) {
       this.wishes.push(...toRaw(entries))
       await db.gachaLogs.bulkAdd(toRaw(entries))
       if (auth.currentUser) {

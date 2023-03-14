@@ -130,11 +130,11 @@
 
 <script lang="ts" setup>
 import {FetchError} from "ofetch"
-import {GachaLogEntry} from "../../shared-types/gacha-log-entry"
 import {ErrorResponse} from "~/types/showcase"
 import {useFetch} from "#imports"
 import {useWishesStore} from "~/stores/wishes.store"
 import {useConfigStore} from "~/stores/config.store"
+import {WishItem} from "~/types/wish-item"
 
 definePageMeta({
   title: "wishes",
@@ -196,7 +196,7 @@ const fetchWishes = async() => {
     }
   }
 
-  const result = await useFetch<GachaLogEntry[], FetchError<ErrorResponse>>(requestUrl.toString())
+  const result = await useFetch<WishItem[], FetchError<ErrorResponse>>(requestUrl.toString())
 
   if (result.data.value) {
     configStore.gachaUrl = url.value

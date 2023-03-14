@@ -1,6 +1,6 @@
-import {GachaLogEntry} from "../../../shared-types/gacha-log-entry"
 import {errorResponse} from "~/utils/functions"
 import {sleep} from "~utils/sleep"
+import {WishItem} from "~types/wish-item"
 
 export class GachaLogRequest {
   constructor(
@@ -8,13 +8,13 @@ export class GachaLogRequest {
     private readonly region: string,
   ) {}
 
-  async getGachaLogForWishType(wishType: string, lastId: string | null): Promise<GachaLogEntry[] | Response> {
-    const result: GachaLogEntry[] = []
+  async getGachaLogForWishType(wishType: string, lastId: string | null): Promise<WishItem[] | Response> {
+    const result: WishItem[] = []
     let endLoop = false
     let lastIdTemp: string | null = null
 
     while (!endLoop) {
-      const listOrResponse: GachaLogEntry[] | Response = await this.sendGachaLogRequest(wishType, lastIdTemp)
+      const listOrResponse: WishItem[] | Response = await this.sendGachaLogRequest(wishType, lastIdTemp)
 
       // エラーが返された場合
       if (listOrResponse instanceof Response) {
@@ -43,7 +43,7 @@ export class GachaLogRequest {
     return result.reverse()
   }
 
-  private async sendGachaLogRequest(wishType: string, lastId?: string): Promise<GachaLogEntry[] | Response> {
+  private async sendGachaLogRequest(wishType: string, lastId?: string): Promise<WishItem[] | Response> {
     const url = new URL("https://hk4e-api-os.mihoyo.com/event/gacha_info/api/getGachaLog?authkey_ver=1&lang=ja&game_biz=hk4e_global&size=20")
 
     url.searchParams.set("authkey", this.authKey)

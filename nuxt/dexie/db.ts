@@ -1,5 +1,4 @@
 import {Dexie, Table} from "dexie"
-import {GachaLogEntry} from "../../shared-types/gacha-log-entry"
 import d331corr from "~/assets/data/d3.3.1.corr.yaml"
 import d321corr from "~/assets/data/d3.2.1.corr.yaml"
 import {CollectingFurnishingSet} from "~/types/collecting-furnishing-set"
@@ -8,9 +7,10 @@ import d300corr from "~/assets/data/d3.0.0.corr.yaml"
 import {CollectingArtifactPiece} from "~/types/collecting-artifact-piece"
 import {CollectingArtifactSet} from "~/types/collecting-artifact-set"
 import {LegacyCollectingArtifact} from "~/types/legacy-collecting-artifact"
+import {WishItem} from "~/types/wish-item"
 
 class MySubClassedDexie extends Dexie {
-  gachaLogs!: Table<GachaLogEntry>
+  gachaLogs!: Table<WishItem>
   collectingMaterials!: Table<CollectingMaterial>
   collectingFurnishingSets!: Table<CollectingFurnishingSet>
   collectingArtifactPieces!: Table<CollectingArtifactPiece>
