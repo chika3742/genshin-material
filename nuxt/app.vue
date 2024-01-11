@@ -81,11 +81,6 @@ onMounted(() => {
 
         <v-spacer />
 
-        <!-- Non-prod warning -->
-        <div class="warning-overlay-banner">
-          <span>{{ tx("common.nonProdWarning") }}</span>
-        </div>
-
         <AppFooter
           v-model:theme-setting="config.theme"
           :current-version="getCurrentVersionText()"
@@ -133,16 +128,5 @@ onMounted(() => {
         transform: rotate(0deg)
       to
         transform: rotate(360deg)
-
-.warning-overlay-banner
-  width: 100%
-  position: sticky
-  padding: 8px 16px
-  font-size: 0.8em
-  bottom: 0
-  z-index: 999
-  background: rgba(var(--v-theme-warning), 0.6)
-  font-weight: bold
-  backdrop-filter: blur(8px)
 
 </style>
