@@ -6,7 +6,7 @@ import {createContext, createPage} from "~/test/test-utils"
 const port = await getRandomPort()
 beforeAll(async() => {
   console.log("Building...")
-  await execa("yarn", ["generate"])
+  await execa("npm", ["run", "generate"])
   console.log("Starting server...")
   void execa("npx", ["serve", "dist", "-l", port.toString()])
   await waitForPort(port, {retries: 20})
