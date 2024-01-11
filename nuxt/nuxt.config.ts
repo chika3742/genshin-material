@@ -124,6 +124,7 @@ export default defineNuxtConfig({
     },
   },
   googleFonts: {
+    download: process.env.TEST !== "true",
     families: {
       "IBM Plex Sans JP": [500, 700],
       "Kaisei Opti": [700],
