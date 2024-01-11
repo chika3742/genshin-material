@@ -6807,6 +6807,8 @@ __metadata:
     eslint: "npm:^8.51.0"
     eslint-config-nuxt: "github:chika3742/eslint-config-nuxt"
     eslint-plugin-vue: "npm:^9.17.0"
+    execa: "npm:^8.0.1"
+    get-port-please: "npm:^3.1.2"
     happy-dom: "npm:^12.10.3"
     json-schema-to-typescript: "npm:^13.1.1"
     luxon: "npm:^3.4.3"
@@ -6866,6 +6868,13 @@ __metadata:
   version: 3.1.1
   resolution: "get-port-please@npm:3.1.1"
   checksum: d9229fd671cf43ab846bf187aad917e10688f154db467e0dbc423d0ab9f47363f9612bfb9094a89de196873a3966d33c907475a76bbfd7b68d81caf610035958
+  languageName: node
+  linkType: hard
+
+"get-port-please@npm:^3.1.2":
+  version: 3.1.2
+  resolution: "get-port-please@npm:3.1.2"
+  checksum: 61237342fe035967e5ad1b67a2dee347a64de093bf1222b7cd50072568d73c48dad5cc5cd4fa44635b7cfdcd14d6c47554edb9891c2ec70ab33ecb831683e257
   languageName: node
   linkType: hard
 
