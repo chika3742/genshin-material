@@ -13,6 +13,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: actions/cache@v3
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright }}
+
       - uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -21,6 +26,7 @@ jobs:
         working-directory: nuxt
         env:
           GH_PACKAGES_TOKEN: ${{ secrets.GH_PACKAGES_TOKEN }}
+          TEST: true
 
       - run: npm run lint
         working-directory: nuxt
