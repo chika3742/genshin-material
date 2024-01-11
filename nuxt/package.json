@@ -5,7 +5,7 @@
   "scripts": {
     "build": "nuxt build",
     "lint": "eslint --ext .ts,.vue .",
-    "test": "vitest",
+    "test": "playwright-core install && vitest",
     "dev": "nuxt dev --port 3002",
     "dev:host": "nuxt dev --host",
     "generate": "nuxt generate",
