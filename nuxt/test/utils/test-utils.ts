@@ -1,26 +1,20 @@
 import {type Browser, chromium} from "playwright-core"
+import {inject} from "vitest"
 
-interface TestOptions {
+export interface TestOptions {
   port: number
 }
 
-interface TestContext extends TestOptions {
+export interface TestContext extends TestOptions {
   browser?: Browser
 }
 
-let currentContext: TestContext | null = null
-
-export const createContext = (options: TestOptions) => {
-  currentContext = {
-    ...options,
-  }
-}
-
 export const useContext = () => {
-  if (!currentContext) {
-    throw new Error("No context")
+  const ctx = inject("myCtx")
+  if (typeof ctx === "undefined") {
+    throw new TypeError("No context")
   }
-  return currentContext
+  return ctx as TestContext
 }
 
 export const getBrowser = async() => {
@@ -29,6 +23,14 @@ export const getBrowser = async() => {
     ctx.browser = await chromium.launch()
   }
   return ctx.browser
+}
+
+export const closeBrowser = async() => {
+  const ctx = useContext()
+  if (ctx.browser) {
+    await ctx.browser.close()
+    ctx.browser = undefined
+  }
 }
 
 export const createPage = async(path: string, options?: Parameters<Browser["newPage"]>[0]) => {
