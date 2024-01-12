@@ -2,8 +2,6 @@ name: Lint & Test (Nuxt)
 
 on:
   push:
-    branches-ignore:
-      - "main"
   workflow_dispatch:
 
 jobs:
@@ -21,6 +19,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: yarn
+          cache-dependency-path: nuxt/yarn.lock
 
       - run: yarn install
         working-directory: nuxt
