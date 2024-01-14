@@ -66,7 +66,7 @@ export default defineNuxtConfig({
   nitro: {
     preset: "cloudflare-pages-static",
     output: {
-      publicDir: process.env.NATIVE_UI ? "dist" : "dist_web",
+      publicDir: process.env.NATIVE_UI ? "dist_native" : "dist",
     },
     hooks: {
       "prerender:route"(route) {

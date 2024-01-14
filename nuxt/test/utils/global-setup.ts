@@ -23,12 +23,12 @@ export const setup = async({provide}: GlobalSetupContext) => {
 
     webPort = await getRandomPort()
     console.log(`Starting server on port ${webPort}...`)
-    void execa("npx", ["serve", "dist_web", "-l", webPort.toString()])
+    void execa("npx", ["serve", "dist", "-l", webPort.toString()])
     await waitForPort(webPort, {retries: 20})
 
     nativePort = await getRandomPort()
     console.log(`Starting server on port ${nativePort}...`)
-    void execa("npx", ["serve", "dist", "-l", nativePort.toString()])
+    void execa("npx", ["serve", "dist_native", "-l", nativePort.toString()])
     await waitForPort(nativePort, {retries: 20})
   }
 

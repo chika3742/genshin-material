@@ -13,7 +13,7 @@
     "dev:native:host": "NATIVE_UI=true yarn dev --host",
     "generate": "nuxt generate",
     "generate:native": "NATIVE_UI=true nuxt generate",
-    "sync": "yarn generate && cap sync",
+    "sync": "yarn generate:native && cap sync",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },

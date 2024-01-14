@@ -8,7 +8,7 @@ const devConfig = {
 const config: CapacitorConfig = {
   appId: "net.chikach.genshinmaterial",
   appName: "genshin-material",
-  webDir: "dist",
+  webDir: "dist_native",
   server: {
     androidScheme: "https",
     // ...devConfig,
