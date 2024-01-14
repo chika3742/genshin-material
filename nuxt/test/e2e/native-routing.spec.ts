@@ -2,7 +2,7 @@ import {afterAll, describe, test} from "vitest"
 import {createPage} from "~/test/utils/test-utils"
 
 describe("Native routing", async() => {
-  const page = await createPage("/?force_native=true")
+  const page = await createPage("/", true)
 
   test("navigates to the default path when switching tab", async() => {
     await page.click(".v-bottom-navigation .v-btn:nth-of-type(2)")

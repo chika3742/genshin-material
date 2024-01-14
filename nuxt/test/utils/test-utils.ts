@@ -2,7 +2,8 @@ import {type Browser, chromium} from "playwright-core"
 import {inject} from "vitest"
 
 export interface TestOptions {
-  port: number
+  webPort: number
+  nativePort: number
 }
 
 export interface TestContext extends TestOptions {
@@ -33,9 +34,11 @@ export const closeBrowser = async() => {
   }
 }
 
-export const createPage = async(path: string, options?: Parameters<Browser["newPage"]>[0]) => {
+export const createPage = async(path: string, native = false, options?: Parameters<Browser["newPage"]>[0]) => {
+  const ctx = useContext()
+
   const browser = await getBrowser()
   const page = await browser.newPage(options)
-  await page.goto(`http://localhost:${useContext().port}${path}`)
+  await page.goto(`http://localhost:${native ? ctx.nativePort : ctx.webPort}${path}`)
   return page
 }

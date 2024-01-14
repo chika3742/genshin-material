@@ -10,21 +10,31 @@ export const createContext = (options: TestOptions) => {
 }
 
 export const setup = async({provide}: GlobalSetupContext) => {
-  let port: number
+  let webPort: number
+  let nativePort: number
   if (process.env.VITEST_DEV === "true") {
-    port = 3002
+    webPort = 3002
+    nativePort = 3002
   } else {
-    port = await getRandomPort()
-
-    console.log("Building...")
+    console.log("Building...(1/2)")
     await execa("npm", ["run", "generate"])
-    console.log(`Starting server on port ${port}...`)
-    void execa("npx", ["serve", "dist", "-l", port.toString()])
-    await waitForPort(port, {retries: 20})
+    console.log("Building...(2/2)")
+    await execa("npm", ["run", "generate:native"])
+
+    webPort = await getRandomPort()
+    console.log(`Starting server on port ${webPort}...`)
+    void execa("npx", ["serve", "dist_web", "-l", webPort.toString()])
+    await waitForPort(webPort, {retries: 20})
+
+    nativePort = await getRandomPort()
+    console.log(`Starting server on port ${nativePort}...`)
+    void execa("npx", ["serve", "dist", "-l", nativePort.toString()])
+    await waitForPort(nativePort, {retries: 20})
   }
 
   const ctx = createContext({
-    port,
+    webPort,
+    nativePort,
   })
 
   provide("myCtx", ctx)
