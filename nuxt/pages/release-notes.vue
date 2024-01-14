@@ -3,6 +3,7 @@ import releaseNotes from "~/assets/data/release-notes.yaml"
 
 definePageMeta({
   title: "releaseNotes",
+  screenType: "base",
 })
 </script>
 

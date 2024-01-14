@@ -33,5 +33,6 @@
 <script lang="ts" setup>
 definePageMeta({
   title: "termsSummarized",
+  screenType: "base",
 })
 </script>

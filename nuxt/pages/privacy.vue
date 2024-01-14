@@ -71,5 +71,6 @@
 <script lang="ts" setup>
 definePageMeta({
   title: "privacy",
+  screenType: "base",
 })
 </script>
