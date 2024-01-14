@@ -11,6 +11,7 @@ export interface TestContext extends TestOptions {
 }
 
 export const useContext = () => {
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
   const ctx = inject("myCtx")
   if (typeof ctx === "undefined") {
     throw new TypeError("No context")
