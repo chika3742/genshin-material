@@ -1,13 +1,15 @@
 import type {GlobalSetupContext} from "vitest/node"
 import {getRandomPort, waitForPort} from "get-port-please"
 import {execa} from "execa"
-import type {TestOptions} from "~/test/utils/test-utils"
+import type {TestContext, TestOptions} from "~/test/utils/test-utils"
 
-export const createContext = (options: TestOptions) => {
+export const createContext = (options: TestOptions): TestContext => {
   return {
     ...options,
   }
 }
+
+let currentContext: TestContext
 
 export const setup = async({provide}: GlobalSetupContext) => {
   let webPort: number
@@ -38,4 +40,14 @@ export const setup = async({provide}: GlobalSetupContext) => {
   })
 
   provide("myCtx", ctx)
+  currentContext = ctx
+}
+
+export const teardown = async() => {
+  if (process.env.VITEST_DEV !== "true") {
+    const pids = await execa("lsof", [
+      `-ti:${currentContext.webPort},${currentContext.nativePort}`,
+    ])
+    await execa("kill", pids.stdout.split("\n"))
+  }
 }
