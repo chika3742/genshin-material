@@ -1,0 +1,6 @@
+require 'json'
+
+capacitor_config = JSON.parse(File.read('../app/src/main/assets/capacitor.config.json'))
+
+package_name(capacitor_config["appId"])
+json_key_file(ENV["CREDENTIALS_FILE_PATH"])
