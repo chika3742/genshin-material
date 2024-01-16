@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/nuxt/android" />
       <excludeFolder url="file://$MODULE_DIR$/nuxt/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/nuxt/dist_native" />
       <excludeFolder url="file://$MODULE_DIR$/nuxt/ios" />
     </content>
     <orderEntry type="inheritedJdk" />

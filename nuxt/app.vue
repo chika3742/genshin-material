@@ -1,30 +1,16 @@
 <script lang="ts" setup>
 import {useTheme} from "vuetify"
 
-const feedbackPageUrl = "https://www.chikach.net/genshin-material-feedback/"
-const hoyolabArticleUrl = "https://www.hoyolab.com/article/1007396"
-const repositoryUrl = "https://github.com/chika3742/genshin-material-next"
-const drawerItems: DrawerItemOrDivider[] = [
-  {
-    icon: "mdi-home",
-    to: "/",
-  },
-]
-
-const router = useRouter()
-const i18n = useI18n()
 const config = useConfigStore()
 const theme = useTheme()
+const myRouter = useMyRouter()
 
-const title = computed(() => getPageTitle(router.currentRoute.value.fullPath, router, i18n))
+const mounted = ref(false)
 
 useHead({
-  title,
+  title: myRouter.pageTitle,
   titleTemplate: `%s - ${tx("common.appName")}`,
 })
-
-const isDrawerOpenOnMobile = ref(false)
-const mounted = ref(false)
 
 // register service worker
 onBeforeMount(() => {
@@ -58,43 +44,9 @@ onMounted(() => {
 
 <template>
   <v-app>
-    <client-only>
-      <AppDrawer v-model="isDrawerOpenOnMobile" :drawer-items="drawerItems" />
-    </client-only>
-
-    <v-app-bar>
-      <template #prepend>
-        <v-app-bar-nav-icon
-          v-show="$vuetify.display.mobile"
-          @click="isDrawerOpenOnMobile = true"
-        />
-      </template>
-
-      <v-app-bar-title>{{ title }}</v-app-bar-title>
-    </v-app-bar>
-
-    <v-main class="h-100">
-      <div class="d-flex flex-column h-100">
-        <v-container v-safe-area="{left: 16, right: 16, top: false, bottom: false}">
-          <NuxtPage :keepalive="{max: 5, exclude: ['v-tooltip']}" :page-key="$router.currentRoute.value.path" />
-        </v-container>
-
-        <v-spacer />
-
-        <!-- Non-prod warning -->
-        <div class="warning-overlay-banner">
-          <span>{{ tx("common.nonProdWarning") }}</span>
-        </div>
-
-        <AppFooter
-          v-model:theme-setting="config.theme"
-          :current-version="getCurrentVersionText()"
-          :feedback-page-url="feedbackPageUrl"
-          :hoyolab-article-url="hoyolabArticleUrl"
-          :repository-url="repositoryUrl"
-        />
-      </div>
-    </v-main>
+    <NuxtLayout :name="myRouter.layoutId.value">
+      <NuxtPage :page-key="$router.currentRoute.value.path" keepalive />
+    </NuxtLayout>
 
     <v-fade-transition>
       <div v-show="!mounted" class="loading-overlay" />
@@ -133,16 +85,5 @@ onMounted(() => {
         transform: rotate(0deg)
       to
         transform: rotate(360deg)
-
-.warning-overlay-banner
-  width: 100%
-  position: sticky
-  padding: 8px 16px
-  font-size: 0.8em
-  bottom: 0
-  z-index: 999
-  background: rgba(var(--v-theme-warning), 0.6)
-  font-weight: bold
-  backdrop-filter: blur(8px)
 
 </style>

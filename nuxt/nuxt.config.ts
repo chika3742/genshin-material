@@ -18,6 +18,11 @@ export default defineNuxtConfig({
       leaveActiveClass: "position-absolute d-none",
       duration: 200,
     },
+    layoutTransition: {
+      name: "scroll-y-reverse-transition",
+      leaveActiveClass: "position-absolute d-none",
+      duration: 200,
+    },
     head: {
       link: [
         {
@@ -37,6 +42,12 @@ export default defineNuxtConfig({
       ],
     },
   },
+  components: [
+    {
+      path: "~/components",
+      pathPrefix: false,
+    },
+  ],
   experimental: {
     payloadExtraction: false,
   },
@@ -54,6 +65,9 @@ export default defineNuxtConfig({
   },
   nitro: {
     preset: "cloudflare-pages-static",
+    output: {
+      publicDir: process.env.NATIVE_UI ? "dist_native" : "dist",
+    },
     hooks: {
       "prerender:route"(route) {
         // add route to list
@@ -139,6 +153,7 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
+      nativeUi: process.env.NATIVE_UI === "true",
       pagesCommitSha: process.env.CF_PAGES_COMMIT_SHA ?? execSync("git rev-parse HEAD").toString().trim(),
       builtAt: DateTime.now().toISO()!,
     },

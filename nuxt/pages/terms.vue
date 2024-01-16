@@ -91,5 +91,6 @@
 <script lang="ts" setup>
 definePageMeta({
   title: "terms",
+  screenType: "base",
 })
 </script>

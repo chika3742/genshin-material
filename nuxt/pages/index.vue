@@ -1,14 +1,15 @@
 <script setup lang="ts">
 definePageMeta({
   title: "home",
+  screenType: "default",
 })
 
-interface Entry {
+interface IndexEntry {
   path: string
   icon: string
 }
 
-const entries: Entry[] = [
+const entries: IndexEntry[] = [
 ]
 </script>
 
