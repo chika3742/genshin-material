@@ -7,6 +7,7 @@ import {generateSitemap} from "./scripts/generate-sitemap"
 import {workboxBuild} from "./scripts/workbox-build"
 import {generateSchemas} from "./scripts/generate-schemas"
 import {generateLocType} from "./scripts/generate-loc-type"
+import {syncAppVersion} from "./scripts/sync-app-version"
 
 const hostname = "https://hsr.matnote.app"
 const sitemapRoutes: string[] = []
@@ -78,6 +79,10 @@ export default defineNuxtConfig({
         // generate sitemap.xml
         if (sitemapRoutes.length > 0) {
           await generateSitemap(sitemapRoutes, hostname)
+        }
+
+        if (process.env.NATIVE_UI === "true") {
+          await syncAppVersion()
         }
       },
     },

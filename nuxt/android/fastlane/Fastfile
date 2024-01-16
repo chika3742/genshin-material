@@ -3,7 +3,6 @@ default_platform(:android)
 platform :android do
   desc "Push a new build to Google Play"
   lane :deploy do
-    increment_version_code(version_code: ENV["ANDROID_VERSION_CODE"])
     gradle(task: "bundleRelease")
 
     upload_to_play_store(
@@ -11,7 +10,7 @@ platform :android do
       skip_upload_apk: true,
       skip_upload_changelogs: true,
       skip_upload_metadata: true,
-      release_status: "draft",
+      release_status: "draft", # TODO: change to "completed" when ready
       mapping_paths: ["app/build/outputs/mapping/release/mapping.txt"],
     )
   end
