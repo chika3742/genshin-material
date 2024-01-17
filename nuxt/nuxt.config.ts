@@ -63,6 +63,7 @@ export default defineNuxtConfig({
       dsv(),
     ],
   },
+  ssr: process.env.NATIVE_UI !== "true",
   nitro: {
     preset: "cloudflare-pages-static",
     output: {

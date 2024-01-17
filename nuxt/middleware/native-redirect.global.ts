@@ -5,8 +5,4 @@ export default defineNuxtRouteMiddleware((to) => {
   if (!nativeUi && to.meta.nativeOnly) {
     return navigateTo("/")
   }
-
-  if (nativeUi && to.path === "/") {
-    return navigateTo("/bookmarks")
-  }
 })
