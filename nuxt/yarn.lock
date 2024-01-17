@@ -1481,9 +1481,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@chika3742/mhy-material-components@npm:^1.0.25":
-  version: 1.0.25
-  resolution: "@chika3742/mhy-material-components@npm:1.0.25::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40chika3742%2Fmhy-material-components%2F1.0.25%2F07ab90c199bcc509855fb80a7e9f4b9e5b339c38"
+"@chika3742/mhy-material-components@npm:^1.0.27":
+  version: 1.0.27
+  resolution: "@chika3742/mhy-material-components@npm:1.0.27::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40chika3742%2Fmhy-material-components%2F1.0.27%2Fc72ba44107a5300576aa74b84436f4627c5aebd9"
   dependencies:
     "@mdi/font": "npm:^7.3.67"
     "@nuxt/kit": "npm:^3.5.2"
@@ -1495,7 +1495,7 @@ __metadata:
     marked: "npm:^9.1.4"
     sass: "npm:^1.69.5"
     vuetify: "npm:^3.3.20"
-  checksum: bbc08bf117ac947c39043d462da5805a3cf08ed0a16d27dc5969afba033ef9c8914193a2d042aa3b6a268ac7fad2a0806ebc3f091fcad9745b41bc93be012bea
+  checksum: 44f99153ba9da7d563b3d20f65c6392671c55f00dcd2706401ca6aec86f94bdf0cbee6ca2cc6e35ced154c599dfabd1115aacb1f73e93ab7608e5a9290677a85
   languageName: node
   linkType: hard
 
@@ -6788,7 +6788,7 @@ __metadata:
     "@capacitor/cli": "npm:^5.6.0"
     "@capacitor/core": "npm:^5.6.0"
     "@capacitor/ios": "npm:^5.6.0"
-    "@chika3742/mhy-material-components": "npm:^1.0.25"
+    "@chika3742/mhy-material-components": "npm:^1.0.27"
     "@nuxt/devtools": "npm:^1.0.6"
     "@nuxt/test-utils": "npm:^3.9.0"
     "@nuxtjs/eslint-config-typescript": "npm:^12.1.0"
