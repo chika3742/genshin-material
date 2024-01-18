@@ -3,6 +3,10 @@ default_platform(:android)
 platform :android do
   desc "Push a new build to Google Play"
   lane :deploy do
+    sh("yarn", "generate:native")
+
+    sh("yarn", "sync:android")
+
     gradle(task: "bundleRelease")
 
     upload_to_play_store(
