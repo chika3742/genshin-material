@@ -23,7 +23,7 @@ const entries: IndexEntry[] = [
         v-for="entry in entries"
         :key="entry.path"
         :prepend-icon="entry.icon"
-        :title="getPageTitle(entry.path)"
+        :title="$getPageTitle(entry.path)"
         :to="localePath(entry.path)"
       />
     </v-list>

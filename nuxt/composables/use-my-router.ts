@@ -1,10 +1,10 @@
 export const useMyRouter = () => {
+  const {$getPageTitle} = useNuxtApp()
   const route = useRoute()
   const router = useRouter()
-  const i18n = useI18n()
   const rConfig = useRuntimeConfig()
 
-  const pageTitle = ref(getPageTitle(route.fullPath, router, i18n))
+  const pageTitle = ref($getPageTitle(route.fullPath))
   let unsubscribe: (() => void) | undefined
 
   const layoutId = computed(() => {
@@ -17,7 +17,7 @@ export const useMyRouter = () => {
   onMounted(() => {
     unsubscribe = router.afterEach((to, from) => {
       if (layoutId.value === "web" || to.meta.screenType === from.meta.screenType) {
-        pageTitle.value = getPageTitle(to.fullPath, router, i18n)
+        pageTitle.value = $getPageTitle(to.fullPath)
       }
     })
   })
