@@ -13,14 +13,14 @@ jobs:
   deploy-android:
     name: Deploy to Google Play
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      id-token: write
+#    permissions:
+#      contents: read
+#      id-token: write
     env:
       BUNDLE_GEMFILE: ${{ github.workspace }}/nuxt/android/Gemfile
-      WORKLOAD_IDENTITY_PROVIDER: projects/218237880785/locations/global/workloadIdentityPools/github-actions/providers/github
-      SERVICE_ACCOUNT: fastlane-integration@mydatauploader.iam.gserviceaccount.com
-      WORKLOAD_IDENTITY_AUDIENCE: https://github.com/chika3742
+#      WORKLOAD_IDENTITY_PROVIDER: projects/218237880785/locations/global/workloadIdentityPools/github-actions/providers/github
+#      SERVICE_ACCOUNT: fastlane-integration@mydatauploader.iam.gserviceaccount.com
+#      WORKLOAD_IDENTITY_AUDIENCE: https://github.com/chika3742
     steps:
       - uses: actions/checkout@v4
 
@@ -52,13 +52,16 @@ jobs:
       - name: Extract keystore
         run: base64 -d <<< "${{ secrets.ANDROID_KEYSTORE_BASE64 }}" > nuxt/android/gm.keystore
 
-      - name: Authenticate to Google Cloud
-        id: auth
-        uses: google-github-actions/auth@v2
-        with:
-          workload_identity_provider: ${{ env.WORKLOAD_IDENTITY_PROVIDER }}
-          service_account: ${{ env.SERVICE_ACCOUNT }}
-          audience: ${{ env.WORKLOAD_IDENTITY_AUDIENCE }}
+      - name: Extract service account key
+        run: base64 -d <<< "${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY_BASE64 }}" > nuxt/android/service_account_key.json
+
+#      - name: Authenticate to Google Cloud
+#        id: auth
+#        uses: google-github-actions/auth@v2
+#        with:
+#          workload_identity_provider: ${{ env.WORKLOAD_IDENTITY_PROVIDER }}
+#          service_account: ${{ env.SERVICE_ACCOUNT }}
+#          audience: ${{ env.WORKLOAD_IDENTITY_AUDIENCE }}
 
       - name: Version number with offset
         id: version-number
@@ -68,5 +71,5 @@ jobs:
         working-directory: nuxt
         env:
           APP_VERSION_NUMBER: ${{ steps.version-number.outputs.result }}
-          CREDENTIALS_FILE_PATH: ${{ steps.auth.outputs.credentials_file_path }}
+          CREDENTIALS_FILE_PATH: ./service_account_key.json
 
