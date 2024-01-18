@@ -104,7 +104,7 @@ jobs:
       - name: Extract App Store Connect API auth key
         run: |
           mkdir -p ~/private_keys
-          base64 -d <<< "${{ secrets.APP_STORE_CONNECT_API_AUTH_KEY_BASE64 }}" > ~/private_keys/AuthKey_${{ secrets.APP_STORE_CONNECT_KEY_ID }}.p8
+          base64 -d <<< "${{ secrets.APP_STORE_CONNECT_AUTH_KEY_BASE64 }}" > ~/private_keys/AuthKey_${{ secrets.APP_STORE_CONNECT_KEY_ID }}.p8
 
       - name: Import mobile provisioning profile
         run: |
