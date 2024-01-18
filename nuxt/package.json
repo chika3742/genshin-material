@@ -3,7 +3,6 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxt build",
     "lint": "eslint --ext .ts,.vue .",
     "test": "playwright-core install && vitest",
     "test:dev": "VITEST_DEV=true vitest",
@@ -11,9 +10,14 @@
     "dev:host": "yarn dev --host",
     "dev:native": "NATIVE_UI=true yarn dev",
     "dev:native:host": "NATIVE_UI=true yarn dev --host",
+    "run:ios": "NODE_ENV=development cap run ios",
+    "run:android": "NODE_ENV=development cap run android",
+    "deploy:ios": "cd ios/App && bundle exec fastlane deploy",
+    "deploy:android": "cd android && bundle exec fastlane deploy",
+    "sync:ios": "cap sync ios",
+    "sync:android": "cap sync android",
     "generate": "nuxt generate",
     "generate:native": "NATIVE_UI=true nuxt generate",
-    "sync": "yarn generate:native && cap sync",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },

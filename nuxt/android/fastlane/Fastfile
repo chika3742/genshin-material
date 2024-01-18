@@ -1,0 +1,21 @@
+default_platform(:android)
+
+platform :android do
+  desc "Push a new build to Google Play"
+  lane :deploy do
+    sh("yarn", "generate:native")
+
+    sh("yarn", "sync:android")
+
+    gradle(task: "bundleRelease")
+
+    upload_to_play_store(
+      track: "internal",
+      skip_upload_apk: true,
+      skip_upload_changelogs: true,
+      skip_upload_metadata: true,
+      release_status: "draft", # TODO: change to "completed" when ready
+      mapping_paths: ["app/build/outputs/mapping/release/mapping.txt"],
+    )
+  end
+end

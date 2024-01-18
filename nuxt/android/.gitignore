@@ -76,6 +76,8 @@ fastlane/screenshots
 fastlane/test_output
 fastlane/readme.md
 
+generated.properties
+
 # Version control
 vcs.xml
 

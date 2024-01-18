@@ -1,14 +1,30 @@
 apply plugin: 'com.android.application'
 
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def versionProperties = new Properties()
+def versionPropertiesFile = rootProject.file('generated.properties')
+if (versionPropertiesFile.exists()) {
+    versionPropertiesFile.withReader('UTF-8') { reader ->
+        versionProperties.load(reader)
+    }
+}
+
 android {
     namespace "net.chikach.genshinmaterial"
-    compileSdkVersion rootProject.ext.compileSdkVersion
+    compileSdk rootProject.ext.compileSdkVersion
     defaultConfig {
         applicationId "net.chikach.genshinmaterial"
-        minSdkVersion rootProject.ext.minSdkVersion
-        targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
-        versionName "1.0"
+        minSdk rootProject.ext.minSdkVersion
+        targetSdk rootProject.ext.targetSdkVersion
+        versionCode versionProperties.getProperty("gm.versionNumber").toInteger()
+        versionName versionProperties.getProperty("gm.versionName")
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         aaptOptions {
              // Files and dirs to omit from the packaged assets dir, modified to accommodate modern web apps.
@@ -16,9 +32,18 @@ android {
             ignoreAssetsPattern '!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~'
         }
     }
+    signingConfigs {
+        release {
+            storeFile file(localProperties.getProperty("gm.keyStorePath"))
+            storePassword localProperties.getProperty("gm.keyStorePassword")
+            keyAlias localProperties.getProperty("gm.keyAlias")
+            keyPassword localProperties.getProperty("gm.keyPassword")
+        }
+    }
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
+            signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
