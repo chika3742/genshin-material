@@ -53,6 +53,7 @@ jobs:
         run: base64 -d <<< "${{ secrets.ANDROID_KEYSTORE_BASE64 }}" > nuxt/android/gm.keystore
 
       - name: Authenticate to Google Cloud
+        id: auth
         uses: google-github-actions/auth@v2
         with:
           workload_identity_provider: ${{ env.WORKLOAD_IDENTITY_PROVIDER }}
@@ -67,4 +68,5 @@ jobs:
         working-directory: nuxt
         env:
           APP_VERSION_NUMBER: ${{ steps.version-number.outputs.result }}
+          CREDENTIALS_FILE_PATH: ${{ steps.auth.outputs.credentials_file_path }}
 
