@@ -52,6 +52,10 @@ export default defineNuxtConfig({
   experimental: {
     payloadExtraction: false,
   },
+  ignore: [
+    "ios/**",
+    "android/**",
+  ],
   css: ["assets/styles/fonts.sass"],
   build: {
     transpile: ["vuetify"],
