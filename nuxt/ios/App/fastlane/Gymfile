@@ -11,4 +11,4 @@
 # sdk("iphoneos9.0")
 
 export_options("./ExportOptions.plist")
-output_directory("./build")
+output_directory("./output")
