@@ -1,9 +1,13 @@
 import type {CapacitorConfig} from "@capacitor/cli"
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const devConfig = {
-  url: "http://192.168.0.61:3002",
+  url: process.env.CAP_DEBUG_SERVER_URL,
   cleartext: true,
+}
+
+if (process.env.NODE_ENV === "development") {
+  // eslint-disable-next-line no-console
+  console.log("Running in development mode")
 }
 
 const config: CapacitorConfig = {
@@ -12,7 +16,7 @@ const config: CapacitorConfig = {
   webDir: "dist_native",
   server: {
     androidScheme: "https",
-    // ...devConfig,
+    ...process.env.NODE_ENV === "development" ? devConfig : {},
   },
 }
 
