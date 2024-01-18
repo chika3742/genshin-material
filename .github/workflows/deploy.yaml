@@ -43,6 +43,8 @@ jobs:
 
       - run: yarn install
         working-directory: nuxt
+        env:
+          GH_PACKAGES_TOKEN: ${{ secrets.GH_PACKAGES_TOKEN }}
 
       - name: Extract local.properties
         run: base64 -d <<< "${{ secrets.ANDROID_LOCAL_PROPERTIES_BASE64 }}" >> nuxt/android/local.properties
@@ -57,7 +59,12 @@ jobs:
           service_account: ${{ env.SERVICE_ACCOUNT }}
           audience: ${{ env.WORKLOAD_IDENTITY_AUDIENCE }}
 
+      - name: Version number with offset
+        id: version-number
+        run: echo "result=$((${{ env.VERSION_NUMBER_OFFSET }} + ${{ github.run_number }}))" >> "$GITHUB_OUTPUT"
+
       - run: yarn deploy:android
         working-directory: nuxt
         env:
+          APP_VERSION_NUMBER: ${{ steps.version-number.outputs.result }}
 
