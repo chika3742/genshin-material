@@ -102,7 +102,9 @@ jobs:
           GH_PACKAGES_TOKEN: ${{ secrets.GH_PACKAGES_TOKEN }}
 
       - name: Extract App Store Connect API auth key
-        run: base64 -d <<< "${{ secrets.APP_STORE_CONNECT_API_AUTH_KEY_BASE64 }}" > ~/private_keys/AuthKey_${{ secrets.APP_STORE_CONNECT_KEY_ID }}.p8
+        run: |
+          mkdir -p ~/private_keys
+          base64 -d <<< "${{ secrets.APP_STORE_CONNECT_API_AUTH_KEY_BASE64 }}" > ~/private_keys/AuthKey_${{ secrets.APP_STORE_CONNECT_KEY_ID }}.p8
 
       - name: Version number with offset
         id: version-number
