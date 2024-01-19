@@ -14,6 +14,8 @@
 		50B271D11FEDC1A000F3C39B /* public in Resources */ = {isa = PBXBuildFile; fileRef = 50B271D01FEDC1A000F3C39B /* public */; };
 		A084ECDBA7D38E1E42DFC39D /* Pods_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF277DCFFFF123FFC6DF26C7 /* Pods_App.framework */; };
 		C76FC5F82B57D28F0050973D /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C76FC5F72B57D28F0050973D /* Debug.xcconfig */; };
+		C7A771992B5ABC69000EDFF0 /* ScrollBouncePlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A771982B5ABC69000EDFF0 /* ScrollBouncePlugin.swift */; };
+		C7A7719B2B5ABC76000EDFF0 /* ScrollBouncePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A7719A2B5ABC76000EDFF0 /* ScrollBouncePlugin.m */; };
 		C7A7719D2B5ABE07000EDFF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A7719C2B5ABE07000EDFF0 /* LaunchScreen.storyboard */; };
 		C7C0C9702B56C3F000388A73 /* Generated.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C7C0C96F2B56C3EF00388A73 /* Generated.xcconfig */; };
 		C7C0C9712B56C55700388A73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7C0C9722B56C55700388A73 /* Main.storyboard */; };
@@ -31,6 +33,8 @@
 		AF277DCFFFF123FFC6DF26C7 /* Pods_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF51FD2D460BCFE21FA515B2 /* Pods-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.release.xcconfig"; path = "Pods/Target Support Files/Pods-App/Pods-App.release.xcconfig"; sourceTree = "<group>"; };
 		C76FC5F72B57D28F0050973D /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		C7A771982B5ABC69000EDFF0 /* ScrollBouncePlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollBouncePlugin.swift; sourceTree = "<group>"; };
+		C7A7719A2B5ABC76000EDFF0 /* ScrollBouncePlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollBouncePlugin.m; sourceTree = "<group>"; };
 		C7A7719C2B5ABE07000EDFF0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7C0C96F2B56C3EF00388A73 /* Generated.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Generated.xcconfig; sourceTree = "<group>"; };
 		C7C0C9722B56C55700388A73 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -80,6 +84,7 @@
 		504EC3061FED79650016851F /* App */ = {
 			isa = PBXGroup;
 			children = (
+				C7A771962B5ABC56000EDFF0 /* Plugins */,
 				50379B222058CBB4000EE86E /* capacitor.config.json */,
 				504EC3071FED79650016851F /* AppDelegate.swift */,
 				C7C0C9722B56C55700388A73 /* Main.storyboard */,
@@ -110,6 +115,23 @@
 				C7CEF7F82B581884008711C5 /* Release.xcconfig */,
 			);
 			path = Configs;
+			sourceTree = "<group>";
+		};
+		C7A771962B5ABC56000EDFF0 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				C7A771972B5ABC5B000EDFF0 /* ScrollBounce */,
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
+		C7A771972B5ABC5B000EDFF0 /* ScrollBounce */ = {
+			isa = PBXGroup;
+			children = (
+				C7A771982B5ABC69000EDFF0 /* ScrollBouncePlugin.swift */,
+				C7A7719A2B5ABC76000EDFF0 /* ScrollBouncePlugin.m */,
+			);
+			path = ScrollBounce;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +250,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				504EC3081FED79650016851F /* AppDelegate.swift in Sources */,
+				C7A7719B2B5ABC76000EDFF0 /* ScrollBouncePlugin.m in Sources */,
+				C7A771992B5ABC69000EDFF0 /* ScrollBouncePlugin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
