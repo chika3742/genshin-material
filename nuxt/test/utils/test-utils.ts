@@ -35,3 +35,7 @@ export const createPage = async(path: string, native = false, options?: Paramete
   await page.goto(`http://localhost:${native ? ctx.nativePort : ctx.webPort}${path}`)
   return page
 }
+
+export const waitForMounted = (page: Page) => {
+  return page.waitForFunction("window.mounted")
+}

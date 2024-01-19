@@ -32,6 +32,7 @@ watch(toRefs(config).theme, () => {
 
 onMounted(() => {
   mounted.value = true
+  window.mounted = true
 
   // set theme
   updateCurrentTheme()

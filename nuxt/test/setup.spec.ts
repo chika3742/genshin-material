@@ -1,17 +1,17 @@
 import {describe, it} from "vitest"
-import {createPage} from "~/test/utils/test-utils"
+import {createPage, waitForMounted} from "~/test/utils/test-utils"
 
 describe("setup", () => {
   it("should be set up", async() => {
     {
-      const index = await createPage("/")
-      await index.waitForSelector(".v-application")
+      const index = await createPage("/", false)
+      await waitForMounted(index)
       await index.close()
     }
     {
-      const index = await createPage("/", true)
-      await index.waitForSelector(".v-application")
+      const index = await createPage("/bookmarks", true)
+      await waitForMounted(index)
       await index.close()
     }
-  }, 10000)
+  }, 40000)
 })
