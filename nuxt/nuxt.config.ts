@@ -35,6 +35,9 @@ export default defineNuxtConfig({
           href: "/manifest.webmanifest",
         },
       ],
+      style: [
+        "html { background: #efefef }\n\n@media (prefers-color-scheme: dark) { html { background: #121212 } }\n",
+      ],
       meta: [
         {
           name: "viewport",
