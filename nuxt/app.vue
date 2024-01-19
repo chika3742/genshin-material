@@ -14,8 +14,9 @@ useHead({
 
 // register service worker
 onBeforeMount(() => {
-  if ("serviceWorker" in navigator) {
-    const scriptUrl = process.env.NODE_ENV === "production" ? "/sw.js" : "/sw-dev.js"
+  if (process.env.NODE_ENV === "production" && "serviceWorker" in navigator) {
+    // const scriptUrl = process.env.NODE_ENV === "production" ? "/sw.js" : "/sw-dev.js"
+    const scriptUrl = "/sw.js"
     navigator.serviceWorker.register(scriptUrl).catch((e) => {
       console.error("Service worker registration failed:", e)
     })
