@@ -1,9 +1,10 @@
-import {type Browser, chromium} from "playwright-core"
+import {type Browser, chromium, type Page} from "playwright-core"
 import {inject} from "vitest"
 
 export interface TestOptions {
   webPort: number
   nativePort: number
+  devNativeUi?: boolean
 }
 
 export interface TestContext extends TestOptions {
