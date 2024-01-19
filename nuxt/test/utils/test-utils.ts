@@ -27,14 +27,6 @@ export const getBrowser = async() => {
   return ctx.browser
 }
 
-export const closeBrowser = async() => {
-  const ctx = useContext()
-  if (ctx.browser) {
-    await ctx.browser.close()
-    ctx.browser = undefined
-  }
-}
-
 export const createPage = async(path: string, native = false, options?: Parameters<Browser["newPage"]>[0]) => {
   const ctx = useContext()
 

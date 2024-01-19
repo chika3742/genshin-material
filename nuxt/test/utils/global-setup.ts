@@ -50,4 +50,7 @@ export const teardown = async() => {
     ])
     await execa("kill", pids.stdout.split("\n"))
   }
+
+  await currentContext.browser?.close()
+  currentContext.browser = undefined
 }
