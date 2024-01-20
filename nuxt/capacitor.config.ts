@@ -1,3 +1,5 @@
+/// <reference types="@capacitor/splash-screen" />
+
 import type {CapacitorConfig} from "@capacitor/cli"
 
 const devConfig = {
@@ -17,6 +19,11 @@ const config: CapacitorConfig = {
   server: {
     androidScheme: "https",
     ...process.env.NODE_ENV === "development" ? devConfig : {},
+  },
+  plugins: {
+    SplashScreen: {
+      launchAutoHide: false,
+    },
   },
 }
 

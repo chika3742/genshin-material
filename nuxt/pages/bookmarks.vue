@@ -1,7 +1,13 @@
 <script lang="ts" setup>
+import {SplashScreen} from "@capacitor/splash-screen"
+
 definePageMeta({
   title: "bookmarks",
   screenType: "default",
+})
+
+onMounted(() => {
+  void SplashScreen.hide()
 })
 </script>
 
