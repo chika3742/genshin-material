@@ -21,7 +21,7 @@
 	<key>CFBundleVersion</key>
 	<string>$(GM_VERSION_NUMBER)</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
-    <false/>
+	<false/>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UILaunchScreen</key>
@@ -52,5 +52,7 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
 </dict>
 </plist>
