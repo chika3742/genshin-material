@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import {useTheme} from "vuetify"
+import {Capacitor} from "@capacitor/core"
 
 const config = useConfigStore()
 const theme = useTheme()
@@ -12,8 +13,7 @@ useHead({
   titleTemplate: `%s - ${tx("common.appName")}`,
 })
 
-// register service worker
-onBeforeMount(() => {
+function registerServiceWorker() {
   if (process.env.NODE_ENV === "production" && "serviceWorker" in navigator) {
     // const scriptUrl = process.env.NODE_ENV === "production" ? "/sw.js" : "/sw-dev.js"
     const scriptUrl = "/sw.js"
@@ -21,6 +21,10 @@ onBeforeMount(() => {
       console.error("Service worker registration failed:", e)
     })
   }
+}
+
+onBeforeMount(() => {
+  registerServiceWorker()
 })
 
 const updateCurrentTheme = () => {
@@ -50,7 +54,7 @@ onMounted(() => {
       <NuxtPage :page-key="$router.currentRoute.value.path" keepalive />
     </NuxtLayout>
 
-    <v-fade-transition>
+    <v-fade-transition v-if="!Capacitor.isNativePlatform()">
       <div v-show="!mounted" class="loading-overlay" />
     </v-fade-transition>
   </v-app>
