@@ -8,7 +8,8 @@
   "dependencyDashboard": false,
   "timezone": "Asia/Tokyo",
   "ignoreDeps": [
-    "@chika3742/mhy-material-components"
+    "@chika3742/mhy-material-components",
+    "gradle"
   ],
   "hostRules": [
     {
