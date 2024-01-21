@@ -4,6 +4,7 @@
     "config:base"
   ],
   "branchConcurrentLimit": 0,
+  "prConcurrentLimit": 0,
   "dependencyDashboard": false,
   "timezone": "Asia/Tokyo",
   "ignoreDeps": [
