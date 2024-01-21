@@ -168,7 +168,7 @@ export default defineNuxtConfig({
     public: {
       nativeUi: process.env.NATIVE_UI === "true",
       pagesCommitSha: process.env.CF_PAGES_COMMIT_SHA ?? execSync("git rev-parse HEAD").toString().trim(),
-      builtAt: DateTime.now().toISO()!,
+      builtAt: DateTime.now().toISO(),
     },
   },
 })
