@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import type {LinkListItem} from "~/types/link-list-item"
+import type {LinkItem} from "~/components/LinkList.vue"
 
 definePageMeta({
   title: "database",
@@ -7,10 +7,10 @@ definePageMeta({
   nativeOnly: true,
 })
 
-const items: LinkListItem[] = [
+const items: LinkItem[] = [
   {
-    path: "/characters",
-    labelI18nKey: "pageTitles.characters",
+    to: "/characters",
+    icon: "mdi-account",
   },
   // {
   //   path: "/weapons",
@@ -21,16 +21,7 @@ const items: LinkListItem[] = [
 
 <template>
   <div>
-    <v-list elevation="2" rounded>
-      <v-list-item
-        v-for="item in items"
-        :key="item.path"
-        :prepend-icon="item.icon"
-        :title="tx(item.labelI18nKey)"
-        :to="item.path"
-        append-icon="mdi-chevron-right"
-      />
-    </v-list>
+    <LinkList :items="items" />
   </div>
 </template>
 

@@ -2,6 +2,7 @@ common:
   appName: 原神素材ノート
   nonProdWarning: これは開発版です。不具合や今後変更される機能が含まれる可能性があります。
   backToHome: ホームに戻る
+  feedbackDesc: HoYoLAB記事へのコメントでフィードバックできます。
 
 errors:
   404: お探しのページは見つかりませんでした。
@@ -9,11 +10,15 @@ errors:
 
 pageTitles:
   home: ホーム
-  releaseNotes: 更新履歴
-  terms: 利用規約
-  termsSummarized: 利用規約（要約）
-  privacy: プライバシーポリシー
   bookmarks: ブックマーク
   database: データベース
   tools: ツール
   more: その他
+  characters: キャラクター
+  sync: ブックマーク同期
+  settings: 設定
+  resin: 樹脂回復時刻計算機
+  releaseNotes: 更新履歴
+  terms: 利用規約
+  termsSummarized: 利用規約（要約）
+  privacy: プライバシーポリシー

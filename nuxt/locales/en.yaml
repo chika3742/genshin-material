@@ -2,6 +2,7 @@ common:
   appName: Genshin Impact Material Note
   nonProdWarning: This is a development version. It may contain bugs or features that will be changed in the future.
   backToHome: Back to Home
+  feedbackDesc: You can give feedback by commenting on HoYoLAB articles.
 
 errors:
   404: The page you are looking for was not found.
@@ -9,6 +10,14 @@ errors:
 
 pageTitles:
   home: Home
+  bookmarks: Bookmarks
+  database: Database
+  tools: Tools
+  more: More
+  characters: Characters
+  sync: Bookmark Sync
+  settings: Settings
+  resin: Resin Replenishment Calc
   releaseNotes: Release Notes
   terms: Terms of Service
   termsSummarized: Terms of Service (Summarized)
