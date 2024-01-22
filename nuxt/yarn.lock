@@ -1490,9 +1490,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@chika3742/mhy-material-components@npm:^1.0.27":
-  version: 1.0.27
-  resolution: "@chika3742/mhy-material-components@npm:1.0.27::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40chika3742%2Fmhy-material-components%2F1.0.27%2Fc72ba44107a5300576aa74b84436f4627c5aebd9"
+"@chika3742/mhy-material-components@npm:^1.0.30":
+  version: 1.0.30
+  resolution: "@chika3742/mhy-material-components@npm:1.0.30::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40chika3742%2Fmhy-material-components%2F1.0.30%2Fd142266168e1c1c2e8f5daaf31ac09b3f40e7f36"
   dependencies:
     "@mdi/font": "npm:^7.3.67"
     "@nuxt/kit": "npm:^3.5.2"
@@ -1501,10 +1501,10 @@ __metadata:
     defu: "npm:^6.1.2"
     js-yaml: "npm:^4.1.0"
     lodash-es: "npm:^4.17.21"
-    marked: "npm:^9.1.4"
+    marked: "npm:^11.0.0"
     sass: "npm:^1.69.5"
     vuetify: "npm:^3.3.20"
-  checksum: 44f99153ba9da7d563b3d20f65c6392671c55f00dcd2706401ca6aec86f94bdf0cbee6ca2cc6e35ced154c599dfabd1115aacb1f73e93ab7608e5a9290677a85
+  checksum: df07ea79e32a3b865e732fa258cf416ec88ef8615dc1a37042d87bb444476b77ff0c016a534e0b772c6910fd53e7d181efd11425fab24225a7cec209ee486059
   languageName: node
   linkType: hard
 
@@ -6841,7 +6841,7 @@ __metadata:
     "@capacitor/core": "npm:^5.6.0"
     "@capacitor/ios": "npm:^5.6.0"
     "@capacitor/splash-screen": "npm:^5.0.6"
-    "@chika3742/mhy-material-components": "npm:^1.0.27"
+    "@chika3742/mhy-material-components": "npm:^1.0.30"
     "@nuxt/devtools": "npm:^1.0.6"
     "@nuxt/test-utils": "npm:^3.9.0"
     "@nuxtjs/eslint-config-typescript": "npm:^12.1.0"
@@ -8550,12 +8550,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"marked@npm:^9.1.4":
-  version: 9.1.6
-  resolution: "marked@npm:9.1.6"
+"marked@npm:^11.0.0":
+  version: 11.1.1
+  resolution: "marked@npm:11.1.1"
   bin:
     marked: bin/marked.js
-  checksum: 010bbd33c0f38300259c5d3bf0063deb36bab098d37ac0a3be5a35a65674a4c693427fc6704f486a89f638e9b36c36b8e220a93d47163f4e70e45a1fa8ca7b60
+  checksum: 77137491bb9610ceaa42a2f487ea00ec13836f19c3d41cabb80f16b283461a1d14285de42725c09d8a2fb029ae10633b07e76afc76113c8067e68eaedfdf8bf6
   languageName: node
   linkType: hard
 
