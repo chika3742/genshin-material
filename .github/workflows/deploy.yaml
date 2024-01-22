@@ -78,9 +78,10 @@ jobs:
 
   deploy-ios:
     name: Deploy to App Store
-    runs-on: macos-latest
+    runs-on: macos-13
     env:
       BUNDLE_GEMFILE: ${{ github.workspace }}/nuxt/ios/App/Gemfile
+      DEVELOPER_DIR: /Applications/Xcode_15.2.app/Contents/Developer
     steps:
       - uses: actions/checkout@v4
 
