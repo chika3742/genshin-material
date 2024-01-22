@@ -25,13 +25,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "App"
+            "value" : "GI Material"
           }
         },
         "ja" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "App"
+            "state" : "translated",
+            "value" : "原神素材"
           }
         }
       }
