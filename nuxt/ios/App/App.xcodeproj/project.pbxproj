@@ -17,6 +17,7 @@
 		C7A771992B5ABC69000EDFF0 /* ScrollBouncePlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A771982B5ABC69000EDFF0 /* ScrollBouncePlugin.swift */; };
 		C7A7719B2B5ABC76000EDFF0 /* ScrollBouncePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A7719A2B5ABC76000EDFF0 /* ScrollBouncePlugin.m */; };
 		C7A7719D2B5ABE07000EDFF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A7719C2B5ABE07000EDFF0 /* LaunchScreen.storyboard */; };
+		C7A771A32B5D64ED000EDFF0 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = C7A771A22B5D64ED000EDFF0 /* InfoPlist.xcstrings */; };
 		C7C0C9702B56C3F000388A73 /* Generated.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C7C0C96F2B56C3EF00388A73 /* Generated.xcconfig */; };
 		C7C0C9712B56C55700388A73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7C0C9722B56C55700388A73 /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -36,6 +37,7 @@
 		C7A771982B5ABC69000EDFF0 /* ScrollBouncePlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollBouncePlugin.swift; sourceTree = "<group>"; };
 		C7A7719A2B5ABC76000EDFF0 /* ScrollBouncePlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollBouncePlugin.m; sourceTree = "<group>"; };
 		C7A7719C2B5ABE07000EDFF0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7A771A22B5D64ED000EDFF0 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 		C7C0C96F2B56C3EF00388A73 /* Generated.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Generated.xcconfig; sourceTree = "<group>"; };
 		C7C0C9722B56C55700388A73 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C7CEF7F82B581884008711C5 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				2FAD9762203C412B000D30F8 /* config.xml */,
 				50B271D01FEDC1A000F3C39B /* public */,
 				C7A7719C2B5ABE07000EDFF0 /* LaunchScreen.storyboard */,
+				C7A771A22B5D64ED000EDFF0 /* InfoPlist.xcstrings */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			knownRegions = (
 				Base,
 				ja,
+				en,
 			);
 			mainGroup = 504EC2FB1FED79650016851F;
 			productRefGroup = 504EC3051FED79650016851F /* Products */;
@@ -197,6 +201,7 @@
 				50B271D11FEDC1A000F3C39B /* public in Resources */,
 				C7A7719D2B5ABE07000EDFF0 /* LaunchScreen.storyboard in Resources */,
 				504EC30F1FED79650016851F /* Assets.xcassets in Resources */,
+				C7A771A32B5D64ED000EDFF0 /* InfoPlist.xcstrings in Resources */,
 				50379B232058CBB4000EE86E /* capacitor.config.json in Resources */,
 				C76FC5F82B57D28F0050973D /* Debug.xcconfig in Resources */,
 				C7C0C9702B56C3F000388A73 /* Generated.xcconfig in Resources */,
