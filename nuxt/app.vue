@@ -93,3 +93,8 @@ onMounted(() => {
         transform: rotate(360deg)
 
 </style>
+
+<style lang="sass">
+body
+  user-select: none
+</style>

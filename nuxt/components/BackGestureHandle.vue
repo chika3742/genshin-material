@@ -98,7 +98,6 @@ onBeforeUnmount(() => {
   width: 24px
   left: 0
   bottom: 0
-  user-select: none
   background: rgba(var(--v-theme-surface-variant), 0.3)
   opacity: 0
   backdrop-filter: blur(4px)

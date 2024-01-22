@@ -54,6 +54,10 @@ const back = () => {
 onBeforeUnmount(() => {
   unsubscribe()
 })
+
+useBackListener(back, () => {
+  return routeStacks.value[tabId.value].length >= 2
+})
 /* ========================================= */
 </script>
 

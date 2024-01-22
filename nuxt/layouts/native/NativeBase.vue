@@ -2,6 +2,11 @@
 import BackGestureHandle from "~/components/BackGestureHandle.vue"
 
 const myRouter = useMyRouter()
+const router = useRouter()
+
+useBackListener(() => {
+  router.back()
+}, () => true)
 </script>
 
 <template>
