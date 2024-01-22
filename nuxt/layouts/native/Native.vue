@@ -39,16 +39,9 @@ const unsubscribe = router.afterEach((to) => {
 })
 
 watch(tabId, (newPageId) => {
-  routeStacks.value[newPageId] ||= []
+  routeStacks.value[newPageId] ||= [newPageId] // initial page per tab
 
-  if (routeStacks.value[newPageId].length !== 0) {
-    // if stack is not empty, reveal the page on the top of the stack
-    void router.replace(routeStacks.value[newPageId].slice(-1)[0] + "#replace")
-  } else {
-    // if stack is empty, insert the page id into the stack
-    routeStacks.value[newPageId].push(newPageId)
-    void router.replace(newPageId + "#replace")
-  }
+  void router.replace(routeStacks.value[newPageId].slice(-1)[0] + "#replace")
 }, {immediate: true})
 
 const back = () => {
