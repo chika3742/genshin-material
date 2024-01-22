@@ -12,10 +12,8 @@ onMounted(() => {
 </script>
 
 <template>
-  <div>
-    <nuxt-link to="/characters">
-      asdf
-    </nuxt-link>
+  <div style="display: flex; justify-content: center; align-items: center; height: calc(100vh - 188px);">
+    <p>This is Bookmarks page!</p>
   </div>
 </template>
 
