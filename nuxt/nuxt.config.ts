@@ -146,6 +146,7 @@ export default defineNuxtConfig({
     ],
     langDir: "./locales/",
     defaultLocale: "ja",
+    strategy: "no_prefix",
     compilation: {
       strictMessage: false,
     },
