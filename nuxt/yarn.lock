@@ -1435,6 +1435,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@capacitor/app@npm:^5.0.6":
+  version: 5.0.6
+  resolution: "@capacitor/app@npm:5.0.6"
+  peerDependencies:
+    "@capacitor/core": ^5.0.0
+  checksum: 8fc14b81701e9bc55cbda9da92209c817cf50be947d34b4118320b206099764b422846be23a45eef738800ec123a07427266f89cda984a587e6f8593f7084991
+  languageName: node
+  linkType: hard
+
 "@capacitor/cli@npm:^5.6.0":
   version: 5.6.0
   resolution: "@capacitor/cli@npm:5.6.0"
@@ -1490,21 +1499,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@chika3742/mhy-material-components@npm:^1.0.27":
-  version: 1.0.27
-  resolution: "@chika3742/mhy-material-components@npm:1.0.27::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40chika3742%2Fmhy-material-components%2F1.0.27%2Fc72ba44107a5300576aa74b84436f4627c5aebd9"
+"@chika3742/mhy-material-components@npm:^1.0.31":
+  version: 1.0.31
+  resolution: "@chika3742/mhy-material-components@npm:1.0.31::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40chika3742%2Fmhy-material-components%2F1.0.31%2F656fe51bfa0d292f0e8bb6b2456cb181f02dc90d"
   dependencies:
     "@mdi/font": "npm:^7.3.67"
     "@nuxt/kit": "npm:^3.5.2"
-    "@nuxtjs/i18n": "npm:^8.0.0-rc.5"
+    "@nuxtjs/i18n": "npm:^8.0.0"
     "@rollup/plugin-yaml": "npm:^4.1.2"
     defu: "npm:^6.1.2"
     js-yaml: "npm:^4.1.0"
     lodash-es: "npm:^4.17.21"
-    marked: "npm:^9.1.4"
+    marked: "npm:^11.0.0"
     sass: "npm:^1.69.5"
     vuetify: "npm:^3.3.20"
-  checksum: 44f99153ba9da7d563b3d20f65c6392671c55f00dcd2706401ca6aec86f94bdf0cbee6ca2cc6e35ced154c599dfabd1115aacb1f73e93ab7608e5a9290677a85
+  checksum: 1277dc2a777b8e2927e906c0524fd8b41b55ac681da43f105b3637ab6100669b72d56f4fc25a42f4ea244c4cdae5040e99d91e3bca5f57bb9555780b5e403b9a
   languageName: node
   linkType: hard
 
@@ -2642,7 +2651,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxtjs/i18n@npm:^8.0.0-rc.5":
+"@nuxtjs/i18n@npm:^8.0.0, @nuxtjs/i18n@npm:^8.0.0-rc.5":
   version: 8.0.0
   resolution: "@nuxtjs/i18n@npm:8.0.0"
   dependencies:
@@ -6837,11 +6846,12 @@ __metadata:
   resolution: "genshin-material@workspace:."
   dependencies:
     "@capacitor/android": "npm:^5.6.0"
+    "@capacitor/app": "npm:^5.0.6"
     "@capacitor/cli": "npm:^5.6.0"
     "@capacitor/core": "npm:^5.6.0"
     "@capacitor/ios": "npm:^5.6.0"
     "@capacitor/splash-screen": "npm:^5.0.6"
-    "@chika3742/mhy-material-components": "npm:^1.0.27"
+    "@chika3742/mhy-material-components": "npm:^1.0.31"
     "@nuxt/devtools": "npm:^1.0.6"
     "@nuxt/test-utils": "npm:^3.9.0"
     "@nuxtjs/eslint-config-typescript": "npm:^12.1.0"
@@ -6868,6 +6878,7 @@ __metadata:
     nuxt: "npm:^3.9.1"
     playwright-core: "npm:^1.40.1"
     sitemap: "npm:^7.1.1"
+    tinygesture: "npm:^3.0.0"
     typescript: "npm:^5.2.2"
     vitest: "npm:^1.1.3"
     vue: "npm:^3.3.4"
@@ -8550,12 +8561,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"marked@npm:^9.1.4":
-  version: 9.1.6
-  resolution: "marked@npm:9.1.6"
+"marked@npm:^11.0.0":
+  version: 11.1.1
+  resolution: "marked@npm:11.1.1"
   bin:
     marked: bin/marked.js
-  checksum: 010bbd33c0f38300259c5d3bf0063deb36bab098d37ac0a3be5a35a65674a4c693427fc6704f486a89f638e9b36c36b8e220a93d47163f4e70e45a1fa8ca7b60
+  checksum: 77137491bb9610ceaa42a2f487ea00ec13836f19c3d41cabb80f16b283461a1d14285de42725c09d8a2fb029ae10633b07e76afc76113c8067e68eaedfdf8bf6
   languageName: node
   linkType: hard
 
@@ -11741,6 +11752,13 @@ __metadata:
   version: 2.5.1
   resolution: "tinybench@npm:2.5.1"
   checksum: 9c55ef25ce1689c3e2fdb89cacbf27dada4d04f846cac70023fe97fc35d2122816d8bbc5b20253e071d13688cf006355d59f0096d22958b818e1e2fe60e5165b
+  languageName: node
+  linkType: hard
+
+"tinygesture@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "tinygesture@npm:3.0.0"
+  checksum: 9b2ef8373a5749f5ff88abbd4d6b9fb155b0bb2ad39bb7983e5b0e87e6bacddf69b2032962a68d8b4f21172751c191b0f6a0e38535c03bd2f9e70a91bf66a3cb
   languageName: node
   linkType: hard
 

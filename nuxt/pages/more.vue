@@ -22,9 +22,15 @@ const langOptions: Record<string, string> = {
       <v-list-item :title="tx('pageTitles.sync')" append-icon="mdi-chevron-right" prepend-icon="mdi-account-circle" to="/sync" />
 
       <!-- language preference -->
-      <v-list-item :subtitle="langOptions[$i18n.locale]" lines="two" link prepend-icon="mdi-earth" title="Language">
-        <v-menu activator="parent">
-          <v-list :selected="[$i18n.locale]" max-width="200px" @update:selected="$i18n.setLocale($event[0])">
+      <v-list-item
+        :subtitle="langOptions[$i18n.locale]"
+        lines="two"
+        link
+        prepend-icon="mdi-earth"
+        title="Language"
+      >
+        <v-menu activator="parent" location="bottom right" min-width="200px">
+          <v-list :selected="[$i18n.locale]" @update:selected="$i18n.setLocale($event[0])">
             <v-list-item
               v-for="(text, locale) in langOptions"
               :key="locale"
@@ -43,8 +49,8 @@ const langOptions: Record<string, string> = {
         link
         prepend-icon="mdi-brightness-4"
       >
-        <v-menu activator="parent">
-          <v-list :selected="[config.theme]" max-width="200px" @update:selected="config.theme = $event[0]">
+        <v-menu activator="parent" location="bottom right" min-width="200px">
+          <v-list :selected="[config.theme]" @update:selected="config.theme = $event[0]">
             <v-list-item
               v-for="option in themeOptions"
               :key="option"

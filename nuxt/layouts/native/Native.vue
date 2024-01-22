@@ -54,11 +54,17 @@ const back = () => {
 onBeforeUnmount(() => {
   unsubscribe()
 })
+
+useBackListener(back, () => {
+  return routeStacks.value[tabId.value].length >= 2
+})
 /* ========================================= */
 </script>
 
 <template>
   <div class="h-100">
+    <BackGestureHandle :can-back="routeStacks[tabId].length >= 2" @back="back" />
+
     <v-app-bar v-safe-area="{top: true, left: true, right: true}">
       <v-app-bar-nav-icon
         v-if="routeStacks[tabId]?.length >= 2"

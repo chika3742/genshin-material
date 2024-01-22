@@ -60,9 +60,6 @@ export default defineNuxtConfig({
     "android/**",
   ],
   css: ["assets/styles/fonts.sass"],
-  build: {
-    transpile: ["vuetify"],
-  },
   vite: {
     plugins: [
       yaml({

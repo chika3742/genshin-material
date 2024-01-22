@@ -1,9 +1,18 @@
 <script lang="ts" setup>
+import BackGestureHandle from "~/components/BackGestureHandle.vue"
+
 const myRouter = useMyRouter()
+const router = useRouter()
+
+useBackListener(() => {
+  router.back()
+}, () => true)
 </script>
 
 <template>
   <div class="h-100">
+    <BackGestureHandle can-back @back="$router.back" />
+
     <v-app-bar v-safe-area="{top: true, left: true, right: true}">
       <v-app-bar-nav-icon
         class="gm-navigate-back"
