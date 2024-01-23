@@ -62,7 +62,7 @@ useBackListener(back, () => {
 </script>
 
 <template>
-  <div class="h-100">
+  <div v-if="$router.currentRoute.value.meta.screenType === 'default'" class="h-100">
     <BackGestureHandle :can-back="routeStacks[tabId].length >= 2" @back="back" />
 
     <v-app-bar v-safe-area="{top: true, left: true, right: true}">

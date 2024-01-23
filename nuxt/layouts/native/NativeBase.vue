@@ -10,7 +10,7 @@ useBackListener(() => {
 </script>
 
 <template>
-  <div class="h-100">
+  <div v-if="$router.currentRoute.value.meta.screenType === 'base'" class="h-100">
     <BackGestureHandle can-back @back="$router.back" />
 
     <v-app-bar v-safe-area="{top: true, left: true, right: true}">
@@ -26,7 +26,7 @@ useBackListener(() => {
     <v-main class="h-100">
       <div v-safe-area="{top: true, bottom: true}" class="d-flex flex-column h-100">
         <v-container v-safe-area="{left: 16, right: 16}">
-          <NuxtPage keepalive />
+          <slot />
         </v-container>
 
         <v-spacer />
