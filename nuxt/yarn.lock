@@ -4021,7 +4021,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/compiler-sfc@npm:3.4.5, @vue/compiler-sfc@npm:^3.2.47, @vue/compiler-sfc@npm:^3.3.10, @vue/compiler-sfc@npm:^3.3.4":
+"@vue/compiler-sfc@npm:^3.2.47, @vue/compiler-sfc@npm:^3.3.10, @vue/compiler-sfc@npm:^3.3.4":
   version: 3.4.5
   resolution: "@vue/compiler-sfc@npm:3.4.5"
   dependencies:
@@ -4139,15 +4139,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/reactivity@npm:3.4.5":
-  version: 3.4.5
-  resolution: "@vue/reactivity@npm:3.4.5"
-  dependencies:
-    "@vue/shared": "npm:3.4.5"
-  checksum: 9d8799b6064cab86d951092a759345a41da8751ec4a4f72c74c5a2ef9d21c775ab95c150149f7c558d6cd87e47712f979b810851fd9cdcb132c165ba90fce1e7
-  languageName: node
-  linkType: hard
-
 "@vue/runtime-core@npm:3.4.15":
   version: 3.4.15
   resolution: "@vue/runtime-core@npm:3.4.15"
@@ -4155,16 +4146,6 @@ __metadata:
     "@vue/reactivity": "npm:3.4.15"
     "@vue/shared": "npm:3.4.15"
   checksum: f8784c2b65bb8bec705a0e1723f7b47079604c1d1c075497af6f303f81fa5e228d3ca56da2fac3e6e303a42ab26febfcc7a3be5b932a3c0a2f588f1256b9af38
-  languageName: node
-  linkType: hard
-
-"@vue/runtime-core@npm:3.4.5":
-  version: 3.4.5
-  resolution: "@vue/runtime-core@npm:3.4.5"
-  dependencies:
-    "@vue/reactivity": "npm:3.4.5"
-    "@vue/shared": "npm:3.4.5"
-  checksum: f3cf9735cd48b8fccaf1364d1dc8bbc56113f76d4dc5aad11753d7d3c85262cf2e28c36b8e091c9fd78fdc9915e15d4a8d65d563718e29691a7bca35ef1c0419
   languageName: node
   linkType: hard
 
@@ -4179,17 +4160,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/runtime-dom@npm:3.4.5":
-  version: 3.4.5
-  resolution: "@vue/runtime-dom@npm:3.4.5"
-  dependencies:
-    "@vue/runtime-core": "npm:3.4.5"
-    "@vue/shared": "npm:3.4.5"
-    csstype: "npm:^3.1.3"
-  checksum: 64195cffeb84571a204ca0eb661c57c4fb8e3db6e75115229d13b515b6ac0912eec05587df84f01a3b141b00e0ab57c3b700ae2a19b52df6c38d9a1512ef1a5a
-  languageName: node
-  linkType: hard
-
 "@vue/server-renderer@npm:3.4.15":
   version: 3.4.15
   resolution: "@vue/server-renderer@npm:3.4.15"
@@ -4199,18 +4169,6 @@ __metadata:
   peerDependencies:
     vue: 3.4.15
   checksum: 43f86060774b8fa7331c672c564402ec58363642f0457147492b7b69c44fb1c26515968dc72d2ca0be053e838e9c2cf8f274356f982bb2bf9e886b1f4916ecaf
-  languageName: node
-  linkType: hard
-
-"@vue/server-renderer@npm:3.4.5":
-  version: 3.4.5
-  resolution: "@vue/server-renderer@npm:3.4.5"
-  dependencies:
-    "@vue/compiler-ssr": "npm:3.4.5"
-    "@vue/shared": "npm:3.4.5"
-  peerDependencies:
-    vue: 3.4.5
-  checksum: b5e54b7f36e9b75b6861880408febcc473415a7fb94ef7b6dd7f394d47511b855ae3372f990ae6bea8924993022be56140eb0a772900c95515aca1365b5ac42a
   languageName: node
   linkType: hard
 
@@ -7019,13 +6977,13 @@ __metadata:
     happy-dom: "npm:^13.0.0"
     json-schema-to-typescript: "npm:^13.1.1"
     luxon: "npm:^3.4.3"
-    nuxt: "npm:^3.9.1"
+    nuxt: "npm:^3.9.3"
     playwright-core: "npm:^1.40.1"
     sitemap: "npm:^7.1.1"
     tinygesture: "npm:^3.0.0"
     typescript: "npm:^5.2.2"
     vitest: "npm:^1.1.3"
-    vue: "npm:^3.3.4"
+    vue: "npm:^3.4.15"
     vue-router: "npm:^4.2.5"
     workbox-build: "npm:^7.0.0"
     yaml: "npm:^2.3.3"
@@ -9457,7 +9415,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nuxt@npm:^3.9.1":
+"nuxt@npm:^3.9.3":
   version: 3.9.3
   resolution: "nuxt@npm:3.9.3"
   dependencies:
@@ -13195,25 +13153,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue@npm:^3.3.4":
-  version: 3.4.5
-  resolution: "vue@npm:3.4.5"
-  dependencies:
-    "@vue/compiler-dom": "npm:3.4.5"
-    "@vue/compiler-sfc": "npm:3.4.5"
-    "@vue/runtime-dom": "npm:3.4.5"
-    "@vue/server-renderer": "npm:3.4.5"
-    "@vue/shared": "npm:3.4.5"
-  peerDependencies:
-    typescript: "*"
-  peerDependenciesMeta:
-    typescript:
-      optional: true
-  checksum: 28ec5335a66833317d4c060c3767488c028a4fd2c298a2658ca76d6f3ea9acc8585675f1efb8a36d105b206fedb755d7327f8f88be7db05284363efb66a02be7
-  languageName: node
-  linkType: hard
-
-"vue@npm:^3.4.14":
+"vue@npm:^3.4.14, vue@npm:^3.4.15":
   version: 3.4.15
   resolution: "vue@npm:3.4.15"
   dependencies:
