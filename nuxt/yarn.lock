@@ -1499,6 +1499,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@capgo/capacitor-updater@npm:^5.3.48":
+  version: 5.3.48
+  resolution: "@capgo/capacitor-updater@npm:5.3.48"
+  peerDependencies:
+    "@capacitor/core": ^5.0.0
+  checksum: 87904645692287b89ae8be342e2eb5a7be1d68e44c0bd6b28533167198611c8ea0ac44a95f6fd122ba8276f8f1d0942b0f1430a937237eba3ebf5d115ae12dee
+  languageName: node
+  linkType: hard
+
 "@chika3742/mhy-material-components@npm:^1.0.31":
   version: 1.0.31
   resolution: "@chika3742/mhy-material-components@npm:1.0.31::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40chika3742%2Fmhy-material-components%2F1.0.31%2F656fe51bfa0d292f0e8bb6b2456cb181f02dc90d"
@@ -7054,6 +7063,7 @@ __metadata:
     "@capacitor/core": "npm:^5.6.0"
     "@capacitor/ios": "npm:^5.6.0"
     "@capacitor/splash-screen": "npm:^5.0.6"
+    "@capgo/capacitor-updater": "npm:^5.3.48"
     "@chika3742/mhy-material-components": "npm:^1.0.31"
     "@nuxt/devtools": "npm:^1.0.8"
     "@nuxt/test-utils": "npm:^3.10.0"
