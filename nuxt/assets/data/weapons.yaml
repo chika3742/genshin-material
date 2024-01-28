@@ -1,0 +1,12 @@
+- id: dull-blade
+  rid: i_n11101
+  name:
+    locales:
+      ja: 無鋒の剣
+      en: Dull Blade
+  yomi: ムホウノケン
+  rarity: 1
+  materials:
+    primary: asdf
+    secondary: asdf
+    common: asdf

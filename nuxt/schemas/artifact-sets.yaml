@@ -1,0 +1,51 @@
+$schema: https://json-schema.org/draft-07/schema
+
+type: array
+items:
+  $ref: "#/definitions/artifactSet"
+
+definitions:
+  artifactSet:
+    type: object
+    additionalProperties: false
+    required:
+      - id
+      - rid
+      - name
+      - maximumRarity
+      - twoPieceEffect
+      - fourPieceEffect
+      - consistsOf
+    properties:
+      id:
+        type: string
+      rid:
+        type: string
+      name:
+        $ref: "characters.yaml#/definitions/localizedName"
+      maximumRarity:
+        type: integer
+      twoPieceEffect:
+        $ref: "characters.yaml#/definitions/localizedName"
+      fourPieceEffect:
+        $ref: "characters.yaml#/definitions/localizedName"
+      consistsOf:
+        type: object
+        additionalProperties: false
+        required:
+          - flower
+          - plume
+          - sands
+          - goblet
+          - circlet
+        properties:
+          flower:
+            type: string
+          plume:
+            type: string
+          sands:
+            type: string
+          goblet:
+            type: string
+          circlet:
+            type: string

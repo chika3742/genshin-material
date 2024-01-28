@@ -1,0 +1,21 @@
+$schema: https://json-schema.org/draft-07/schema
+
+type: array
+items:
+  $ref: "#/definitions/furniturePiece"
+
+definitions:
+  furniturePiece:
+    type: object
+    additionalProperties: false
+    required:
+      - id
+      - rid
+      - name
+    properties:
+      id:
+        type: string
+      rid:
+        type: string
+      name:
+        $ref: "characters.yaml#/definitions/localizedName"

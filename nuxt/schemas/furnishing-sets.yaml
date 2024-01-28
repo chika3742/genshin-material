@@ -1,0 +1,48 @@
+#$schema: https://json-schema.org/draft-07/schema
+
+type: array
+items:
+  $ref: "#/definitions/furnishingSet"
+
+definitions:
+  furnishingSet:
+    type: object
+    additionalProperties: false
+    required:
+      - id
+      - rid
+      - name
+      - type
+      - consistsOf
+    properties:
+      id:
+        type: string
+      rid:
+        type: string
+      name:
+        $ref: "characters.yaml#/definitions/localizedName"
+      type:
+        type: string
+        enum:
+          - indoorSet
+          - indoorGiftSet
+          - outdoorSet
+          - outdoorGiftSet
+      consistsOf:
+        type: array
+        items:
+          type: object
+          additionalProperties: false
+          required:
+            - pieceId
+            - quantity
+          properties:
+            pieceId:
+              type: string
+            quantity:
+              type: integer
+      favoredBy:
+        type: array
+        items:
+          type: string
+

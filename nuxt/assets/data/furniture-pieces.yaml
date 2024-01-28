@@ -1,0 +1,6 @@
+- id: test1
+  rid: h_373303
+  name:
+    locales:
+      ja: test
+      en: test

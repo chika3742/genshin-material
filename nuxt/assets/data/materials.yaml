@@ -1,0 +1,12 @@
+- id: enhancement-ore
+  rid: i_1
+  name:
+    locales:
+      ja: 仕上げ用雑鉱
+      en: Enhancement Ore
+  yomi: シアゲヨウザッコウ
+  rarity: 1
+  category: exp
+  group:
+    id: exp_001
+    craftLevel: 1

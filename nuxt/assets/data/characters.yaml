@@ -1,0 +1,39 @@
+- id: traveler
+  rid: playerboy_005
+  name:
+    locales:
+      ja: 旅人
+      en: Traveler
+  yomi: タビビト
+  weaponType: sword
+  rarity: 5
+  materials:
+    primary: asdf
+    local: asdf
+    secondary: asdf
+  variantIds:
+    - traveler_anemo
+    - traveler_geo
+    - traveler_electro
+    - traveler_dendro
+    - traveler_hydro
+
+- id: traveler_anemo
+  listed: false
+  parentId: traveler
+  element: anemo
+  materials:
+    talentPrimary:
+      types:
+        normal: &travelerAnemoLvs
+          levels:
+            2: asdf
+            3: asdf
+        skill: *travelerAnemoLvs
+        burst: *travelerAnemoLvs
+    talentSecondary:
+      types:
+        normal: asdf
+    talentBoss:
+      types:
+        normal: asdf
