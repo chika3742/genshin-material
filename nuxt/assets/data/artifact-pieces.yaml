@@ -1,0 +1,39 @@
+- id: test1
+  rid: i_n51320
+  name:
+    locales:
+      ja: 何らかの花
+      en: Some kind of flower
+  type: flower
+
+- id: test2
+  rid: i_n51320
+  name:
+    locales:
+      ja: 何らかの羽
+      en: Some kind of plume
+  type: plume
+
+- id: test3
+  rid: i_n51320
+  name:
+    locales:
+      ja: 何らかの時計
+      en: Some kind of sands
+  type: sands
+
+- id: test4
+  rid: i_n51320
+  name:
+    locales:
+      ja: 何らかの盃
+      en: Some kind of goblet
+  type: goblet
+
+- id: test5
+  rid: i_n51320
+  name:
+    locales:
+      ja: 何らかの冠
+      en: Some kind of circlet
+  type: circlet

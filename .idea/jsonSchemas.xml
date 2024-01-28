@@ -15,6 +15,135 @@
                   <Item>
                     <option name="path" value="nuxt/schemas/characters.yaml" />
                   </Item>
+                  <Item>
+                    <option name="path" value="nuxt/schemas/weapons.yaml" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="nuxt/schemas/materials.yaml" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="nuxt/schemas/domains.yaml" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="nuxt/schemas/artifacts.yaml" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="nuxt/schemas/furnishing-sets.yaml" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="nuxt/schemas/artifact-pieces.yaml" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="nuxt/schemas/artifact-sets.yaml" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="nuxt/schemas/furniture-pieces.yaml" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="nuxt/schemas/release-notes.yaml" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="artifact-pieces">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="New Schema" />
+              <option name="name" value="artifact-pieces" />
+              <option name="relativePathToSchema" value="nuxt/schemas/artifact-pieces.yaml" />
+              <option name="schemaVersion" value="JSON Schema version 7" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="nuxt/assets/data/artifact-pieces.yaml" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="artifact-sets">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="New Schema" />
+              <option name="name" value="artifact-sets" />
+              <option name="relativePathToSchema" value="nuxt/schemas/artifact-sets.yaml" />
+              <option name="schemaVersion" value="JSON Schema version 7" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="nuxt/assets/data/artifact-sets.yaml" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="characters">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="New Schema" />
+              <option name="name" value="characters" />
+              <option name="relativePathToSchema" value="nuxt/schemas/characters.yaml" />
+              <option name="schemaVersion" value="JSON Schema version 7" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="nuxt/assets/data/characters.yaml" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="furnishing-sets">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="New Schema" />
+              <option name="name" value="furnishing-sets" />
+              <option name="relativePathToSchema" value="nuxt/schemas/furnishing-sets.yaml" />
+              <option name="schemaVersion" value="JSON Schema version 7" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="nuxt/assets/data/furnishing-sets.yaml" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="furniture-pieces">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="New Schema" />
+              <option name="name" value="furniture-pieces" />
+              <option name="relativePathToSchema" value="nuxt/schemas/furniture-pieces.yaml" />
+              <option name="schemaVersion" value="JSON Schema version 7" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="nuxt/assets/data/furniture-pieces.yaml" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="materials">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="New Schema" />
+              <option name="name" value="materials" />
+              <option name="relativePathToSchema" value="nuxt/schemas/materials.yaml" />
+              <option name="schemaVersion" value="JSON Schema version 7" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="nuxt/assets/data/materials.yaml" />
+                  </Item>
                 </list>
               </option>
             </SchemaInfo>
@@ -31,6 +160,23 @@
                 <list>
                   <Item>
                     <option name="path" value="nuxt/assets/data/release-notes.yaml" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="weapons">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="New Schema" />
+              <option name="name" value="weapons" />
+              <option name="relativePathToSchema" value="nuxt/schemas/weapons.yaml" />
+              <option name="schemaVersion" value="JSON Schema version 7" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="nuxt/assets/data/weapons.yaml" />
                   </Item>
                 </list>
               </option>

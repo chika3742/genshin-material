@@ -1,0 +1,21 @@
+- id: adventurer
+  rid: i_n400002
+  name:
+    locales:
+      ja: 冒険者
+      en: Adventurer
+  maximumRarity: 2
+  twoPieceEffect:
+    locales:
+      ja: 2セット効果
+      en: twoPieceEffect
+  fourPieceEffect:
+    locales:
+      ja: 4セット効果
+      en: twoPieceEffect
+  consistsOf:
+    flower: test1
+    plume: test2
+    sands: test3
+    goblet: test4
+    circlet: test5

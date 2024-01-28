@@ -1,0 +1,82 @@
+$schema: https://json-schema.org/draft-07/schema
+
+type: array
+items:
+  $ref: "#/definitions/weapon"
+
+definitions:
+  weapon:
+    type: object
+    additionalProperties: false
+    required:
+      - id
+      - rid
+      - name
+      - yomi
+      - rarity
+      - materials
+    properties:
+      id:
+        type: string
+      rid:
+        type: string
+      name:
+        $ref: "characters.yaml#/definitions/localizedName"
+      yomi:
+        type: string
+      rarity:
+        type: integer
+      canBeEarnedFrom:
+        $ref: "#/definitions/weaponAcquisitionSource"
+      materials:
+        $ref: "#/definitions/weaponMaterialIds"
+
+  weaponAcquisitionSource:
+    oneOf:
+      - allOf:
+          - type: object
+            additionalProperties: false
+            required:
+              - type
+            properties:
+              type:
+                type: string
+                const: string
+          - $ref: "characters.yaml#/definitions/localizedName"
+      - type: object
+        additionalProperties: false
+        required:
+          - type
+        properties:
+          type:
+            type: string
+            enum:
+              - limitedTimeWish
+              - forging
+      - type: object
+        additionalProperties: false
+        required:
+          - type
+        properties:
+          type:
+            type: string
+            const: eventDistribution
+          eventName:
+            $ref: "characters.yaml#/definitions/localizedName"
+          eventTerm:
+            type: string
+
+  weaponMaterialIds:
+    type: object
+    additionalProperties: false
+    required:
+      - primary
+      - secondary
+      - common
+    properties:
+      primary:
+        type: string
+      secondary:
+        type: string
+      common:
+        type: string

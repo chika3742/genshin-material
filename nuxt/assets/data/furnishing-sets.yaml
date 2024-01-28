@@ -1,0 +1,11 @@
+- id: adventurer-camp
+  rid: hs_1
+  name:
+    locales:
+      ja: 冒険者の臨時拠点
+      en: Adventurer Camp
+  type: outdoorSet
+  consistsOf:
+    - pieceId: test1
+      quantity: 1
+

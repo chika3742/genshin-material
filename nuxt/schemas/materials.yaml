@@ -1,0 +1,124 @@
+$schema: https://json-schema.org/draft-07/schema
+
+type: array
+items:
+  $ref: "#/definitions/material"
+
+definitions:
+  material:
+    type: object
+    additionalProperties: false
+    required:
+      - id
+      - rid
+      - name
+      - yomi
+      - rarity
+      - category
+    properties:
+      id:
+        type: string
+      rid:
+        type: string
+      name:
+        $ref: "characters.yaml#/definitions/localizedName"
+      yomi:
+        type: string
+      rarity:
+        type: integer
+      canBeEarnedFrom:
+        $ref: "#/definitions/materialAcquisitionSource"
+      availableDaysOfWeek:
+        type: array
+        items:
+          type: string
+          enum:
+            - monday
+            - tuesday
+            - wednesday
+            - thursday
+            - friday
+            - saturday
+            - sunday
+      group:
+        type: object
+        additionalProperties: false
+        required:
+          - id
+          - craftLevel
+        properties:
+          id:
+            type: string
+          craftLevel:
+            type: integer
+      category:
+        $ref: "#/definitions/materialCategory"
+
+  materialAcquisitionSource:
+    oneOf:
+      - type: object
+        additionalProperties: false
+        required:
+          - type
+          - bossName
+          - area
+        properties:
+          type:
+            type: string
+            const: fieldBoss
+          bossName:
+            $ref: "characters.yaml#/definitions/localizedName"
+          area:
+            $ref: "#/definitions/area"
+      - type: object
+        additionalProperties: false
+        required:
+          - type
+          - domainId
+          - area
+        properties:
+          type:
+            type: string
+            enum:
+              - domain
+              - trounceDomain
+          domainId:
+            type: string
+          area:
+            $ref: "#/definitions/area"
+      - type: object
+        additionalProperties: false
+        required:
+          - type
+          - mapItemId
+        properties:
+          type:
+            type: string
+            const: teyvatMap
+          mapItemId:
+            type: string
+
+  area:
+    type: string
+    enum:
+      - mondstadt
+      - liyue
+      - inazuma
+      - sumeru
+      - fontaine
+      - natlan
+      - snezhnaya
+
+  materialCategory:
+    type: string
+    enum:
+      - exp
+      - normalEnemy
+      - fieldBoss
+      - elementalStone
+      - talentPrimary
+      - weeklyBoss
+      - weaponPrimary
+      - local
+      - wood
+      - others

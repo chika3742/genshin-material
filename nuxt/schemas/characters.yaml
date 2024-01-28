@@ -1,3 +1,179 @@
 $schema: https://json-schema.org/draft-07/schema
 
-type: object
+# 神里綾華とモナには要注意
+
+type: array
+items:
+  oneOf:
+    - $ref: "#/definitions/character"
+    - $ref: "#/definitions/unlistedCharacter"
+
+definitions:
+  localizedName:
+    type: object
+    additionalProperties: false
+    required:
+      - locales
+    properties:
+      locales:
+        type: object
+        additionalProperties:
+          type: string
+        required:
+          - ja
+          - en
+        properties:
+          ja:
+            type: string
+          en:
+            type: string
+
+  character:
+    type: object
+    additionalProperties: false
+    required:
+      - id
+      - rid
+      - name
+      - yomi
+      - rarity
+      - weaponType
+      - materials
+    properties:
+      id:
+        type: string
+      rid:
+        type: string
+      name:
+        $ref: "#/definitions/localizedName"
+      yomi:
+        type: string
+      listed:
+        type: boolean
+        default: true
+      variantIds:
+        type: array
+        items:
+          type: string
+      rarity:
+        type: number
+      weaponType:
+        type: string
+        enum:
+          - sword
+          - claymore
+          - polearm
+          - bow
+          - catalyst
+      element: &genshinElements
+        type: string
+        enum:
+          - pyro
+          - cryo
+          - hydro
+          - electro
+          - anemo
+          - geo
+          - dendro
+      materials:
+        oneOf:
+          - $ref: "#/definitions/characterMaterialIds"
+          - $ref: "#/definitions/travelerAscensionMaterials"
+
+  unlistedCharacter:
+    type: object
+    additionalProperties: false
+    required:
+      - id
+      - listed
+      - parentId
+      - element
+      - materials
+    properties:
+      id:
+        type: string
+      listed:
+        type: boolean
+        const: false
+      parentId:
+        type: string
+      element: *genshinElements
+      materials:
+        $ref: "#/definitions/travelerTalentMaterials"
+
+  characterMaterialIds:
+    type: object
+    additionalProperties: false
+    required:
+      - primary
+      - elementalStone
+      - local
+      - secondary
+      - talentPrimary
+      - talentBoss
+    properties:
+      primary:
+        type: string
+      elementalStone:
+        type: string
+      local:
+        type: string
+      secondary:
+        type: string
+      talentPrimary:
+        type: string
+      talentBoss:
+        type: string
+
+  travelerAscensionMaterials:
+    type: object
+    additionalProperties: false
+    required:
+      - primary
+      - local
+      - secondary
+    properties:
+      primary:
+        type: string
+      local:
+        type: string
+      secondary:
+        type: string
+
+  travelerTalentMaterials:
+    type: object
+    additionalProperties: false
+    required:
+      - talentPrimary
+      - talentSecondary
+      - talentBoss
+    properties:
+      talentPrimary:
+        type: object
+        additionalProperties: false
+        required:
+          - types
+        properties:
+          types:
+            type: object
+            additionalProperties:
+              type: object
+              additionalProperties: false
+              required:
+                - levels
+              properties:
+                levels:
+                  type: object
+                  additionalProperties:
+                    type: string
+      talentSecondary: &perTypesWithoutLevels
+        type: object
+        additionalProperties: false
+        required:
+          - types
+        properties:
+          types:
+            type: object
+            additionalProperties:
+              type: string
+      talentBoss: *perTypesWithoutLevels
