@@ -4,5 +4,6 @@
   funcVersion: 4.0.0
   dataVersion: 0.0.0
   isMajor: true
+  nativeUpdateRequired: true
   content: |
     ### 初回リリース版

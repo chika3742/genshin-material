@@ -15,6 +15,7 @@ definitions:
       - dataVersion
       - content
       - isMajor
+      - nativeUpdateRequired
     properties:
       date:
         type: string
@@ -31,3 +32,7 @@ definitions:
       isMajor:
         type: boolean
         description: メジャーバージョンアップかどうか
+      nativeUpdateRequired:
+        type: boolean
+      distUrl:
+        type: string
