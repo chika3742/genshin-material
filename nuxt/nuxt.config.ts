@@ -46,6 +46,11 @@ export default defineNuxtConfig({
       ],
     },
   },
+  routeRules: {
+    "/versions.json": {
+      prerender: true,
+    },
+  },
   components: [
     {
       path: "~/components",

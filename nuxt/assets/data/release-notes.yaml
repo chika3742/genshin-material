@@ -1,5 +1,14 @@
 # コピー用改行
 
+- date: 2024/01/29
+  funcVersion: 4.0.1
+  dataVersion: 0.0.0
+  isMajor: true
+  nativeUpdateRequired: false
+  distUrl: https://updates.matnote.app/genshin-material/genshin-material_v4.0.1_D0.0.0.zip
+  content: |
+    ### アップデート機能テスト
+
 - date: 2023/10/28
   funcVersion: 4.0.0
   dataVersion: 0.0.0
