@@ -19,7 +19,7 @@ export const getCurrentVersionText = () => {
   let str = ""
 
   str += `v${cv.funcVersion}`
-  if (!config.public.isProdBranch) {
+  if (!config.public.isProd) {
     str += `-dev.${config.public.pagesCommitSha.substring(0, 7)}`
   }
   str += `_D${cv.dataVersion}`
