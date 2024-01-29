@@ -13,6 +13,76 @@ env:
   RUBY_VERSION: 3.3
 
 jobs:
+  parse-version-info:
+    name: Parse version info
+    runs-on: ubuntu-latest
+    outputs:
+      filename: ${{ steps.parse.outputs.filename }}
+      version: ${{ steps.parse.outputs.version }}
+      native_update_required: ${{ steps.parse.outputs.native_update_required }}
+      previous_filename: ${{ steps.parse.outputs.previous_filename }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup yq
+        run: wget https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64 -O ./yq && chmod +x ./yq
+
+      - name: Parse version info
+        id: parse
+        run: |
+          rn_path=./nuxt/assets/data/release-notes.yaml
+          
+          version_text="v$(./yq '.[0].funcVersion' -r $rn_path)_D$(./yq '.[0].dataVersion' -r $rn_path)"
+          filename="genshin-material_$version_text.zip"
+          echo "filename=$filename" >> "$GITHUB_OUTPUT"
+          echo "version=$version_text" >> "$GITHUB_OUTPUT"
+          echo "native_update_required=$(./yq '.[0].nativeUpdateRequired' -r $rn_path)" >> "$GITHUB_OUTPUT"
+          
+          if [ "$(yq -r '.[2]' $rn_path)" != "null" ]; then
+            prev_version_text="v$(./yq '.[2].funcVersion' -r $rn_path)_D$(./yq '.[2].dataVersion' -r $rn_path)"
+            previous_filename="genshin-material_$prev_version_text.zip"
+            echo "previous_filename=$previous_filename" >> "$GITHUB_OUTPUT"
+          fi
+
+  deploy-hot-update:
+    name: Deploy to R2 for hot update
+    runs-on: ubuntu-latest
+    needs:
+      - parse-version-info
+    if: needs.parse-version-info.outputs.native_update_required != 'true'
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: yarn
+          cache-dependency-path: nuxt/yarn.lock
+
+      - run: yarn install
+        working-directory: nuxt
+        env:
+          GH_PACKAGES_TOKEN: ${{ secrets.GH_PACKAGES_TOKEN }}
+
+      - name: Bundle into zip file
+        working-directory: nuxt
+        run: yarn bundle ${{ needs.parse-version-info.outputs.version }}
+
+      - name: Deploy
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          workingDirectory: nuxt
+          command: r2 object put app-updates/genshin-material/${{ needs.parse-version-info.outputs.filename }} --file=./${{ needs.parse-version-info.outputs.filename }}
+
+      - name: Delete obsolete file
+        if: needs.parse-version-info.outputs.previous_filename != null
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          workingDirectory: nuxt
+          command: r2 object delete app-updates/genshin-material/${{needs.parse-version-info.outputs.previous_filename}}
+
   deploy-android:
     name: Deploy to Google Play
     runs-on: ubuntu-latest

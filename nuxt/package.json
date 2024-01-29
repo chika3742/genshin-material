@@ -18,6 +18,7 @@
     "sync:android": "cap sync android",
     "generate": "nuxt generate",
     "generate:native": "NATIVE_UI=true nuxt generate",
+    "bundle": "bash ./scripts/bundle-dist.sh",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
