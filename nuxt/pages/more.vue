@@ -30,7 +30,7 @@ const langOptions: Record<string, string> = {
         title="Language"
       >
         <v-menu activator="parent" location="bottom right" min-width="200px">
-          <v-list :selected="[$i18n.locale]" @update:selected="$i18n.setLocale($event[0])">
+          <v-list :selected="[$i18n.locale]" mandatory @update:selected="$i18n.setLocale($event[0])">
             <v-list-item
               v-for="(text, locale) in langOptions"
               :key="locale"
@@ -50,7 +50,7 @@ const langOptions: Record<string, string> = {
         prepend-icon="mdi-brightness-4"
       >
         <v-menu activator="parent" location="bottom right" min-width="200px">
-          <v-list :selected="[config.theme]" @update:selected="config.theme = $event[0]">
+          <v-list :selected="[config.theme]" mandatory @update:selected="config.theme = $event[0]">
             <v-list-item
               v-for="option in themeOptions"
               :key="option"
