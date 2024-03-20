@@ -1445,8 +1445,8 @@ __metadata:
   linkType: hard
 
 "@capacitor/cli@npm:^5.6.0":
-  version: 5.6.0
-  resolution: "@capacitor/cli@npm:5.6.0"
+  version: 5.7.4
+  resolution: "@capacitor/cli@npm:5.7.4"
   dependencies:
     "@ionic/cli-framework-output": "npm:^2.2.5"
     "@ionic/utils-fs": "npm:^3.1.6"
@@ -1468,7 +1468,7 @@ __metadata:
   bin:
     cap: bin/capacitor
     capacitor: bin/capacitor
-  checksum: c503b2a5a86c4859782f469998e40263af65a7a12dc44f4f4641be4d0922a5bbf5379a97af593a2979fc9d3b923a7f5f7aef0f2cca3c2a45c9bd3402fb673be2
+  checksum: efe36813ee0a9a52d56a849648007a8b02891930364b7b343dc36e417646a0208d4f8fd2692372777e97db3e64fad48641434f8c22a30d4741c61ea9e3afd494
   languageName: node
   linkType: hard
 
