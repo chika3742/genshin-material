@@ -1427,11 +1427,11 @@ __metadata:
   linkType: hard
 
 "@capacitor/android@npm:^5.6.0":
-  version: 5.6.0
-  resolution: "@capacitor/android@npm:5.6.0"
+  version: 5.7.4
+  resolution: "@capacitor/android@npm:5.7.4"
   peerDependencies:
-    "@capacitor/core": ^5.6.0
-  checksum: 368446bd7d57f266e9abc7cc071160c06fe4ed68894f8cdf02a15775afac041d168c9d030df4452f605e2d136d6c2dabe863247886cbe51ec1c7b853f58d3b54
+    "@capacitor/core": ^5.7.0
+  checksum: c17b59ea069c8a367d5e85d9ae99abf3db45d49ef99402625ed63818198df4cdf77dc84b5210dcdc810b687a6dbab3959b3a474f2b0daf653e31a4931960824c
   languageName: node
   linkType: hard
 
@@ -1473,20 +1473,20 @@ __metadata:
   linkType: hard
 
 "@capacitor/core@npm:^5.6.0":
-  version: 5.6.0
-  resolution: "@capacitor/core@npm:5.6.0"
+  version: 5.7.4
+  resolution: "@capacitor/core@npm:5.7.4"
   dependencies:
     tslib: "npm:^2.1.0"
-  checksum: 61a115ca278fc3364b3f1743141fb4cfcf73b4715acc06b2f81e1737142142f00b71cad68fea21e52a869b66929f037130be1c2b2cdfe61c85241618eec6aa00
+  checksum: 71414c00402a4eec832470c9a18fc504e7bbd2df2e1339d4ce5e83e97689a57e831d7cee179889b6c058d553d69ce062519bfebf9a8d76aae274a01e4cfa7dc2
   languageName: node
   linkType: hard
 
 "@capacitor/ios@npm:^5.6.0":
-  version: 5.6.0
-  resolution: "@capacitor/ios@npm:5.6.0"
+  version: 5.7.4
+  resolution: "@capacitor/ios@npm:5.7.4"
   peerDependencies:
-    "@capacitor/core": ^5.6.0
-  checksum: 19c0b4cb853b81819ce13ca1ea87e286ae6d6acd06534b4002ffc76b64ae387dd70ec304f3869d648ec1ee46fd17846d781a071a538f898032c012f25a93e0bd
+    "@capacitor/core": ^5.7.0
+  checksum: 6e626c1e475aaeb7398eaf8fb0e2e1d820ca3c8df175319118a48bb8f361664bf34caf1e3ed0ac21e4d5482e136b806e056fc7fe4d6af7273bde2c4281154e29
   languageName: node
   linkType: hard
 
